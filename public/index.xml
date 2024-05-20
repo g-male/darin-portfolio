@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Darin on Darin Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Darin on Darin Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2024 10:55:32 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ants Video 2</title>
-      <link>http://localhost:1313/video/video2-ants/</link>
+      <link>//localhost:1313/video/video2-ants/</link>
       <pubDate>Tue, 30 Apr 2024 10:55:32 -0400</pubDate>
-      <guid>http://localhost:1313/video/video2-ants/</guid>
+      <guid>//localhost:1313/video/video2-ants/</guid>
       <description></description>
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:1313/video/video1/</link>
+      <link>//localhost:1313/video/video1/</link>
       <pubDate>Tue, 30 Apr 2024 10:55:32 -0400</pubDate>
-      <guid>http://localhost:1313/video/video1/</guid>
+      <guid>//localhost:1313/video/video1/</guid>
       <description></description>
     </item>
     <item>
       <title>Design1</title>
-      <link>http://localhost:1313/art/design1/</link>
+      <link>//localhost:1313/art/design1/</link>
       <pubDate>Mon, 29 Apr 2024 15:01:16 -0400</pubDate>
-      <guid>http://localhost:1313/art/design1/</guid>
+      <guid>//localhost:1313/art/design1/</guid>
       <description>content from design1</description>
     </item>
     <item>
       <title>GG-Design2</title>
-      <link>http://localhost:1313/design/logo/gg/</link>
+      <link>//localhost:1313/design/logo/gg/</link>
       <pubDate>Mon, 29 Apr 2024 15:01:16 -0400</pubDate>
-      <guid>http://localhost:1313/design/logo/gg/</guid>
+      <guid>//localhost:1313/design/logo/gg/</guid>
       <description>content from design1</description>
     </item>
     <item>
       <title>Graphic 1</title>
-      <link>http://localhost:1313/design/graphic/graphic1/</link>
+      <link>//localhost:1313/design/graphic/graphic1/</link>
       <pubDate>Mon, 29 Apr 2024 15:01:16 -0400</pubDate>
-      <guid>http://localhost:1313/design/graphic/graphic1/</guid>
+      <guid>//localhost:1313/design/graphic/graphic1/</guid>
       <description>content from design1</description>
     </item>
     <item>
       <title>Graphic 1</title>
-      <link>http://localhost:1313/design/poster/poster1/</link>
+      <link>//localhost:1313/design/poster/poster1/</link>
       <pubDate>Mon, 29 Apr 2024 15:01:16 -0400</pubDate>
-      <guid>http://localhost:1313/design/poster/poster1/</guid>
+      <guid>//localhost:1313/design/poster/poster1/</guid>
       <description>content from poster1</description>
     </item>
     <item>
       <title>Green Cube</title>
-      <link>http://localhost:1313/art/ai/ai1/</link>
+      <link>//localhost:1313/art/ai/ai1/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/art/ai/ai1/</guid>
+      <guid>//localhost:1313/art/ai/ai1/</guid>
       <description></description>
     </item>
     <item>
       <title>Green Cube</title>
-      <link>http://localhost:1313/art/collage/collage1/</link>
+      <link>//localhost:1313/art/collage/collage1/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/art/collage/collage1/</guid>
+      <guid>//localhost:1313/art/collage/collage1/</guid>
       <description></description>
     </item>
     <item>
       <title>Green Cube</title>
-      <link>http://localhost:1313/art/drawing/drawing1/</link>
+      <link>//localhost:1313/art/drawing/drawing1/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/art/drawing/drawing1/</guid>
+      <guid>//localhost:1313/art/drawing/drawing1/</guid>
       <description></description>
     </item>
     <item>
       <title>Image post 1</title>
-      <link>http://localhost:1313/photography/editorial/image1/</link>
+      <link>//localhost:1313/photography/editorial/image1/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/photography/editorial/image1/</guid>
+      <guid>//localhost:1313/photography/editorial/image1/</guid>
       <description></description>
     </item>
     <item>
       <title>Image post two</title>
-      <link>http://localhost:1313/photography/product/image2/</link>
+      <link>//localhost:1313/photography/product/image2/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/photography/product/image2/</guid>
+      <guid>//localhost:1313/photography/product/image2/</guid>
       <description>this is for the content of each single file</description>
     </item>
     <item>
       <title>lilbird</title>
-      <link>http://localhost:1313/photography/bird/lilbird/</link>
+      <link>//localhost:1313/photography/bird/lilbird/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/photography/bird/lilbird/</guid>
+      <guid>//localhost:1313/photography/bird/lilbird/</guid>
       <description></description>
     </item>
     <item>
       <title>Pigeons</title>
-      <link>http://localhost:1313/photography/bird/pigeons/</link>
+      <link>//localhost:1313/photography/bird/pigeons/</link>
       <pubDate>Mon, 29 Apr 2024 15:00:58 -0400</pubDate>
-      <guid>http://localhost:1313/photography/bird/pigeons/</guid>
+      <guid>//localhost:1313/photography/bird/pigeons/</guid>
       <description></description>
     </item>
     <item>
       <title>First post</title>
-      <link>http://localhost:1313/firstpost/</link>
+      <link>//localhost:1313/firstpost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/firstpost/</guid>
+      <guid>//localhost:1313/firstpost/</guid>
       <description>This line is from content/firstpost.md.&#xA;Go to home</description>
     </item>
   </channel>
