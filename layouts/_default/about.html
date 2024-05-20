@@ -1,0 +1,33 @@
+
+{{ define "main" }}
+{{ partial "navigation.html" .}}
+    <div>
+        {{ partial "sidebar.html" . }}
+    </div>
+ 
+    <div class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> </div>
+
+  
+    <div>
+      <div class="regular-content"> 
+<div class="grid" id="double"> 
+<div class="grid-item">
+    <p>{{ .Params.aboutBlurb}} </p>
+</div>
+    <div class="grid-item">
+        <div class="grid-image">
+          <a  href="{{ .Permalink }}">
+      
+              <img class="featured-image" src='{{.Params.profileImage}}'> 
+           
+           
+          </a>
+        </div>
+</div>
+
+      </div>
+      
+        {{ .Content }}
+    </div>
+
+    {{ end }}

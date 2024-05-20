@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ partial "navigation.html" .}}
+    
+<div id="metadata"> 
+
+</div>
+    <div class="single-containter">
+        <div class="empty"></div>
+       <div class="main-content"> <h1>{{ .Title }}</h1>
+        single page
+        <img class="single-featured-image" src='{{.Params.FeaturedImage}}'>
+        {{ .Content }}
+    </div>
+    <div class="empty"></div>
+    </div>
+
+{{ end}}

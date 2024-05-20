@@ -1,0 +1,42 @@
+
+{{ define "main" }}
+{{ partial "navigation.html" .}}
+    
+<div id="regular-content">
+  
+    <div class="Titlerow"> 
+        <h1 class="workheading"><a class="work-title" > {{ .FirstSection.Title }}</A> </h1>
+          <div class="allcats"> 
+   
+            {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
+            <A class="subcategory" href="{{ .Permalink }}"> {{ .Title}} </A>
+            
+         
+            {{end}}
+         </div>
+      </div>
+      
+    <h1 class="workheading"><a class="work-title" > {{ .FirstSection.Title }}<a class="subcat">{{ .CurrentSection.Title }}</a> </A> </h1>
+    
+<div class="grid">
+  
+
+    {{ range (where .Site.RegularPages "CurrentSection.Path" .CurrentSection.Path ) }}
+  <div class="grid-item">
+    
+    <a href="{{ .Permalink }}">
+    
+        <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
+      
+    </a>
+    <a href="{{ .Permalink }}">
+      <div class="title">{{ .Title }}  </div>
+    </a>
+  </div>
+ {{ end }}
+</div>
+</div>
+
+
+{{ end }}
+

@@ -1,0 +1,8 @@
+<nav id="top-right" class="navright">
+    
+</nav>
+<div class="content"> 
+  {{ range where .Site.Pages "Type" "category" }} 
+    <A href="{{ .Permalink }}"> {{ .Title}} </A>
+    <br>
+    {{end}}</div>

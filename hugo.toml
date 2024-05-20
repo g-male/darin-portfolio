@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Darin Portfolio'
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+custom_css = ["css/style.css"]
+custom_js = ["js/custom.js"]

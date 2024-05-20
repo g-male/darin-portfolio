@@ -1,0 +1,33 @@
+
+
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+<div id="regular-content">
+ 
+<div class="grid">
+   
+
+
+  {{range (shuffle ( where .Site.RegularPages "Type" "content")) }} 
+  <div class="grid-item">
+  <div class="grid-image">
+    <a  href="{{ .Permalink }}">
+
+        <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
+     
+     
+    </a>
+  </div>
+    <div class="Post-title">{{ .Params.Title}} </div>
+    <a href="{{ .Permalink }}">
+      <div class="title">{{ .Title }}  </div>
+    </a>
+  </div>
+ {{ end }}
+</div>
+
+</div>
+
+
+{{ end }}

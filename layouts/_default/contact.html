@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <div>
+        {{ partial "sidebar.html" . }}
+    </div>
+    {{ range .Ancestors }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{ end }}
+  
+    <div>
+        <h1>{{ .Title }}</h1>
+        single page for contact only
+        <img class="featured-image" src='{{.Params.FeaturedImage}}'>
+        {{ .Content }}
+    </div>
+</body>
+</html>
