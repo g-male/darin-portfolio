@@ -9,7 +9,7 @@
           <div class="allcats"> 
    
             {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
-            <A class="subcategory" href="{{ .Permalink }}"> {{ .Title}} </A>
+            <A class="subcategory" href="{{ .Permalink }}" > {{ .Title}} </A>
             
          
             {{end}}

@@ -154,6 +154,9 @@ text-align: center;
     margin-left: 0.5%;
   
   }
+  .active{
+    color: blue;
+  }
   .allcats{
     display: inline;
     font-weight: 300;
@@ -181,7 +184,7 @@ margin-left: 0.5%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  ;
-    grid-gap: 10vw;
+    grid-gap: 7vw;
     
 }
 
