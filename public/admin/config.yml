@@ -18,3 +18,17 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Body", name: "body", widget: "markdown" }
+     
+  - name: "bird" # Used in routes, e.g., /admin/collections/blog
+    label: "bird" # Used in the UI
+    folder: "content/photography/bird" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
+      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
+      - { label: "Body", name: "body", widget: "markdown" }
+      
