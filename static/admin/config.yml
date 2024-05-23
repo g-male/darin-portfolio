@@ -16,4 +16,5 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image" }
+      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Body", name: "body", widget: "markdown" }
