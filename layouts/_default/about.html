@@ -12,7 +12,13 @@
       <div class="regular-content"> 
 <div class="grid" id="double"> 
 <div class="grid-item">
-    <p>{{ .Params.aboutBlurb}} </p>
+     <p>{{ .Params.aboutBlurb}} </p>
+    <div class="social-links"> 
+    
+    
+      {{range .Params.socialLink }}  <a href=" {{ . }} " > {{ end }}   {{ range .Params.socialTitle}} {{ . }}   {{ end }}</a>
+      
+    </div>
 </div>
     <div class="grid-item">
         <div class="grid-image">

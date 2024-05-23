@@ -88,6 +88,7 @@ background-color: #e3e3e3;
     padding: 0 18px;
     display: none;
     overflow: hidden;
+    margin-top: 3%;
   }
 
   .titlerow{
@@ -155,7 +156,7 @@ text-align: center;
   
   }
   .active{
-    color: blue;
+    
   }
   .allcats{
     display: inline;
@@ -184,7 +185,7 @@ margin-left: 0.5%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr  ;
-    grid-gap: 7vw;
+    grid-gap: 9vw;
     
 }
 
@@ -218,27 +219,24 @@ nav#home a{
     max-width: 100%;  
     border: 10px solid white;
 
-    filter: drop-shadow(black   1rem 1rem 5px );
+    filter: drop-shadow(rgb(87, 87, 87)   0.5rem 0.5rem 2px );
 }
 .grid-image-test{
     border: 3px solid blue;
     width: max-content;
-
-
 }
 .Post-title{
 display: none;
 margin-top: 3vh;
 z-index: 999;
-
-
- 
 }
 .grid-image:hover + .Post-title{
     display: block;
 }
 .single-featured-image{
-
+max-width: 65vw;
+max-height: 65dvh;
+margin: 0 auto;
 }
 .single-container{
     display: grid;
@@ -260,6 +258,8 @@ flex-direction: column;
      .grid{
          display: grid;
          grid-template-columns: 1fr 1fr !important;
+        width: 93%;
+        margin: 0;
        
      }
 
@@ -277,5 +277,11 @@ flex-direction: column;
 
      .allcats{
         width: 50%;
+     }
+     .workheading{ 
+        font-size: 1.5rem;
+     }
+     .project-metadata{
+        margin: 1.25em 0 2.25em;
      }
    }
