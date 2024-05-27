@@ -12,7 +12,7 @@
   <div class="title"><a href="{{ .RelPermalink }}">{{ .Params.title }}</a> </div>
   <div class="grid about" id="double"> 
   <div class="grid-item">
-     <p>{{ .Params.aboutBlurb}} </p>
+     <p>{{ .Content}} </p>
     <div class="social-links"> 
 
     <a href="mail"><a class="grey">Email:</a>darin@email.com </a>
@@ -36,7 +36,7 @@
 
       </div>
       
-        {{ .Content }}
+       
     </div>
 
     {{ end }}
