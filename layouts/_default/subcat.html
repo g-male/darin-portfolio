@@ -7,17 +7,17 @@
     <div class="Titlerow"> 
         <h1 class="workheading"><a class="work-title" > {{ .FirstSection.Title }}</A> </h1>
           <div class="allcats"> 
-   
+  
+           {{ $currentPage := .}} 
             {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
-            <A class="subcategory" href="{{ .Permalink }}" > {{ .Title}} </A>
+            <A class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}"  href="{{ .Permalink }}" > {{ .Title}} </A>
             
          
             {{end}}
          </div>
       </div>
       
-    <h1 class="workheading"><a class="work-title" > {{ .FirstSection.Title }}<a class="subcat">{{ .CurrentSection.Title }}</a> </A> </h1>
-    
+      {{ .Page.RelPermalink }}
 <div class="grid">
   
 

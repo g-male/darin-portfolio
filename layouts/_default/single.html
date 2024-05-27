@@ -7,16 +7,21 @@
 
 <div class="grid project-metadata">
     <div class="grid-item double">
-
+        <a class="single-title">{{ .Title }}</a>
     </div>
-<div class="grid-item grey"> </div>
-
+    <div class="grid-item grey"><a>{{.Params.descblurb}}</a> </div>
+    <div class="grid-item grey"><a> {{ .Params.postyear}}</a><br> <A>{{ .Params.contentdesc}}</A> </div>
 </div>
+
+       <div class="main-content"> 
+        
        
-       <div class="main-content"> <h1>{{ .Title }}</h1>
-        single page
         <img class="single-featured-image" src='{{.Params.FeaturedImage}}'>
         {{ .Content }}
+        
+        {{range .Params.otherimage }}  <img class="single-featured-image" src="{{ .}}"> {{ end }} 
+    
+    
     </div>
     <div class="empty"></div>
     

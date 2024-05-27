@@ -5,23 +5,26 @@
         {{ partial "sidebar.html" . }}
     </div>
  
-    <div class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> </div>
+   
 
   
-    <div>
-      <div class="regular-content"> 
-<div class="grid" id="double"> 
-<div class="grid-item">
+<div id="regular-content"> 
+  <div class="title"><a href="{{ .RelPermalink }}">{{ .Params.title }}</a> </div>
+  <div class="grid about" id="double"> 
+  <div class="grid-item">
      <p>{{ .Params.aboutBlurb}} </p>
     <div class="social-links"> 
+
+    <a href="mail"><a class="grey">Email:</a>darin@email.com </a>
+  <br><br>
+    <a href="">Instagram </a><br>
+    <a href="">Are.na </a>
+  
     
-    
-      {{range .Params.socialLink }}  <a href=" {{ . }} " > {{ end }}   {{ range .Params.socialTitle}} {{ . }}   {{ end }}</a>
-      
     </div>
 </div>
     <div class="grid-item">
-        <div class="grid-image">
+        <div class="grid-image aboutimg">
           <a  href="{{ .Permalink }}">
       
               <img class="featured-image" src='{{.Params.profileImage}}'> 

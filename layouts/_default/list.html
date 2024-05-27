@@ -5,7 +5,7 @@
 <div id="regular-content">
 
   <div class="Titlerow"> 
-    <h1 class="workheading"><a class="work-title"> {{ .Params.Title}} </A> </h1>
+    <h1 class="workheading"><a class="work-title" href="{{ .Permalink }}"> {{ .Params.Title}} </A> </h1>
      <div class="allcats"> 
    
       {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
@@ -16,6 +16,7 @@
    </div>
   </div>
 <div class="grid">
+
    {{ range (where .Site.RegularPages "Section" .Section ) }}
   <div class="grid-item">
     
@@ -31,13 +32,7 @@
   </div>
  {{ end }}
 </div>
-{{ range (where .Site.RegularPages "CurrentSection.Path" .CurrentSection.Path ) }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-{{ .CurrentSection.Path }}
-{{ .CurrentSection.Title }}
-{{ .CurrentSection.File.Dir }}
-etc.
-{{ end }}
+
 </div>
 
 

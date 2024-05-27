@@ -3,6 +3,8 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<link rel="stylesheet" href="/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 <body>
 	<a href="/" id="gohome"> djmb</a>
@@ -37,21 +39,37 @@
 
 <div class="grid project-metadata">
     <div class="grid-item double">
-
+        <a class="single-title">Pigeons</a>
     </div>
-<div class="grid-item grey"> </div>
-
+    <div class="grid-item grey"><a></a> </div>
+    <div class="grid-item grey"><a> </a><br> <A></A> </div>
 </div>
+
+       <div class="main-content"> 
+        
        
-       <div class="main-content"> <h1>Pigeons</h1>
-        single page
         <img class="single-featured-image" src='/image/pexels-ashuphotography-1406506.jpg'>
         
+        
+          <img class="single-featured-image" src="https://images.theconversation.com/files/477592/original/file-20220804-9305-ayko6m.jpg?ixlib=rb-4.1.0&amp;q=45&amp;auto=format&amp;w=754&amp;fit=clip">   <img class="single-featured-image" src="https://celebrateurbanbirds.org/wp-content/uploads/2016/08/rock-pigeon.png">  
+    
+    
     </div>
     <div class="empty"></div>
     
 </div>
 
 	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
 </body>
 </html>

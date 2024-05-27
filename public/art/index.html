@@ -3,6 +3,8 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<link rel="stylesheet" href="/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 <body>
 	<a href="/" id="gohome"> djmb</a>
@@ -34,7 +36,7 @@
 <div id="regular-content">
 
   <div class="Titlerow"> 
-    <h1 class="workheading"><a class="work-title"> Art </A> </h1>
+    <h1 class="workheading"><a class="work-title" href="//localhost:1313/art/"> Art </A> </h1>
      <div class="allcats"> 
    
        
@@ -53,7 +55,34 @@
    </div>
   </div>
 <div class="grid">
+
    
+  <div class="grid-item">
+    
+    <div class="grid-image">
+      <a  href="//localhost:1313/art/ai/post-2-for-ai/">
+  
+          <img class="featured-image" src='https://s.yimg.com/ny/api/res/1.2/85aj7O3Yg5hu5c1p7kG1WA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4Mg--/https://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/4543cf437e758af5084358fc1f106ae2'> 
+       
+       
+      </a>
+    </div>
+      <div class="Post-title">Post 2 for AI  </div>
+  </div>
+ 
+  <div class="grid-item">
+    
+    <div class="grid-image">
+      <a  href="//localhost:1313/art/ai/manunited/">
+  
+          <img class="featured-image" src='/image/manchester-united-fans-old-trafford-glazer-protests_1bdwcewwm2m3m1vgkjenzktv6v.jpg'> 
+       
+       
+      </a>
+    </div>
+      <div class="Post-title">ManUNited </div>
+  </div>
+ 
   <div class="grid-item">
     
     <div class="grid-image">
@@ -108,16 +137,21 @@
  
 </div>
 
-<h2><a href="/art/design1/">Design1</a></h2>
-/art
-Art
-art\
-etc.
-
 </div>
 
 
 
 	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
 </body>
 </html>
