@@ -6,22 +6,8 @@ media_folder: "static/image" # Media files will be stored in the repo under imag
 public_folder: "/image" 
 
 collections:
-- name: "AI" # Used in routes, e.g., /admin/collections/blog
-    label: "A.I" # Used in the UI
-    folder: "content/art/AI" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
-      - { label: "Content Description", name: "descblurb", widget: "string" }
-      - { label: "Content Year", name: "postyear", widget: "string" }
-      - { label: "Content Category", name: "contentdesc", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-- name: "Collage" # Used in routes, e.g., /admin/collections/blog
+  
+  - name: "Collage" # Used in routes, e.g., /admin/collections/blog
     label: "Collage" # Used in the UI
     folder: "content/art/collage" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -36,7 +22,22 @@ collections:
       - { label: "Content Year", name: "postyear", widget: "string" }
       - { label: "Content Category", name: "contentdesc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-- name: "Drawing" # Used in routes, e.g., /admin/collections/blog
+  - name: "AI" # Used in routes, e.g., /admin/collections/blog
+    label: "A.I" # Used in the UI
+    folder: "content/art/AI" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
+      - { label: "Content Description", name: "descblurb", widget: "string" }
+      - { label: "Content Year", name: "postyear", widget: "string" }
+      - { label: "Content Category", name: "contentdesc", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Drawing" # Used in routes, e.g., /admin/collections/blog
     label: "Drawing" # Used in the UI
     folder: "content/art/drawing" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -51,7 +52,7 @@ collections:
       - { label: "Content Year", name: "postyear", widget: "string" }
       - { label: "Content Category", name: "contentdesc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-- name: "Graphic" # Used in routes, e.g., /admin/collections/blog
+  - name: "Graphic" # Used in routes, e.g., /admin/collections/blog
     label: "Graphic" # Used in the UI
     folder: "content/Design/Graphic" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -67,7 +68,7 @@ collections:
       - { label: "Content Category", name: "contentdesc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
      
-- name: "Logo" # Used in routes, e.g., /admin/collections/blog
+  - name: "Logo" # Used in routes, e.g., /admin/collections/blog
     label: "Logo" # Used in the UI
     folder: "content/Design/Logo" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -114,7 +115,7 @@ collections:
       - { label: "Content Category", name: "contentdesc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
     
-    - name: "editorial" # Used in routes, e.g., /admin/collections/blog
+  - name: "editorial" # Used in routes, e.g., /admin/collections/blog
     label: "Editorial" # Used in the UI
     folder: "content/photography/editorial" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -130,7 +131,7 @@ collections:
       - { label: "Content Category", name: "contentdesc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
     
- - name: "product" # Used in routes, e.g., /admin/collections/blog
+  - name: "product" # Used in routes, e.g., /admin/collections/blog
     label: "Product" # Used in the UI
     folder: "content/photography/product" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -146,7 +147,7 @@ collections:
       - { label: "Content Category", name: "contentdesc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
      
-    - name: "video" # Used in routes, e.g., /admin/collections/blog
+  - name: "video" # Used in routes, e.g., /admin/collections/blog
     label: "Video" # Used in the UI
     folder: "content/video" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
