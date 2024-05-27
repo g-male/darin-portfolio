@@ -1,9 +1,11 @@
-+++
-title = "About"
-date = 2024-04-30T10:56:08-04:00
-draft = false
-type = "category"
-layout = "about"
-profileImage = "/image/yourface.jpg"
-+++
-Lorem ipsum dolor sit amet. Ab sunt praesentium aut temporibus doloremque et quae tenetur vel quasi possimus qui consequatur iusto id quidem possimus. Qui maxime sapiente et excepturi magnam 33 quam delectus. Est autem iure est quos quia non expedita reiciendis qui dolorum voluptatem id illo voluptas aut necessitatibus veniam. Eum iste tempore et galisum ipsa aut perspiciatis magni non quaerat error qui officia itaque sit ratione iusto id quidem consequatur.
+---
+draft: false
+layout: about
+title: About
+date: 2024-04-30T14:56:08.000Z
+contentdesc: Me
+profileImage: /image/yourface.jpg
+profileimage: /image/screen-shot-2024-05-27-at-6.16.25-pm.png
+type: category
+---
+Born April 7th 2000, I started drawing at age 5. 19 years later and I haven't stopped.
