@@ -63,18 +63,18 @@ background-color: #e3e3e3;
     width: 3.5em;
     text-align: center;
     display: inline-block;
-    /* padding: 1em; */
+    /* padding: 1em;
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 47%;
+    border-radius: 47%; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 0.25em;
     border-color: rgba(0, 0, 0, 0.2);
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .menu-click:hover {
-    background-color: #ccc;
+/* Add a background color to the button if it is clicked on (add the .active class with JS) */
+.active,  .navright:after {
+ 
   }
   .navright:after{
     content: '\2630';
@@ -221,9 +221,9 @@ nav#home a{
 }
 .featured-image{
     max-width: 100%;  
-    border: 10px solid white;
+    
 
-    filter: drop-shadow(rgb(87, 87, 87)   0.5rem 0.5rem 2px );
+    filter: drop-shadow(rgb(118, 118, 118)   0.5rem  0.3rem 2px );
 }
 .grid-image-test{
     border: 3px solid blue;
