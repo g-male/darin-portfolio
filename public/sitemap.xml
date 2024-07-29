@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:63025/</loc>
+    <loc>//localhost:1313/recent/</loc>
     <lastmod>2024-07-02T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/recent/</loc>
+    <loc>//localhost:1313/capturing/</loc>
+    <lastmod>2024-04-30T10:56:08-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/creation/</loc>
+    <lastmod>2024-04-30T10:56:08-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-07-02T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/collage/souvenir_03/</loc>
+    <loc>//localhost:1313/creation/collage/souvenir_03/</loc>
     <lastmod>2024-06-17T15:23:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/collage/souvenir_02/</loc>
+    <loc>//localhost:1313/creation/collage/souvenir_02/</loc>
     <lastmod>2024-06-17T15:18:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/collage/souvenir_01/</loc>
+    <loc>//localhost:1313/creation/collage/souvenir_01/</loc>
     <lastmod>2024-06-17T14:54:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/drawing/dude-chillin/</loc>
+    <loc>//localhost:1313/creation/drawing/dude-chillin/</loc>
     <lastmod>2024-05-31T10:07:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/design_1/knock-twice-logo/</loc>
+    <loc>//localhost:1313/creation/design_1/knock-twice-logo/</loc>
     <lastmod>2024-05-31T09:41:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/drawing/hiya/</loc>
+    <loc>//localhost:1313/creation/drawing/hiya/</loc>
     <lastmod>2024-05-27T17:55:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/drawing/lookin-down/</loc>
+    <loc>//localhost:1313/creation/drawing/lookin-down/</loc>
     <lastmod>2024-05-27T17:51:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/drawing/multiple-men/</loc>
+    <loc>//localhost:1313/creation/drawing/multiple-men/</loc>
     <lastmod>2024-05-27T17:41:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/ai/post-2-for-ai/</loc>
+    <loc>//localhost:1313/creation/ai/post-2-for-ai/</loc>
     <lastmod>2024-05-23T18:02:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/ai/manunited/</loc>
+    <loc>//localhost:1313/creation/ai/manunited/</loc>
     <lastmod>2024-05-23T17:45:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/ai/</loc>
+    <loc>//localhost:1313/creation/ai/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2024-04-30T14:56:08+00:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/capturing/bird/</loc>
+    <loc>//localhost:1313/capturing/bird/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/capturing/</loc>
+    <loc>//localhost:1313/creation/collage/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/collage/</loc>
+    <loc>//localhost:1313/creation/design_1/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/</loc>
+    <loc>//localhost:1313/creation/drawing/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/design_1/</loc>
+    <loc>//localhost:1313/capturing/editorial/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/drawing/</loc>
+    <loc>//localhost:1313/capturing/product/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/capturing/editorial/</loc>
+    <loc>//localhost:1313/capturing/video/</loc>
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/capturing/product/</loc>
-    <lastmod>2024-04-30T10:56:08-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:63025/capturing/video/</loc>
-    <lastmod>2024-04-30T10:56:08-04:00</lastmod>
-  </url><url>
-    <loc>//localhost:63025/capturing/video/video2-ants/</loc>
+    <loc>//localhost:1313/capturing/video/video2-ants/</loc>
     <lastmod>2024-04-30T10:55:32-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/capturing/video/video1/</loc>
+    <loc>//localhost:1313/capturing/video/video1/</loc>
     <lastmod>2024-04-30T10:55:32-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/creation/drawing/drawing1/</loc>
+    <loc>//localhost:1313/creation/drawing/drawing1/</loc>
     <lastmod>2024-04-29T15:00:58-04:00</lastmod>
   </url><url>
-    <loc>//localhost:63025/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:63025/firstpost/</loc>
+    <loc>//localhost:1313/firstpost/</loc>
   </url><url>
-    <loc>//localhost:63025/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
