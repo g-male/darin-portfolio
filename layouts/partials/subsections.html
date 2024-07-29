@@ -1,0 +1,18 @@
+<ul>
+    {{ range .Sections }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ if .Params.thumbimage }}
+                <div>
+                    <img src="{{ .Params.thumbimage }}" alt="{{ .Title }} thumbnail">
+                </div>
+            {{ end }}
+            <div>
+                {{ .Summary }}
+            </div>
+            {{ if .HasSections }}
+                {{ partial "subsections.html" . }}
+            {{ end }}
+        </li>
+    {{ end }}
+</ul>

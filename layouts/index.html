@@ -3,30 +3,18 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-<div id="regular-content">
+<div id="regular-content icons">
  
-<div class="grid">
-   
-
-
-  {{range (shuffle ( where .Site.RegularPages "Type" "content")) }} 
+<div class="icon grid">
+  {{ range (where .Site.Pages "Type" "category") }} 
   <div class="grid-item">
-  <div class="grid-image">
-    <a  href="{{ .Permalink }}">
+ 
+  <A href="{{ .Permalink }}" class="subcategory"> <img class="thumbimage" src="{{ .Params.thumbImage }}"><br>{{ .Title}}  </A>
+  <br>
 
-        <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
-     
-     
-    </a>
-  </div>
-    <div class="Post-title">{{ .Params.Title}} </div>
-    <a href="{{ .Permalink }}">
-      <div class="title">{{ .Title }}  </div>
-    </a>
-  </div>
- {{ end }}
 </div>
-
+{{end}}
+</div>
 </div>
 
 

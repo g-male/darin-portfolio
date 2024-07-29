@@ -1,0 +1,33 @@
+
+
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+
+
+
+
+
+
+
+ 
+<div id="regular-content icons">
+
+  <div class="icon grid">
+    {{ $currentPage := .}} 
+    {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
+    <div class="grid-item">
+<A class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}"  href="{{ .Permalink }}" > <img class="thumbimage" src="{{ .Params.thumbimage }}"> <br>  {{ .Title}} </A>
+
+
+    </div>{{end}}
+  </div>
+
+
+
+
+</div>
+
+
+{{ end }}
