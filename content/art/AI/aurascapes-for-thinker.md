@@ -14,7 +14,7 @@ The visual style of these images is reminiscent of a cool vintage Japanese magaz
 
 The purpose of this ad campaign was to promote THINKER's current line of cannabis products to both existing consumers and potential customers. The target audience comprises younger individuals aged 19-39 who seek to purchase from a brand that is not only trustworthy and cool but also appreciates finer products, aesthetic taste, and clever marketing.
 
-Standout elements of this series are the immersive aurascapes, which create scenarios that any cannabis enthusiast would want to experience while intoxicated. These captivating scenes invite viewers to imagine themselves in those exact settings, enhancing the allure of the product.
+Standout elements of this series are the immersive aurascapes, which create scenarios that any cannabis enthusiast would want to experience while enjoying THINKLER's cannabis products. These captivating scenes invite viewers to imagine themselves in those exact settings, enhancing the allure of the product.
 
 The campaign was notably well-received by both consumers and industry competitors, marking a significant impact.
 
