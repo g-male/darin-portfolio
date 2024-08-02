@@ -6,7 +6,7 @@ featuredimage: /image/anotherchance_sticker_1.png
 type: content
 descblurb: Artificial Intelligence Generated Images
 postyear: "2022"
-contentdesc: A.I.
+contentdesc: A.I
 ---
 In 2022, I created a series of AI-generated stickers for an event to showcase and sell graphic tees from the clothing brand I formerly founded, Knock Twice. The event featured tees printed on hand-restored vintage shirts, sourced from massive clothing facilities known as "Raghouses." The unique atmosphere of a Raghouse, with thousands of pounds of clothing draped chaotically over every surface and workers sorting clothes into categories, inspired the event's aesthetic.
 
