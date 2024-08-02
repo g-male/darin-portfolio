@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Friends & Neighbours Event Poster "
+title: Friends & Neighbours Event Flyer
 date: 2024-08-02T14:10:00.000Z
 featuredimage: /image/friends-and-neighbours-poster-1.png
 type: content
