@@ -15,19 +15,10 @@
 </div>
 
        </div>
-     
+      
      
         <div id="image-block">
-            <img class="single-featured-image" src='{{.Params.FeaturedImage}}'>
-            {{range .Params.otherimage }}  <img class="single-featured-image" src="{{ .}}"> {{ end }} 
-
-            <div class="grid project-metadata">
-                <div class="grid-item">
-                    <a class="single-title">{{ .Title }}, {{ .Params.postyear}}</a>
-                </div>
-                <div class="grid-item grey"><a><br>{{.Params.descblurb}}</a> </div>
-                <div class="grid-item grey"><a> </a><br> </div>
-            </div>
+          {{ partial "imagecarousel.html" .  }}
  </div>
 
     

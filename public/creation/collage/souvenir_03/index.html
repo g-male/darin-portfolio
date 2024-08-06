@@ -4,10 +4,10 @@
 	<link rel="stylesheet" href="/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<a href="/" id="gohome"> djmb</a>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
 	
 <nav id="top-right" class="navright">
        
@@ -43,19 +43,45 @@
 </div>
 
        </div>
-     
+      
      
         <div id="image-block">
-            <img class="single-featured-image" src='/image/souvenir_03_test.png'>
-             
+          
 
-            <div class="grid project-metadata">
-                <div class="grid-item">
-                    <a class="single-title">Souvenir_03, 2024</a>
-                </div>
-                <div class="grid-item grey"><a><br>-</a> </div>
-                <div class="grid-item grey"><a> </a><br> </div>
-            </div>
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
  </div>
 
     
