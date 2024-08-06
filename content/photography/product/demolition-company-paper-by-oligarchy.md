@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Demolition Company Paper by Oligarchy
+title: "Demolition Company Paper "
 date: 2024-08-06T16:06:00.000Z
 featuredimage: /image/oligarchyprintfinal17.jpg
 type: content
