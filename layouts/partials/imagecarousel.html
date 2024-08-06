@@ -1,4 +1,11 @@
+<div class="image-container {{ if .Params.images }}hidden{{ end }}">
 
+    <img class="featuredimage " src="{{ .Params.FeaturedImage}}">
+ 
+    <div class="post-meta"><a> {{ .Params.Title }}</a>, {{.Params.Postyear }} 
+        <br> <a>{{ .Params.descblurb }} </a>
+        </div>
+</div>
 
 <div class="carousel">
    {{ if .Params.images }} 
@@ -9,10 +16,8 @@
  <div class="post-meta"><a> {{ .Params.Title }}</a>, {{.Params.Postyear }} 
 <br> <a>{{ .Params.descblurb }} </a>
 </div>
-
-
   </div>
-  <div class="thumbnails">
+  <div class="thumbnails  {{ if not .Params.images }}hidden{{ end }}">
     <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
     {{ range $index, $image := .Params.images }}
     <img src="{{ $image.src }}" alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}" onclick="showSlide({{ $index }})">

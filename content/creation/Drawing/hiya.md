@@ -3,6 +3,9 @@ layout: blog
 title: Hiya
 date: 2024-05-27T17:55:00.000Z
 featuredimage: /image/hiya_for_web.jpg
+images: 
+        - src: "/image/hiya_for_web.jpg"
+          alt: "multiple men"
 type: content
 descblurb: Alcohol Marker on Printer Paper [8.5 x 11]
 postyear: "2024"

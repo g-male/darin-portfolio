@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>This promotional photo was taken to promote Another Chance Vol. 2, an event celebrating the unique raghouse aesthetic and raising awareness about the issues of fast fashion. The event featured hand-restored vintage graphic tees sourced from massive clothing facilities known as raghouses. At these facilities, thousands of pounds of clothing are draped chaotically over every surface, with workers sorting through piles of used garments. Our goal was to bring this eclectic vibe to the event, creating an immersive shopping experience for visitors and highlighting the enormous scale and overflow of used textiles that raghouses manage.</p>
+<p>In the photo, you can see our venue coordinator and friend, Nigel, modeling as a spokesperson speaking into a mic to a crowd of used vintage blank garments. This creative concept riffed on the idea of the raghouse environment, with clothing mosaics spread around the floor to enhance the immersive feel of the event. The combination of creative lighting and the interesting setting of the venue made this photo a successful promotional material, perfectly capturing the themes and message of the event.</p>
+<p>The event itself was a unique experience, with graphic tees displayed in mosaics, mini bundles (bales) of clothing placed around the space, and additional loose articles draped throughout the venue. This setup created an engaging atmosphere that resonated with attendees, making Another Chance Vol. 2 a memorable and successful event. Importantly, these events also aimed to bring more light to the problem of fast fashion and to preview the immense scale and overflow of used textiles these raghouses are dealing with.</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
+ </div>
+
+    
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>

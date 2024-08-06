@@ -3,6 +3,13 @@ layout: blog
 title: Souvenir_02
 date: 2024-06-17T15:18:00.000Z
 featuredimage: /image/souvenir_02_test.png
+images: 
+        - src: "/image/souvenir_02_test.png"
+          alt: "/image/souvenir_02_test.png"
+        - src: "/image/souvenir_02_test.png"
+          alt:
+        - src: "/image/souvenir_02_test.png"
+          alt:
 type: content
 descblurb: "-"
 postyear: "2024"

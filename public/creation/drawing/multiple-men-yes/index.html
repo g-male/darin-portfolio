@@ -46,25 +46,65 @@
 </div>
 
        </div>
-     
+      
      
         <div id="image-block">
-            <img class="single-featured-image" src='/image/mm_yes_dmb_2024.png'>
-             
+          <div class="image-container ">
 
-            <div class="grid project-metadata">
-                <div class="grid-item">
-                    <a class="single-title">Multiple Men (Yes), 2024</a>
-                </div>
-                <div class="grid-item grey"><a><br>Paint Marker on Graph Paper on Canvas (18&#34; x 32&#34;)</a> </div>
-                <div class="grid-item grey"><a> </a><br> </div>
-            </div>
-        
+    <img class="featuredimage " src="/image/mm_yes_dmb_2024.png">
+ 
+    <div class="post-meta"><a> Multiple Men (Yes)</a>, 2024 
+        <br> <a>Paint Marker on Graph Paper on Canvas (18&#34; x 32&#34;) </a>
+        </div>
+</div>
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
  </div>
 
- 
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>The canvas this piece was created on, was taken from my next door neighbors curb back in 2018. She had begun painting some sort of nautilus shell and given up.</p>
+<p>It kicked around for a year in my closet until i used it as a prop for a video i made in university where i had to pretend i was spray painting something. Naturally i positioned the camera in a way where you could tell i was spraying, but weren&rsquo;t able to see my creation. So now the canvas had a half assed sea shell, and seemingly random red spray paint all over the place.</p>
+<p>Fast forward 5 years later to early 2024, when i finally took this thing back out of my closet, and said: &ldquo;fuck it.&rdquo; &ldquo;This thing has been sitting around for so long, even if i fuck it up, what difference does it make.&rdquo;</p>
+<p>20 something minutes later i had made this. Its a recreation on an earlier drawing i did on a receipt weeks prior.</p>
 
+    </div>
     
+           </div>
     
     </div>
     <div class="empty"></div>

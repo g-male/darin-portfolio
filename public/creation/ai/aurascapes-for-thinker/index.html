@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>The A.I. &ldquo;Aurascapes&rdquo; series for THINKER was crafted to convey the aura or vibe of nostalgic, perfect scenes from the past—ideal for enjoying the specific cannabis strain that each ad promotes. Drawing on my previous experience with AI, an extensive mood board, and a rich library of physical media, I created a precise combination of keywords to achieve the vibe of vintage Japanese and Americana magazines.</p>
+<p>The visual style of these images is reminiscent of a cool vintage Japanese magazine advertisement, evoking the kind of scene that makes viewers think, &ldquo;Whoa, that looks cool, I want to do that.&rdquo; This aesthetic is intertwined with classic themes from Camel and Marlboro advertisements, creating a unique and compelling visual appeal.</p>
+<p>The purpose of this ad campaign was to promote THINKER&rsquo;s current line of cannabis products to both existing consumers and potential customers. The target audience comprises younger individuals aged 19-39 who seek to purchase from a brand that is not only trustworthy and cool but also appreciates finer products, aesthetic taste, and clever marketing.</p>
+<p>Standout elements of this series are the immersive aurascapes, which create scenarios that any cannabis enthusiast would want to experience while enjoying THINKLER&rsquo;s cannabis products. These captivating scenes invite viewers to imagine themselves in those exact settings, enhancing the allure of the product.</p>
+<p>The campaign was notably well-received by both consumers and industry competitors, marking a significant impact.</p>
+<p>On a personal level, this project allowed me to hone my skills and realize that my extensive background in curation has significantly enhanced my talent for AI prompting. Combining AI text prompting with Photoshop, color grading, and type design has shown me that, with time and patience, achieving almost any desired outcome is possible.</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          <div class="image-container ">
+
+    <img class="featuredimage " src="/image/thinker_on_ai_ad_v3.jpg">
+ 
+    <div class="post-meta"><a> &#34;Aurascapes&#34; for THINKER</a>, 2024 
+        <br> <a>Artificial Intelligence Assisted Ad Campaign </a>
+        </div>
+</div>
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
+ </div>
+
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>The A.I. &ldquo;Aurascapes&rdquo; series for THINKER was crafted to convey the aura or vibe of nostalgic, perfect scenes from the past—ideal for enjoying the specific cannabis strain that each ad promotes. Drawing on my previous experience with AI, an extensive mood board, and a rich library of physical media, I created a precise combination of keywords to achieve the vibe of vintage Japanese and Americana magazines.</p>
+<p>The visual style of these images is reminiscent of a cool vintage Japanese magazine advertisement, evoking the kind of scene that makes viewers think, &ldquo;Whoa, that looks cool, I want to do that.&rdquo; This aesthetic is intertwined with classic themes from Camel and Marlboro advertisements, creating a unique and compelling visual appeal.</p>
+<p>The purpose of this ad campaign was to promote THINKER&rsquo;s current line of cannabis products to both existing consumers and potential customers. The target audience comprises younger individuals aged 19-39 who seek to purchase from a brand that is not only trustworthy and cool but also appreciates finer products, aesthetic taste, and clever marketing.</p>
+<p>Standout elements of this series are the immersive aurascapes, which create scenarios that any cannabis enthusiast would want to experience while enjoying THINKLER&rsquo;s cannabis products. These captivating scenes invite viewers to imagine themselves in those exact settings, enhancing the allure of the product.</p>
+<p>The campaign was notably well-received by both consumers and industry competitors, marking a significant impact.</p>
+<p>On a personal level, this project allowed me to hone my skills and realize that my extensive background in curation has significantly enhanced my talent for AI prompting. Combining AI text prompting with Photoshop, color grading, and type design has shown me that, with time and patience, achieving almost any desired outcome is possible.</p>
+
+    </div>
+    
+           </div>
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>

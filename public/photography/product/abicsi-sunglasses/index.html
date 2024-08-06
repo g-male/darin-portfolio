@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>-</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          <div class="image-container ">
+
+    <img class="featuredimage " src="/image/packaging-editorial.jpg">
+ 
+    <div class="post-meta"><a> ABICSI Sunglasses </a>, 2021 
+        <br> <a>Product Photography and Post Production by Darin Morrison-Beer </a>
+        </div>
+</div>
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
+ </div>
+
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>-</p>
+
+    </div>
+    
+           </div>
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>

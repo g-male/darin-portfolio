@@ -43,25 +43,62 @@
 </div>
 
        </div>
-     
+      
      
         <div id="image-block">
-            <img class="single-featured-image" src='https://s.yimg.com/ny/api/res/1.2/85aj7O3Yg5hu5c1p7kG1WA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4Mg--/https://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/4543cf437e758af5084358fc1f106ae2'>
-             
+          <div class="image-container ">
 
-            <div class="grid project-metadata">
-                <div class="grid-item">
-                    <a class="single-title">Post 2 for AI , </a>
-                </div>
-                <div class="grid-item grey"><a><br></a> </div>
-                <div class="grid-item grey"><a> </a><br> </div>
-            </div>
-        
+    <img class="featuredimage " src="https://s.yimg.com/ny/api/res/1.2/85aj7O3Yg5hu5c1p7kG1WA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4Mg--/https://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/4543cf437e758af5084358fc1f106ae2">
+ 
+    <div class="post-meta"><a> Post 2 for AI </a>,  
+        <br> <a> </a>
+        </div>
+</div>
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
  </div>
 
- 
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>here is rich text</p>
 
+    </div>
     
+           </div>
     
     </div>
     <div class="empty"></div>
