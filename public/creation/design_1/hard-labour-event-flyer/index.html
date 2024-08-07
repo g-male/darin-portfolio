@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>This photo was taken by me months prior, and while brainstorming and going through material for the flyer, we came across some old telephoto pictures I had taken years earlier of a crane operator high up in his crane. Initially, I took this photo out of curiosity to see if I could zoom in and see what the operator looked like, with no intention of ever using it for anything else.</p>
+<p>Wanting to build on the theme of &ldquo;Labour,&rdquo; given the venue host&rsquo;s brand name, Hard Labour, we felt the industrial crane perfectly fit the theme. My favorite detail of the flyer is that I was able to Photoshop our promotional event tee shirt logo onto the crane operator&rsquo;s tee, making it appear as if we had paid the guy to wear our graphic tee shirt up in his crane for the day. This creative touch had multiple people at the event asking whether or not the photo was real, confirming its effectiveness.</p>
+<p>The type treatment and overall design were intended to be fun and experimental, making this one of my favorite flyers to date. The event itself was part three of our series celebrating the raghouse aesthetic, featuring hand-restored vintage graphic tees sourced from massive clothing facilities known as raghouses.</p>
+<p>The overall feedback and reception were great, and the flyer was very successful in promoting the &ldquo;Hard Labour&rdquo; event. This event continued to highlight the problem of fast fashion and showcased the immense scale and overflow of used textiles managed by raghouses.</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          <div class="image-container ">
+
+    <img class="featuredimage " src="/image/kensingtonpopupposterhuge-10.jpg">
+ 
+    <div class="post-meta"><a> Hard Labour Event Flyer</a>, 2023 
+        <br> <a>Photography, Digital manipulation, Type treatment, and Design by Darin Morrison-Beer </a>
+        </div>
+</div>
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
+ </div>
+
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>This photo was taken by me months prior, and while brainstorming and going through material for the flyer, we came across some old telephoto pictures I had taken years earlier of a crane operator high up in his crane. Initially, I took this photo out of curiosity to see if I could zoom in and see what the operator looked like, with no intention of ever using it for anything else.</p>
+<p>Wanting to build on the theme of &ldquo;Labour,&rdquo; given the venue host&rsquo;s brand name, Hard Labour, we felt the industrial crane perfectly fit the theme. My favorite detail of the flyer is that I was able to Photoshop our promotional event tee shirt logo onto the crane operator&rsquo;s tee, making it appear as if we had paid the guy to wear our graphic tee shirt up in his crane for the day. This creative touch had multiple people at the event asking whether or not the photo was real, confirming its effectiveness.</p>
+<p>The type treatment and overall design were intended to be fun and experimental, making this one of my favorite flyers to date. The event itself was part three of our series celebrating the raghouse aesthetic, featuring hand-restored vintage graphic tees sourced from massive clothing facilities known as raghouses.</p>
+<p>The overall feedback and reception were great, and the flyer was very successful in promoting the &ldquo;Hard Labour&rdquo; event. This event continued to highlight the problem of fast fashion and showcased the immense scale and overflow of used textiles managed by raghouses.</p>
+
+    </div>
+    
+           </div>
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>

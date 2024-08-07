@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>For the follow-up event to showcase and sell graphic tees from Knock Twice, I designed a special sticker that captured the essence and vibe of the event. This sticker was created by scanning elements from vintage magazines, then manipulating and positioning them to fit the aesthetic of our unique venue setup.</p>
+<p>The main portion of the design features the eyes at the top half, representing the Knock Twice logo, while the large crowd at the bottom symbolizes the attendees of the event, commemorating the occasion perfectly. The sticker&rsquo;s design encapsulates the nostalgic and dynamic atmosphere of our event, making it a memorable keepsake for all who participated.</p>
+<p>This creative process not only highlights my skills in digital manipulation and design but also reflects the dedication to maintaining a cohesive and engaging brand aesthetic for Knock Twice.</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          <div class="image-container ">
+
+    <img class="featuredimage " src="/image/anotherchancev2altsticker.jpg">
+ 
+    <div class="post-meta"><a> Another Chance Vol.2 Sticker</a>, 2022 
+        <br> <a>2&#34; x 4&#34; Sticker  </a>
+        </div>
+</div>
+
+<div class="carousel">
+   
+  
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+slides[currentSlide].classList.remove('active');
+thumbnails[currentSlide].classList.remove('active');
+currentSlide = index;
+slides[currentSlide].classList.add('active');
+thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+let newSlide = currentSlide + direction;
+if (newSlide >= slides.length) {
+  newSlide = 0;
+} else if (newSlide < 0) {
+  newSlide = slides.length - 1;
+}
+showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
+ </div>
+
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>For the follow-up event to showcase and sell graphic tees from Knock Twice, I designed a special sticker that captured the essence and vibe of the event. This sticker was created by scanning elements from vintage magazines, then manipulating and positioning them to fit the aesthetic of our unique venue setup.</p>
+<p>The main portion of the design features the eyes at the top half, representing the Knock Twice logo, while the large crowd at the bottom symbolizes the attendees of the event, commemorating the occasion perfectly. The sticker&rsquo;s design encapsulates the nostalgic and dynamic atmosphere of our event, making it a memorable keepsake for all who participated.</p>
+<p>This creative process not only highlights my skills in digital manipulation and design but also reflects the dedication to maintaining a cohesive and engaging brand aesthetic for Knock Twice.</p>
+
+    </div>
+    
+           </div>
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>
