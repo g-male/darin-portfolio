@@ -17,17 +17,17 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
-      - { label: "Content Description", name: "descblurb", widget: "string" }
-      - { label: "Content Year", name: "postyear", widget: "string" }
-      - { label: "Content Category", name: "contentdesc", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Images"
         name: "images"
         widget: "list"
         fields:
           - { label: "Image", name: "src", widget: "image", required: true }
           - { label: "Alt Text", name: "alt", widget: "string", required: false }
+      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
+      - { label: "Content Description", name: "descblurb", widget: "string" }
+      - { label: "Content Year", name: "postyear", widget: "string" }
+      - { label: "Content Category", name: "contentdesc", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "about" # Used in routes, e.g., /admin/collections/blog
     label: "About" # Used in the UI
     folder: "content/about" # The path to the folder where the documents are stored
@@ -50,7 +50,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Images", name: "images", widget: "image", allow_multiple: true }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - { label: "Image", name: "src", widget: "image", required: true }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
       - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Content Description", name: "descblurb", widget: "string" }
       - { label: "Content Year", name: "postyear", widget: "string" }
@@ -66,17 +71,17 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
-      - { label: "Content Description", name: "descblurb", widget: "string" }
-      - { label: "Content Year", name: "postyear", widget: "string" }
-      - { label: "Content Category", name: "contentdesc", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Images"
         name: "images"
         widget: "list"
         fields:
           - { label: "Image", name: "src", widget: "image", required: true }
           - { label: "Alt Text", name: "alt", widget: "string", required: false }
+      - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
+      - { label: "Content Description", name: "descblurb", widget: "string" }
+      - { label: "Content Year", name: "postyear", widget: "string" }
+      - { label: "Content Category", name: "contentdesc", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "Graphic" # Used in routes, e.g., /admin/collections/blog
     label: "Graphic" # Used in the UI
     folder: "content/creation/Design_1" # The path to the folder where the documents are stored
@@ -87,7 +92,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Images", name: "images", widget: "image", allow_multiple: true }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - { label: "Image", name: "src", widget: "image", required: true }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
       - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Content Description", name: "descblurb", widget: "string" }
       - { label: "Content Year", name: "postyear", widget: "string" }
@@ -104,7 +114,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Images", name: "images", widget: "image", allow_multiple: true }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - { label: "Image", name: "src", widget: "image", required: true }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
       - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Content Description", name: "descblurb", widget: "string" }
       - { label: "Content Year", name: "postyear", widget: "string" }
@@ -121,7 +136,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
-      - { label: "Images", name: "images", widget: "image", allow_multiple: true }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        fields:
+          - { label: "Image", name: "src", widget: "image", required: true }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
       - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Content Description", name: "descblurb", widget: "string" }
       - { label: "Content Year", name: "postyear", widget: "string" }
