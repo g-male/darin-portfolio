@@ -9,4 +9,4 @@ descblurb: Photography and Post Production by Darin Morrison-Beer Styled by Jame
 postyear: "2024"
 contentdesc: Product
 ---
-Full-body e-commerce model shoot for Haunted Starbucks at Knock Twice Studio, with detailed post-production work. Every aspect was carefully refined to look clean, even when viewed up close. A big focus of mine is on getting the lighting and color just right in both the photography and editing stages. Special attention was also given to the fur aspects of this particular shoot.
+Completed a layflat e-commerce shoot for Haunted Starbucks at Knock Twice Studio, with careful post-production. Every detail was refined to look sharp, even up close, with a strong focus on perfecting the lighting and color. Special attention was given to properly treat the fur aspects of this product, as fur can often look unprofessional when edited poorly.
