@@ -2,7 +2,7 @@
 layout: blog
 title: Stroll with Friends
 date: 2024-08-12T17:09:00.000Z
-featuredimage: /image/stroll_with_friends.jpg
+featuredimage: /image/stroll_with_friends.png
 type: content
 descblurb: Collage
 postyear: "2024"
