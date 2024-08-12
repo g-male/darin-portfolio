@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: catch and release
+title: Catch and Release
 date: 2024-08-12T17:03:00.000Z
-featuredimage: /image/catch_and_report.jpg
+featuredimage: /image/catch_and_release.png
 type: content
 descblurb: Collage
 postyear: "2024"
