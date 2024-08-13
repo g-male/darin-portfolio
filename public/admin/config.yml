@@ -16,7 +16,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image"}
       - label: "Images"
         name: "images"
         widget: "list"
@@ -49,7 +49,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image"}
       - label: "Images"
         name: "images"
         widget: "list"
@@ -70,7 +70,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -91,7 +91,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -113,7 +113,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image"}
       - label: "Images"
         name: "images"
         widget: "list"
@@ -135,13 +135,13 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - label: "Images"
         name: "images"
         widget: "list"
         fields:
           - { label: "Image", name: "src", widget: "image", required: false }
-          - { label: "Alt Text", name: "alt", widget: "string", required: false }
+          - { label: "Alt Text", name: "alt", widget: "string",  required: false}
       - { label: "Post Type", name: "type", widget: "select", options: ["content", "other"]}
       - { label: "Content Description", name: "descblurb", widget: "string" }
       - { label: "Content Year", name: "postyear", widget: "string" }
@@ -156,7 +156,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -178,7 +178,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - label: "Images"
         name: "images"
         widget: "list"
@@ -200,7 +200,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "featuredimage", widget: "image", allow_multiple: true }
+      - { label: "Featured Image", name: "featuredimage", widget: "image" }
       - label: "Images"
         name: "images"
         widget: "list"

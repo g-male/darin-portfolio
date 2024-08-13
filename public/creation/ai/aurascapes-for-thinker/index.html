@@ -52,38 +52,38 @@
      
         <div id="image-block">
           <div class="image-container hidden">
+    <img class="featuredimage" src="/image/thinker_on_ai_ad_v3.jpg">
+    <div class="post-meta">
+        <a>&#34;Aurascapes&#34; for THINKER</a>, 2024<br>
+        <a>Artificial Intelligence Assisted Ad Campaign</a>
+    </div>
+</div>
 
-    <img class="featuredimage " src="/image/thinker_on_ai_ad_v3.jpg">
- 
-    <div class="post-meta"><a> &#34;Aurascapes&#34; for THINKER</a>, 2024 
-        <br> <a>Artificial Intelligence Assisted Ad Campaign </a>
+
+
+
+
+    <div class="carousel">
+        
+            <img src="/image/thinker_on_ai_ad_v3.jpg" alt="/image/thinker_on_ai_ad_v3.jpg" class="active">
+        
+            <img src="/image/thinker_on_ai_ad_v3.jpg" alt="" class="">
+        
+        <div class="post-meta">
+            <a>&#34;Aurascapes&#34; for THINKER</a>, 2024<br>
+            <a>Artificial Intelligence Assisted Ad Campaign</a>
         </div>
-</div>
+    </div>
 
-<div class="carousel">
-    
-  
-    <img src="/image/thinker_on_ai_ad_v3.jpg" alt="/image/thinker_on_ai_ad_v3.jpg" class="active">
-  
-    <img src="/image/thinker_on_ai_ad_v3.jpg" alt="" class="">
-  
-  
- <div class="post-meta"><a> &#34;Aurascapes&#34; for THINKER</a>, 2024 
-<br> <a>Artificial Intelligence Assisted Ad Campaign </a>
-</div>
-  </div>
-  <div class="thumbnails  ">
-    <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
-    
-    <img src="/image/thinker_on_ai_ad_v3.jpg" alt="/image/thinker_on_ai_ad_v3.jpg" class="active" onclick="showSlide( 0 )">
-  
-    <img src="/image/thinker_on_ai_ad_v3.jpg" alt="" class="" onclick="showSlide( 1 )">
-  
-  <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
-  
-</div>
-  
-  
+    <div class="thumbnails">
+        <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
+        
+            <img src="/image/thinker_on_ai_ad_v3.jpg" alt="/image/thinker_on_ai_ad_v3.jpg" class="active" onclick="showSlide( 0 )">
+        
+            <img src="/image/thinker_on_ai_ad_v3.jpg" alt="" class="" onclick="showSlide( 1 )">
+        
+        <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
+    </div>
 
 
 
@@ -93,25 +93,25 @@ const slides = document.querySelectorAll('.carousel img');
 const thumbnails = document.querySelectorAll('.thumbnails img');
 
 function showSlide(index) {
-slides[currentSlide].classList.remove('active');
-thumbnails[currentSlide].classList.remove('active');
-currentSlide = index;
-slides[currentSlide].classList.add('active');
-thumbnails[currentSlide].classList.add('active');
+    slides[currentSlide].classList.remove('active');
+    thumbnails[currentSlide].classList.remove('active');
+    currentSlide = index;
+    slides[currentSlide].classList.add('active');
+    thumbnails[currentSlide].classList.add('active');
 }
 
 function changeSlide(direction) {
-let newSlide = currentSlide + direction;
-if (newSlide >= slides.length) {
-  newSlide = 0;
-} else if (newSlide < 0) {
-  newSlide = slides.length - 1;
-}
-showSlide(newSlide);
+    let newSlide = currentSlide + direction;
+    if (newSlide >= slides.length) {
+        newSlide = 0;
+    } else if (newSlide < 0) {
+        newSlide = slides.length - 1;
+    }
+    showSlide(newSlide);
 }
 
 thumbnails.forEach((thumbnail, index) => {
-thumbnail.addEventListener('click', () => showSlide(index));
+    thumbnail.addEventListener('click', () => showSlide(index));
 });
 </script>
 

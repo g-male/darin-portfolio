@@ -47,17 +47,14 @@
      
         <div id="image-block">
           <div class="image-container ">
-
-    <img class="featuredimage " src="/image/mm_up_2_no_good_dmb_2024.png">
- 
-    <div class="post-meta"><a> Multiple Men up to No Good </a>, 2024 
-        <br> <a>Alcohol Marker on paper (10 x 14&#34;) </a>
-        </div>
+    <img class="featuredimage" src="/image/mm_up_2_no_good_dmb_2024.png">
+    <div class="post-meta">
+        <a>Multiple Men up to No Good </a>, 2024<br>
+        <a>Alcohol Marker on paper (10 x 14&#34;)</a>
+    </div>
 </div>
 
-<div class="carousel">
-   
-  
+
 
 
 
@@ -67,25 +64,25 @@ const slides = document.querySelectorAll('.carousel img');
 const thumbnails = document.querySelectorAll('.thumbnails img');
 
 function showSlide(index) {
-slides[currentSlide].classList.remove('active');
-thumbnails[currentSlide].classList.remove('active');
-currentSlide = index;
-slides[currentSlide].classList.add('active');
-thumbnails[currentSlide].classList.add('active');
+    slides[currentSlide].classList.remove('active');
+    thumbnails[currentSlide].classList.remove('active');
+    currentSlide = index;
+    slides[currentSlide].classList.add('active');
+    thumbnails[currentSlide].classList.add('active');
 }
 
 function changeSlide(direction) {
-let newSlide = currentSlide + direction;
-if (newSlide >= slides.length) {
-  newSlide = 0;
-} else if (newSlide < 0) {
-  newSlide = slides.length - 1;
-}
-showSlide(newSlide);
+    let newSlide = currentSlide + direction;
+    if (newSlide >= slides.length) {
+        newSlide = 0;
+    } else if (newSlide < 0) {
+        newSlide = slides.length - 1;
+    }
+    showSlide(newSlide);
 }
 
 thumbnails.forEach((thumbnail, index) => {
-thumbnail.addEventListener('click', () => showSlide(index));
+    thumbnail.addEventListener('click', () => showSlide(index));
 });
 </script>
 
