@@ -1,13 +1,13 @@
 ---
 layout: blog
 title: Another Chance Vol.1 Stickers
-date: 2024-08-02T11:43:00.000Z
+date: 1901-01-02T07:43:00.000Z
 featuredimage: /image/anotherchance_sticker_1.png
-images: 
-        - src: "/image/anotherchance_sticker_1.png"
-          alt: "/image/anotherchance_sticker_1.png"
-        - src: "/image/anotherchance_sticker_1.png"
-          alt:
+images:
+  - src: /image/anotherchance_sticker_1.png
+    alt: /image/anotherchance_sticker_1.png
+  - src: /image/anotherchance_sticker_1.png
+    alt: null
 type: content
 descblurb: Artificial Intelligence Generated Images
 postyear: "2022"
