@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Another Chance Vol.2 Event Poster
-date: 2024-08-02T13:49:00.000Z
+date: 1901-08-02T09:49:00.000Z
 featuredimage: /image/another_chance_vol2_promo_media.jpg
 type: content
 descblurb: Digitally Manipulated Photograph, shot, edited, and type treatment by
