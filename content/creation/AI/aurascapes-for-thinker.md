@@ -3,11 +3,15 @@ layout: blog
 title: '"Aurascapes" for THINKER'
 date: 2024-08-02T11:28:00.000Z
 featuredimage: /image/thinker_on_ai_ad_v3.jpg
-images: 
-        - src: "/image/thinker_on_ai_ad_v3.jpg"
-          alt: "/image/thinker_on_ai_ad_v3.jpg"
-        - src: "/image/thinker_on_ai_ad_v3.jpg"
-          alt:
+images:
+  - src: /image/thinker_on_ai_ad_v3.jpg
+    alt: /image/thinker_on_ai_ad_v3.jpg
+  - src: /image/thinker_ai_ads_recompressed-3-4.jpg
+    alt: null
+  - src: /image/thinker_ai_ads_recompressed-3-2.jpg
+  - src: /image/thinker_ai_ads_recompressed-3-3.jpg
+  - src: /image/thinker_ai_ads_recompressed-3-5.jpg
+  - src: /image/thinker_ai_ads_recompressed-3-6.jpg
 type: content
 descblurb: Artificial Intelligence Assisted Ad Campaign
 postyear: "2024"
