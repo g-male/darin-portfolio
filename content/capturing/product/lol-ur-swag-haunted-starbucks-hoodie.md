@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: LOL @ UR SWAG Haunted Starbucks Hoodie
+title: LOL @ UR SWAG Haunted Starbucks Tracksuit
 date: 2024-08-14T11:50:00.000Z
 featuredimage: /image/haunted_starbucks_collection_layflats-.jpg
 images:
