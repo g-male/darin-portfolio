@@ -7,25 +7,27 @@
 
 
 
-
-
-
-
- 
 <div id="regular-content icons">
 
   <div class="icon grid">
-    {{ $currentPage := .}} 
-    {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
+    {{ $currentPage := . }}
+    {{ $allPosts := .Site.RegularPages }}
+    
+    {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
     <div class="grid-item">
-<A class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}"  href="{{ .Permalink }}" > <img class="thumbimage" src="{{ .Params.thumbimage }}"> <br>  {{ .Title}} </A>
-
-
-    </div>{{end}}
+      {{ $subsection := . }} <!-- Current subsection -->
+      {{ $postCount := len (where .Site.RegularPages "Section" $subsection.Section) }} <!-- Count posts in the subsection -->
+      
+        <a class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}" href="{{ .Permalink }}">
+            <div class="thumbimage-wrapper">
+                <img class="thumbimage" src="{{ .Params.thumbimage }}">
+                <div class="post-count">{{ $postCount }}</div>
+            </div>
+            <br> {{ .Title }}
+        </a>
+    </div>
+    {{ end }}
   </div>
-
-
-
 
 </div>
 

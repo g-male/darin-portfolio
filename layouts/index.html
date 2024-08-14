@@ -4,18 +4,27 @@
 
 {{ partial "navigation.html" . }}
 <div id="regular-content icons">
- 
-<div class="icon grid">
-  {{ range (where .Site.Pages "Type" "category") }} 
-  <div class="grid-item">
- 
-  <A href="{{ .Permalink }}" class="subcategory"> <img class="thumbimage" src="{{ .Params.thumbImage }}"><br>{{ .Title}}  </A>
-  <br>
-
+  <div class="icon grid">
+      {{ $allPosts := .Site.RegularPages }} <!-- Get all posts -->
+      {{ range (where .Site.Pages "Type" "category") }}
+      <div class="grid-item">
+          {{ $postCount := 0 }}
+          {{ if eq .Title "Recent" }}   
+              {{ $postCount = len (where $allPosts "Type" "content") }} <!-- Count all posts if it's the Recent section -->
+          {{ else }}
+              {{ $postCount = len (where $allPosts "Section" .Section) }} <!-- Count posts in the specific section -->
+          {{ end }}
+          <a href="{{ .Permalink }}" class="subcategory">
+              <div class="thumbimage-wrapper">
+                  <img class="thumbimage" src="{{ .Params.thumbImage }}">
+                  <div class="post-count">{{ $postCount }}</div>
+              </div>
+              <br>{{ .Title }}
+          </a>
+          <br>
+      </div>
+      {{ end }}
+  </div>
 </div>
-{{end}}
-</div>
-</div>
-
 
 {{ end }}

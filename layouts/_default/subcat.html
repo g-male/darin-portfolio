@@ -4,20 +4,17 @@
     
 <div id="regular-content">
   
-    <div class="Titlerow"> 
-        <h1 class="workheading"><a class="work-title" > {{ .Title }}</A> </h1>
-          <div class="allcats"> 
-  
-           {{ $currentPage := .}} 
-            {{ range where ( where .Site.Pages "Type" "subcategory") "Section" .Section }} 
-            <A class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}"  href="{{ .Permalink }}" > {{ .Title}} </A>
-            
-         
-            {{end}}
-         </div>
-      </div>
-      
-
+  <div class="Titlerow"> 
+    <h1 class="workheading"><a class="work-title">{{ .Title }}</a></h1>
+    <div class="allcats">
+        {{ $currentPage := . }}
+        {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
+            {{ if ne .Permalink $currentPage.Permalink }}
+                <a class="subcategory {{ if .Section }}{{ else }}subcatactive{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
 <div class="grid">
   
 
