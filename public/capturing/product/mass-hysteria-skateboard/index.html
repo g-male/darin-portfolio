@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>Trucker hat, tee, Enamel pin, and skateboard shot for Mass Hysteria in 2023.</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          <div class="image-container hidden">
+    <img class="featuredimage" src="/image/mass_hysteria-.gif">
+    <div class="post-meta">
+        <a>Mass Hysteria Products</a>, 2023<br>
+        <a>Lay-flat Photography by Darin Morrison-Beer</a>
+    </div>
+</div>
+
+
+
+
+
+    <div class="carousel">
+        
+            <img src="/image/mass_hysteria_trucker-.jpg" alt="" class="active">
+        
+            <img src="/image/mass_hysteria_trucker-2.jpg" alt="" class="">
+        
+            <img src="/image/mass_hysteria_trucker-1.jpg" alt="" class="">
+        
+            <img src="/image/mass_blank_tee_front.jpg" alt="" class="">
+        
+            <img src="/image/mass_blank_tee_backt.jpg" alt="" class="">
+        
+            <img src="/image/mass_blank_tee_tag.jpg" alt="" class="">
+        
+            <img src="/image/mass_hysteria_logo_enamel_pin-5.jpg" alt="" class="">
+        
+            <img src="/image/mass_hysteria_logo_enamel_pin-4.jpg" alt="" class="">
+        
+            <img src="/image/mass_hysteria_skateboard_full.jpg" alt="" class="">
+        
+            <img src="/image/mass_hysteria_skateboard_detail-7.jpg" alt="" class="">
+        
+        <div class="post-meta">
+            <a>Mass Hysteria Products</a>, 2023<br>
+            <a>Lay-flat Photography by Darin Morrison-Beer</a>
+        </div>
+    </div>
+
+    <div class="thumbnails">
+        <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
+        
+            <img src="/image/mass_hysteria_trucker-.jpg" alt="" class="active" onclick="showSlide( 0 )">
+        
+            <img src="/image/mass_hysteria_trucker-2.jpg" alt="" class="" onclick="showSlide( 1 )">
+        
+            <img src="/image/mass_hysteria_trucker-1.jpg" alt="" class="" onclick="showSlide( 2 )">
+        
+            <img src="/image/mass_blank_tee_front.jpg" alt="" class="" onclick="showSlide( 3 )">
+        
+            <img src="/image/mass_blank_tee_backt.jpg" alt="" class="" onclick="showSlide( 4 )">
+        
+            <img src="/image/mass_blank_tee_tag.jpg" alt="" class="" onclick="showSlide( 5 )">
+        
+            <img src="/image/mass_hysteria_logo_enamel_pin-5.jpg" alt="" class="" onclick="showSlide( 6 )">
+        
+            <img src="/image/mass_hysteria_logo_enamel_pin-4.jpg" alt="" class="" onclick="showSlide( 7 )">
+        
+            <img src="/image/mass_hysteria_skateboard_full.jpg" alt="" class="" onclick="showSlide( 8 )">
+        
+            <img src="/image/mass_hysteria_skateboard_detail-7.jpg" alt="" class="" onclick="showSlide( 9 )">
+        
+        <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
+    </div>
+
+
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+
+function showSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    thumbnails[currentSlide].classList.remove('active');
+    currentSlide = index;
+    slides[currentSlide].classList.add('active');
+    thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+    let newSlide = currentSlide + direction;
+    if (newSlide >= slides.length) {
+        newSlide = 0;
+    } else if (newSlide < 0) {
+        newSlide = slides.length - 1;
+    }
+    showSlide(newSlide);
+}
+
+thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener('click', () => showSlide(index));
+});
+</script>
+
+ </div>
+
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>Trucker hat, tee, Enamel pin, and skateboard shot for Mass Hysteria in 2023.</p>
+
+    </div>
+    
+           </div>
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>
