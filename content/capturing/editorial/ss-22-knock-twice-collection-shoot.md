@@ -10,6 +10,7 @@ images:
   - src: /image/ragshoot_2022-16.jpg
   - src: /image/ragshoot_2022-1.jpg
   - src: /image/ragshoot_2022-20.jpg
+  - src: /image/ragshoot_2022-26.jpg
 type: content
 descblurb: Shot by Darin Morrison-Beer
 postyear: "2022"
