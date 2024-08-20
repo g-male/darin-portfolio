@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Mass Hysteria Products
-date: 2024-08-14T11:48:00.000Z
+date: 1902-08-14T07:48:00.000Z
 featuredimage: /image/mass_hysteria-.gif
 images:
   - src: /image/mass_hysteria_trucker-.jpg
