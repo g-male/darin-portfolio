@@ -7,7 +7,6 @@ images:
   - src: /image/gb_for_kt_akihabara-10.jpg
   - src: /image/gb_for_kt_akihabara-11.jpg
   - src: /image/gb_for_kt_akihabara-13.jpg
-  - src: /image/gb_for_kt_akihabara-12.jpg
   - src: /image/gb_for_kt_akihabara-5.jpg
   - src: /image/gb_for_kt_akihabara-8.jpg
 type: content
