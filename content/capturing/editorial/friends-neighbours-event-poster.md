@@ -3,6 +3,11 @@ layout: blog
 title: Friends & Neighbours Event Flyer
 date: 2024-08-02T14:10:00.000Z
 featuredimage: /image/friends-and-neighbours-poster-1.png
+images:
+  - src: /image/friends-and-neighbours-poster-1.png
+  - {}
+  - {}
+  - {}
 type: content
 descblurb: Photography, and Type Treatment by Darin Morrison-Beer
 postyear: "2022"
