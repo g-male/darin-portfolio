@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: Eclecstacy Trucker Hats
-date: 2023-01-01T01:01:00.000Z
-featuredimage: /image/eclecstacy_truckers-5.jpg
+date: 1903-12-31T20:01:00.000Z
+featuredimage: /image/eclecstacy_truckers-.gif
 images:
   - src: /image/eclecstacy_truckers-5.jpg
   - src: /image/eclecstacy_truckers-3.jpg
