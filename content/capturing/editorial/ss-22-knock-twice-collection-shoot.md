@@ -2,7 +2,14 @@
 layout: blog
 title: SS 22 Knock Twice Collection Shoot
 date: 1901-06-06T11:49:00.000Z
-featuredimage: /image/rag_editorial_for_ig-17.jpg
+featuredimage: /image/ragshoot_2022-25.jpg
+images:
+  - src: /image/ragshoot_2022-25.jpg
+  - src: /image/ragshoot_2022-12.jpg
+  - src: /image/ragshoot_2022-15.jpg
+  - src: /image/ragshoot_2022-16.jpg
+  - src: /image/ragshoot_2022-1.jpg
+  - src: /image/ragshoot_2022-20.jpg
 type: content
 descblurb: Shot by Darin Morrison-Beer
 postyear: "2022"
