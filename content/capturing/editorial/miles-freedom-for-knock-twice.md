@@ -2,7 +2,7 @@
 layout: blog
 title: Miles Freedom for Knock Twice
 date: 2024-08-06T15:51:00.000Z
-featuredimage: /image/miles_in_suit_editorial_edited-5-of-9-.jpg
+featuredimage: /image/miles_in_stu-2.jpg
 images:
   - src: /image/miles_in_stu-2.jpg
   - src: /image/miles_in_stu-3.jpg
