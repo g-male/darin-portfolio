@@ -1,16 +1,29 @@
 
+@font-face {
+    font-family: 'GT-Maru-Mono-Regular';
+    font-weight: 400;
+    font-style: normal;
+    src: url("/font/GT-Maru-Mono-Regular.woff2") format('woff2');
+  }
+  @font-face {
+    font-family: 'GT-Maru-Mono-Bold';
+    font-weight: 400;
+    font-style:normal;
+    src: url("/font/GT-Maru-Mono-Bold.woff2") format('woff2');
+  }
 
 
 html, body{
     width: 100%;
     height: 100%;
-font-family: arial;
+font-family: 'GT-Maru-Mono-Regular';
 margin: 0;
 background-color: #e3e3e3;
 }
 *{
  
 }
+
 
 /* Breadcrumb Styles */
 .breadcrumb {
@@ -91,7 +104,7 @@ background-color: #e3e3e3;
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    margin-top: 3%;
+
   }
 
   .titlerow{
@@ -143,8 +156,11 @@ height: 4dvh;
     margin: 0 auto;
     margin-top: 2.5%;
     margin-bottom: 2%;
-    
+    color: black;
     width: 5%;
+}
+.fa.fa-envelope-o{
+font-size: 36px;
 }
 .regular-content{
     display: flex;
@@ -315,28 +331,35 @@ margin: 0 auto;
   .carousel img.active {
     display: block;
   }
-  .thumbnails {
- 
+  .thumbnails-container {
     display: flex;
-    flex-wrap: wrap; /* Allow thumbnails to wrap to a new line */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    -webkit-user-select: none; 
+    user-select: none;                        
+}
+
+.thumbnails {
+    display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 10px;
-    
-  }
-  .thumbnails img {
+}
+
+.thumbnails img {
     width: 5dvw;
     cursor: pointer;
-    margin: 0 5px;
     opacity: 0.6;
     height: auto;
-    cursor: pointer;
-    transition: opacity 0.3s ease-in-out; 
-  }
-  .thumbnails img.active {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.thumbnails img.active {
     opacity: 1;
-  }
-  .thumbnails img:not(.active) {
+    border: 1px solid black;
+}
+
+.thumbnails img:not(.active) {
     opacity: 0.5;
 }
 
@@ -359,6 +382,13 @@ margin: 0 auto;
   .featuredimage.hidden{
     display: none;
   }
+  .post-meta{
+    margin: 5%;
+    text-align: left;
+  }
+  .meta-titledate{
+    font-family:'GT-Maru-Mono-Bold' ;
+  }
   .arrow {
     position: absolute;
     top: 50%; /* Center the arrows vertically */
@@ -374,12 +404,12 @@ margin: 0 auto;
     color: #858585;
 }
  .left-arrow{
-    margin-top: 3%;
+
     left: 10px;
     position: relative;
  }
  .right-arrow{
-    margin-top: 3%;
+
     right: 10px;
     position: relative;
  }
@@ -397,6 +427,7 @@ flex-wrap: wrap;
   flex-direction: row; /* This ensures the content inside .main-content remains flexible */
     justify-content: center; /* If you want to vertically center the items within .main-content as well */
     align-items: center;
+   
 }
 .single-title{
     font-weight: 200;
@@ -425,12 +456,13 @@ position: relative;
     display: none;
 }
 .description{
-    
+    font-family: 'GT-Maru-Mono-Regular';
     margin: 0 auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 90%;
 }
 .description-mobile{
     display: none;
@@ -442,12 +474,19 @@ position: relative;
     body{
      height: 100dvh;
     }
-    .fa .fa-envelope-o{
-        font-size: 20px;
+    .regular-content{
+        margin-top: 0px;
+    }
+    .fa.fa-envelope-o{
+        font-size: 25px;
     }
     #mailicon{
 width: auto;
 margin-right: 2%;
+color: black;
+    }
+    #gohome{
+        margin-left: 10%;
     }
      .grid{
          display: grid;
@@ -472,7 +511,10 @@ margin-right: 2%;
         font-size: 1.5em;
      }
 
-
+.post-count{
+    top: -5px;
+    right: 0px;
+}
 
      .allcats{
         width: 50%;
@@ -504,6 +546,15 @@ margin-top: -155px !important;
         }
         #image-block{
             width: 100%;
+        }
+        .post-meta{
+           
+            margin: 0;
+            margin-top: 3%;
+        }
+
+        .meta-descblurb{
+            font-size: 3vw;
         }
         .carousel{
             max-width: 96%;

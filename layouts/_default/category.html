@@ -1,11 +1,6 @@
-
-
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-
-
-
 
 <div id="regular-content icons">
 
@@ -16,20 +11,23 @@
     {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
     <div class="grid-item">
       {{ $subsection := . }} <!-- Current subsection -->
-      {{ $postCount := len (where .Site.RegularPages "Section" $subsection.Section) }} <!-- Count posts in the subsection -->
       
-        <a class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}" href="{{ .Permalink }}">
-            <div class="thumbimage-wrapper">
-                <img class="thumbimage" src="{{ .Params.thumbimage }}">
-                <div class="post-count">{{ $postCount }}</div>
-            </div>
-            <br> {{ .Title }}
-        </a>
+      <!-- Filter all posts by the current subsection and type 'content' (lowercase) -->
+      {{ $filteredPosts := where $allPosts "Section" $subsection.Section }}
+      {{ $contentPosts := where $filteredPosts "type" "content" }}
+      {{ $postCount := len $contentPosts }}
+      
+      <a class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}" href="{{ .Permalink }}">
+        <div class="thumbimage-wrapper">
+          <img class="thumbimage" src="{{ .Params.thumbimage }}">
+          <div class="post-count">{{ $postCount }}</div>
+        </div>
+        <br> {{ .Title }}
+      </a>
     </div>
     {{ end }}
   </div>
 
 </div>
-
 
 {{ end }}

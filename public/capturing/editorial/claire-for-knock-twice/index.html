@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon" href="mailto:darinjmb@gmail.com"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+    <br>
+    </div>
+
+<div class="regular-content">
+<div id="metadata"> 
+
+</div>
+
+
+
+       <div class="main-content"> 
+        
+       <div id="description-block">
+<div class="description">
+    <p>Shot and edited for KnockTwice, 2022.</p>
+
+</div>
+
+       </div>
+      
+     
+        <div id="image-block">
+          <div class="image-container hidden">
+    <img class="featuredimage" src="/image/claire_in_craig_green-10.jpg">
+    <div class="post-meta">
+        <a>Claire for Knock Twice</a>, 2022<br>
+        <br> <br>
+        <a>Photography and Post-Production by Darin Morrison-Beer, model: Claire Hoang</a>
+    </div>
+</div>
+
+
+
+
+
+    <div class="carousel">
+        
+            <img src="/image/claire_in_craig_green-10.jpg" alt="" class="active">
+        
+            <img src="/image/claire_in_craig_green-4.jpg" alt="" class="">
+        
+            <img src="/image/claire_in_craig_green-5.jpg" alt="" class="">
+        
+            <img src="/image/claire_in_evis-4.jpg" alt="" class="">
+        
+            <img src="/image/claire_in_evis-2.jpg" alt="" class="">
+        
+        <div class="post-meta">
+            <a>Claire for Knock Twice</a>, 2022<br>
+            <a>Photography and Post-Production by Darin Morrison-Beer, model: Claire Hoang</a>
+        </div>
+    </div>
+
+    <div class="thumbnails-container">
+        <div class="arrow left-arrow" onclick="changeThumbnailSet(-1)">&#10094;</div>
+        <div class="thumbnails">
+            
+                <img src="/image/claire_in_craig_green-10.jpg" alt="" class="active" onclick="showSlide( 0 )">
+            
+                <img src="/image/claire_in_craig_green-4.jpg" alt="" class="" onclick="showSlide( 1 )">
+            
+                <img src="/image/claire_in_craig_green-5.jpg" alt="" class="" onclick="showSlide( 2 )">
+            
+                <img src="/image/claire_in_evis-4.jpg" alt="" class="" onclick="showSlide( 3 )">
+            
+                <img src="/image/claire_in_evis-2.jpg" alt="" class="" onclick="showSlide( 4 )">
+            
+        </div>
+        <div class="arrow right-arrow" onclick="changeThumbnailSet(1)">&#10095;</div>
+    </div>
+
+
+
+<script>
+let currentSlide = 0;
+let currentThumbnailSet = 0;
+const slides = document.querySelectorAll('.carousel img');
+const thumbnails = document.querySelectorAll('.thumbnails img');
+const thumbnailsPerPage = 4;  
+
+function showSlide(index) {
+    slides[currentSlide].classList.remove('active');
+    thumbnails[currentSlide].classList.remove('active');
+    currentSlide = index;
+    slides[currentSlide].classList.add('active');
+    thumbnails[currentSlide].classList.add('active');
+}
+
+function changeSlide(direction) {
+    let newSlide = currentSlide + direction;
+    if (newSlide >= slides.length) {
+        newSlide = 0;
+    } else if (newSlide < 0) {
+        newSlide = slides.length - 1;
+    }
+    showSlide(newSlide);
+}
+
+function updateThumbnails() {
+    thumbnails.forEach((thumbnail, index) => {
+        if (index >= currentThumbnailSet * thumbnailsPerPage && index < (currentThumbnailSet + 1) * thumbnailsPerPage) {
+            thumbnail.style.display = 'inline-block';
+        } else {
+            thumbnail.style.display = 'none';
+        }
+    });
+}
+
+function changeThumbnailSet(direction) {
+    let newThumbnailSet = currentThumbnailSet + direction;
+    const maxSet = Math.ceil(thumbnails.length / thumbnailsPerPage) - 1;
+    if (newThumbnailSet > maxSet) {
+        newThumbnailSet = 0;
+    } else if (newThumbnailSet < 0) {
+        newThumbnailSet = maxSet;
+    }
+    currentThumbnailSet = newThumbnailSet;
+    updateThumbnails();
+}
+
+thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener('click', () => showSlide(index));
+});
+
+updateThumbnails();  
+</script>
+
+ </div>
+
+       
+ <div id="description-block-mobile">
+    <div class="description-mobile">
+        <p>Shot and edited for KnockTwice, 2022.</p>
+
+    </div>
+    
+           </div>
+    
+    </div>
+    <div class="empty"></div>
+    
+</div>
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>

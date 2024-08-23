@@ -7,4 +7,3 @@ layout = "subcat"
 thumbImage = "/image/iconsforwebsite/drawing.png"
 +++
 
-this is the photography/Editorial _index.md

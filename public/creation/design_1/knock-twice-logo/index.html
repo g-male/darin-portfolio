@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
+	<div class="toprow"><a href="/" id="gohome"> djmb </a> <a id="mailicon" href="mailto:darinjmb@gmail.com"><i class="fa fa-envelope-o" style="font-size:36px"></i></a>   </div>  
 	
 <nav id="top-right" class="navright">
        
@@ -50,6 +50,7 @@
     <img class="featuredimage" src="/image/knocktwicelogo.png">
     <div class="post-meta">
         <a>Knock Twice Logo</a>, 2018<br>
+        <br> <br>
         <a>Knock Twice Icon Logo</a>
     </div>
 </div>
@@ -60,8 +61,10 @@
 
 <script>
 let currentSlide = 0;
+let currentThumbnailSet = 0;
 const slides = document.querySelectorAll('.carousel img');
 const thumbnails = document.querySelectorAll('.thumbnails img');
+const thumbnailsPerPage = 4;  
 
 function showSlide(index) {
     slides[currentSlide].classList.remove('active');
@@ -81,9 +84,33 @@ function changeSlide(direction) {
     showSlide(newSlide);
 }
 
+function updateThumbnails() {
+    thumbnails.forEach((thumbnail, index) => {
+        if (index >= currentThumbnailSet * thumbnailsPerPage && index < (currentThumbnailSet + 1) * thumbnailsPerPage) {
+            thumbnail.style.display = 'inline-block';
+        } else {
+            thumbnail.style.display = 'none';
+        }
+    });
+}
+
+function changeThumbnailSet(direction) {
+    let newThumbnailSet = currentThumbnailSet + direction;
+    const maxSet = Math.ceil(thumbnails.length / thumbnailsPerPage) - 1;
+    if (newThumbnailSet > maxSet) {
+        newThumbnailSet = 0;
+    } else if (newThumbnailSet < 0) {
+        newThumbnailSet = maxSet;
+    }
+    currentThumbnailSet = newThumbnailSet;
+    updateThumbnails();
+}
+
 thumbnails.forEach((thumbnail, index) => {
     thumbnail.addEventListener('click', () => showSlide(index));
 });
+
+updateThumbnails();  
 </script>
 
  </div>
