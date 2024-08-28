@@ -23,6 +23,11 @@ background-color: #e3e3e3;
 *{
  
 }
+.wrapper{
+    display: grid;
+   
+    height: 80vh; 
+}
 
 
 /* Breadcrumb Styles */
@@ -325,8 +330,14 @@ margin: 0 auto;
   .carousel img {
    height: auto;
     display: none;
-   max-width: 100%;
+   max-width: 30vw;
+   
    transition: opacity 0.3s ease-in-out; 
+  }
+  .featuredimage{
+   
+ max-width: 28vw;
+ 
   }
   .carousel img.active {
     display: block;
@@ -427,7 +438,8 @@ flex-wrap: wrap;
   flex-direction: row; /* This ensures the content inside .main-content remains flexible */
     justify-content: center; /* If you want to vertically center the items within .main-content as well */
     align-items: center;
-   
+   min-width: 90%;
+   margin-left: 5%;
 }
 .single-title{
     font-weight: 200;
@@ -519,6 +531,9 @@ color: black;
      .allcats{
         width: 50%;
      }
+     .subcategory{
+        font-size: 0.7em;
+     }
      .workheading{ 
         font-size: 1.5rem;
      }
@@ -543,6 +558,7 @@ margin-top: -155px !important;
         .main-content{
             grid-column: 1;
             flex-direction: column;
+            margin-left: 0;
         }
         #image-block{
             width: 100%;
@@ -559,11 +575,22 @@ margin-top: -155px !important;
         .carousel{
             max-width: 96%;
         }
+        .carousel img {
+            height: auto;
+             display: none;
+            max-width: 100%;
+            
+            transition: opacity 0.3s ease-in-out; 
+           }
+           .image-container{
+         max-width: 96%;
+           }
         .thumbnails img{
             width: 12dvw;
         }
         .arrow{
             transform: none;
+            top: 0;
         }
         #description-block{
             display: none;

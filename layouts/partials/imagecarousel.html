@@ -1,9 +1,8 @@
 <div class="image-container {{ if .Params.images }}hidden{{ end }}">
     <img class="featuredimage" src="{{ .Params.FeaturedImage }}">
     <div class="post-meta">
-        <a>{{ .Params.Title }}</a>, {{ .Params.Postyear }}<br>
-        <br> <br>
-        <a>{{ .Params.descblurb }}</a>
+        <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
+            <a class="meta-descblurb">{{ .Params.descblurb }}</a>
     </div>
 </div>
 
@@ -19,7 +18,7 @@
             <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
             <a class="meta-descblurb">{{ .Params.descblurb }}</a>
         </div>
-    </div>
+
 
     <div class="thumbnails-container">
         <div class="arrow left-arrow" onclick="changeThumbnailSet(-1)">&#10094;</div>
@@ -32,7 +31,7 @@
     </div>
 
 {{ end }}
-
+</div>
 <script>
 let currentSlide = 0;
 let currentThumbnailSet = 0;
