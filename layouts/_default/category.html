@@ -3,19 +3,19 @@
 {{ partial "navigation.html" . }}
 
 <div id="regular-content icons">
-
   <div class="icon grid">
-    {{ $currentPage := . }}
     {{ $allPosts := .Site.RegularPages }}
     
     {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
     <div class="grid-item">
       {{ $subsection := . }} <!-- Current subsection -->
       
-      <!-- Filter all posts by the current subsection and type 'content' (lowercase) -->
-      {{ $filteredPosts := where $allPosts "Section" $subsection.Section }}
-      {{ $contentPosts := where $filteredPosts "type" "content" }}
-      {{ $postCount := len $contentPosts }}
+      <!-- Filter posts to match the current subsection -->
+      {{ $contentPosts := where $allPosts "Section" $subsection.Section }}
+      {{ $specificPosts := where $contentPosts "Type" "content" }}
+      
+      <!-- Check if the current post's section matches the subsection title (e.g., "product") -->
+      {{ $postCount := len (where $specificPosts "File.Dir" (printf "%s/" $subsection.File.Dir)) }}
       
       <a class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}" href="{{ .Permalink }}">
         <div class="thumbimage-wrapper">
@@ -27,7 +27,6 @@
     </div>
     {{ end }}
   </div>
-
 </div>
 
 {{ end }}

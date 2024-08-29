@@ -71,11 +71,13 @@ background-color: #e3e3e3;
     left: 0;
     z-index: 30000;
     margin-left: 2%;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 .navright{
     
     cursor: pointer;
-    margin-top: 1.5em;
+    margin-top: 0.2em;
     margin-right: 2em;
     height: 3.5em;
     width: 3.5em;
@@ -302,15 +304,34 @@ nav#home a{
 
     filter: drop-shadow(rgb(118, 118, 118)   0.5rem  0.3rem 2px );
 }
-.grid-image-test{
-    border: 3px solid blue;
-    width: max-content;
-}
+.featured-image {
+   
+    height: auto;
+    transition: filter 0.3s ease;
+  }
+  
+  .Post-title {
+    position: relative;
+
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .grid-image:hover .featured-image {
+    filter: blur(5px);
+  }
+  
+  .grid-image:hover .Post-title {
+    opacity: 1;
+  }
 .Post-title{
-display: none;
-margin-top: -3vh;
-z-index: 999;
-background-color: #3f3e3e;
+
+position: relative;
+
+z-index: 999 !important;
 }
 .grid-image:hover + .Post-title{
     display: block;
@@ -395,7 +416,7 @@ margin: 0 auto;
   }
   .post-meta{
     margin: 5%;
-    text-align: left;
+    text-align: center;
   }
   .meta-titledate{
     font-family:'GT-Maru-Mono-Bold' ;
@@ -488,6 +509,7 @@ position: relative;
     }
     .regular-content{
         margin-top: 0px;
+        max-height: none;
     }
     .fa.fa-envelope-o{
         font-size: 25px;
@@ -574,6 +596,7 @@ margin-top: -155px !important;
         }
         .carousel{
             max-width: 96%;
+            margin: 5%;
         }
         .carousel img {
             height: auto;
@@ -587,6 +610,9 @@ margin-top: -155px !important;
            }
         .thumbnails img{
             width: 12dvw;
+        }
+        .thumbnails-container{
+            margin: 3%;
         }
         .arrow{
             transform: none;

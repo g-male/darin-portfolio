@@ -19,17 +19,21 @@
   
 
     {{ range (where .Site.RegularPages "CurrentSection.Path" .CurrentSection.Path ) }}
-  <div class="grid-item">
+    <div class="grid-item">
+      <div class="grid-image">
+        <a  href="{{ .Permalink }}">
     
-    <a href="{{ .Permalink }}">
+            <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
+         <div class="Post-title">{{ .Params.Title}} </div>
+         
+        </a>
     
-        <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
-      
-    </a>
-    <a href="{{ .Permalink }}">
-      <div class="title">{{ .Title }}  </div>
-    </a>
-  </div>
+      </div>
+           
+        <a href="{{ .Permalink }}">
+          <div class="title">{{ .Title }}  </div>
+        </a>
+      </div>
  {{ end }}
 </div>
 </div>

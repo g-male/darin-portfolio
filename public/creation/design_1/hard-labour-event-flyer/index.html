@@ -27,6 +27,7 @@
     <br>
     </div>
 
+<div class="wrapper"> 
 <div class="regular-content">
 <div id="metadata"> 
 
@@ -52,9 +53,8 @@
           <div class="image-container ">
     <img class="featuredimage" src="/image/kensingtonpopupposterhuge-10.jpg">
     <div class="post-meta">
-        <a>Hard Labour Event Flyer</a>, 2023<br>
-        <br> <br>
-        <a>Photography, Digital manipulation, Type treatment, and Design by Darin Morrison-Beer</a>
+        <a class="meta-titledate">Hard Labour Event Flyer, 2023</a><br>
+        <a class="meta-descblurb">Photography, Digital manipulation, Type treatment, and Design by Darin Morrison-Beer</a>
     </div>
 </div>
 
@@ -75,14 +75,20 @@ function showSlide(index) {
     currentSlide = index;
     slides[currentSlide].classList.add('active');
     thumbnails[currentSlide].classList.add('active');
+    
+    
+    if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
+        currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+        updateThumbnails();
+    }
 }
 
 function changeSlide(direction) {
     let newSlide = currentSlide + direction;
     if (newSlide >= slides.length) {
-        newSlide = 0;
+        newSlide = 0;  
     } else if (newSlide < 0) {
-        newSlide = slides.length - 1;
+        newSlide = slides.length - 1;  
     }
     showSlide(newSlide);
 }
@@ -109,10 +115,6 @@ function changeThumbnailSet(direction) {
     updateThumbnails();
 }
 
-thumbnails.forEach((thumbnail, index) => {
-    thumbnail.addEventListener('click', () => showSlide(index));
-});
-
 updateThumbnails();  
 </script>
 
@@ -133,6 +135,7 @@ updateThumbnails();
     </div>
     <div class="empty"></div>
     
+</div>
 </div>
 
 	<script src="/js/custom.js" async defer></script>

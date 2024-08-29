@@ -51,7 +51,7 @@
     <img class="featuredimage" src="/image/eclecstacy_jackets_-.gif">
     <div class="post-meta">
         <a class="meta-titledate">Eclecstacy Work jackets, 2023</a><br>
-            <a class="meta-descblurb">Layflat Photography, and post production by Darin Morrison-Beer</a>
+      
     </div>
 </div>
 
@@ -59,48 +59,49 @@
 
 
 
-    <div class="carousel">
-        
-            <img src="/image/eclecstacy_jackets_-.jpg" alt="" class="active">
-        
-            <img src="/image/eclecstacy_jackets_-6.jpg" alt="" class="">
-        
-            <img src="/image/eclecstacy_jackets_-9.jpg" alt="" class="">
-        
-            <img src="/image/eclecstacy_jackets_-12.jpg" alt="" class="">
-        
-            <img src="/image/eclecstacy_jackets_-13.jpg" alt="" class="">
-        
-            <img src="/image/eclecstacy_jackets_-16.jpg" alt="" class="">
-        
-        <div class="post-meta">
-            <a class="meta-titledate">Eclecstacy Work jackets, 2023</a><br>
-            <a class="meta-descblurb">Layflat Photography, and post production by Darin Morrison-Beer</a>
-        </div>
-
-
-    <div class="thumbnails-container">
-        <div class="arrow left-arrow" onclick="changeThumbnailSet(-1)">&#10094;</div>
-        <div class="thumbnails">
-            
-                <img src="/image/eclecstacy_jackets_-.jpg" alt="" class="active" onclick="showSlide( 0 )">
-            
-                <img src="/image/eclecstacy_jackets_-6.jpg" alt="" class="" onclick="showSlide( 1 )">
-            
-                <img src="/image/eclecstacy_jackets_-9.jpg" alt="" class="" onclick="showSlide( 2 )">
-            
-                <img src="/image/eclecstacy_jackets_-12.jpg" alt="" class="" onclick="showSlide( 3 )">
-            
-                <img src="/image/eclecstacy_jackets_-13.jpg" alt="" class="" onclick="showSlide( 4 )">
-            
-                <img src="/image/eclecstacy_jackets_-16.jpg" alt="" class="" onclick="showSlide( 5 )">
-            
-        </div>
-        <div class="arrow right-arrow" onclick="changeThumbnailSet(1)">&#10095;</div>
+<div class="carousel">
+    
+        <img src="/image/eclecstacy_jackets_-.jpg" alt="" class="active">
+    
+        <img src="/image/eclecstacy_jackets_-6.jpg" alt="" class="">
+    
+        <img src="/image/eclecstacy_jackets_-9.jpg" alt="" class="">
+    
+        <img src="/image/eclecstacy_jackets_-12.jpg" alt="" class="">
+    
+        <img src="/image/eclecstacy_jackets_-13.jpg" alt="" class="">
+    
+        <img src="/image/eclecstacy_jackets_-16.jpg" alt="" class="">
+    
+    <div class="post-meta">
+        <a class="meta-titledate">Eclecstacy Work jackets, 2023</a><br>
+    
     </div>
+</div>
 
+<div class="thumbnails-container">
+    <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="thumbnails">
+        
+            <img src="/image/eclecstacy_jackets_-.jpg" alt="" class="active" onclick="showSlide( 0 )">
+        
+            <img src="/image/eclecstacy_jackets_-6.jpg" alt="" class="" onclick="showSlide( 1 )">
+        
+            <img src="/image/eclecstacy_jackets_-9.jpg" alt="" class="" onclick="showSlide( 2 )">
+        
+            <img src="/image/eclecstacy_jackets_-12.jpg" alt="" class="" onclick="showSlide( 3 )">
+        
+            <img src="/image/eclecstacy_jackets_-13.jpg" alt="" class="" onclick="showSlide( 4 )">
+        
+            <img src="/image/eclecstacy_jackets_-16.jpg" alt="" class="" onclick="showSlide( 5 )">
+        
+    </div>
+    <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
 
 </div>
+
+
+
 <script>
 let currentSlide = 0;
 let currentThumbnailSet = 0;
@@ -114,14 +115,20 @@ function showSlide(index) {
     currentSlide = index;
     slides[currentSlide].classList.add('active');
     thumbnails[currentSlide].classList.add('active');
+    
+    
+    if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
+        currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+        updateThumbnails();
+    }
 }
 
 function changeSlide(direction) {
     let newSlide = currentSlide + direction;
     if (newSlide >= slides.length) {
-        newSlide = 0;
+        newSlide = 0;  
     } else if (newSlide < 0) {
-        newSlide = slides.length - 1;
+        newSlide = slides.length - 1;  
     }
     showSlide(newSlide);
 }
@@ -147,10 +154,6 @@ function changeThumbnailSet(direction) {
     currentThumbnailSet = newThumbnailSet;
     updateThumbnails();
 }
-
-thumbnails.forEach((thumbnail, index) => {
-    thumbnail.addEventListener('click', () => showSlide(index));
-});
 
 updateThumbnails();  
 </script>
