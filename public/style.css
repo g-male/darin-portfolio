@@ -225,7 +225,7 @@ font-size: 36px;
     top: 1;
     position: absolute;
     text-decoration: none;
-    margin-left: 0.5%;
+    margin-left: 1.5%;
   }
 .title{
     display: none;
@@ -587,7 +587,7 @@ margin-top: -155px !important;
         }
         .post-meta{
            
-            margin: 0;
+            margin: 0 auto;
             margin-top: 3%;
         }
 
@@ -629,7 +629,7 @@ margin-top: -155px !important;
            
         }
         .description-mobile{
-width: 85%;
+width: 82%;
 margin: 0 auto;
 display: block;
         }
