@@ -53,7 +53,7 @@
     <img class="featuredimage" src="/image/friends-and-neighbours-poster-1.png">
     <div class="post-meta">
         <a class="meta-titledate">Friends &amp; Neighbours Event Flyer, 2022</a><br>
-            <a class="meta-descblurb">Photography, and Type Treatment by Darin Morrison-Beer</a>
+      
     </div>
 </div>
 
@@ -61,40 +61,41 @@
 
 
 
-    <div class="carousel">
-        
-            <img src="/image/friends-and-neighbours-poster-1.png" alt="" class="active">
-        
-            <img src="" alt="" class="">
-        
-            <img src="" alt="" class="">
-        
-            <img src="" alt="" class="">
-        
-        <div class="post-meta">
-            <a class="meta-titledate">Friends &amp; Neighbours Event Flyer, 2022</a><br>
-            <a class="meta-descblurb">Photography, and Type Treatment by Darin Morrison-Beer</a>
-        </div>
-
-
-    <div class="thumbnails-container">
-        <div class="arrow left-arrow" onclick="changeThumbnailSet(-1)">&#10094;</div>
-        <div class="thumbnails">
-            
-                <img src="/image/friends-and-neighbours-poster-1.png" alt="" class="active" onclick="showSlide( 0 )">
-            
-                <img src="" alt="" class="" onclick="showSlide( 1 )">
-            
-                <img src="" alt="" class="" onclick="showSlide( 2 )">
-            
-                <img src="" alt="" class="" onclick="showSlide( 3 )">
-            
-        </div>
-        <div class="arrow right-arrow" onclick="changeThumbnailSet(1)">&#10095;</div>
+<div class="carousel">
+    
+        <img src="/image/friends-and-neighbours-poster-1.png" alt="" class="active">
+    
+        <img src="" alt="" class="">
+    
+        <img src="" alt="" class="">
+    
+        <img src="" alt="" class="">
+    
+    <div class="post-meta">
+        <a class="meta-titledate">Friends &amp; Neighbours Event Flyer, 2022</a><br>
+    
     </div>
+</div>
 
+<div class="thumbnails-container">
+    <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="thumbnails">
+        
+            <img src="/image/friends-and-neighbours-poster-1.png" alt="" class="active" onclick="showSlide( 0 )">
+        
+            <img src="" alt="" class="" onclick="showSlide( 1 )">
+        
+            <img src="" alt="" class="" onclick="showSlide( 2 )">
+        
+            <img src="" alt="" class="" onclick="showSlide( 3 )">
+        
+    </div>
+    <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
 
 </div>
+
+
+
 <script>
 let currentSlide = 0;
 let currentThumbnailSet = 0;
@@ -108,14 +109,20 @@ function showSlide(index) {
     currentSlide = index;
     slides[currentSlide].classList.add('active');
     thumbnails[currentSlide].classList.add('active');
+    
+    
+    if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
+        currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+        updateThumbnails();
+    }
 }
 
 function changeSlide(direction) {
     let newSlide = currentSlide + direction;
     if (newSlide >= slides.length) {
-        newSlide = 0;
+        newSlide = 0;  
     } else if (newSlide < 0) {
-        newSlide = slides.length - 1;
+        newSlide = slides.length - 1;  
     }
     showSlide(newSlide);
 }
@@ -141,10 +148,6 @@ function changeThumbnailSet(direction) {
     currentThumbnailSet = newThumbnailSet;
     updateThumbnails();
 }
-
-thumbnails.forEach((thumbnail, index) => {
-    thumbnail.addEventListener('click', () => showSlide(index));
-});
 
 updateThumbnails();  
 </script>

@@ -6,7 +6,11 @@
 
 </div>
 
-
+{{ if .Params.video }}
+<div class="video-container">
+    {{ .Params.video | safeHTML }}
+</div>
+{{ end }}
 
        <div class="main-content"> 
         

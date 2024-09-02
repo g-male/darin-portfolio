@@ -52,14 +52,14 @@
     <img class="featuredimage" src="">
     <div class="post-meta">
         <a class="meta-titledate">First post, </a><br>
-            <a class="meta-descblurb"></a>
+      
     </div>
 </div>
 
 
 
 
-</div>
+
 <script>
 let currentSlide = 0;
 let currentThumbnailSet = 0;
@@ -73,14 +73,20 @@ function showSlide(index) {
     currentSlide = index;
     slides[currentSlide].classList.add('active');
     thumbnails[currentSlide].classList.add('active');
+    
+    
+    if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
+        currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+        updateThumbnails();
+    }
 }
 
 function changeSlide(direction) {
     let newSlide = currentSlide + direction;
     if (newSlide >= slides.length) {
-        newSlide = 0;
+        newSlide = 0;  
     } else if (newSlide < 0) {
-        newSlide = slides.length - 1;
+        newSlide = slides.length - 1;  
     }
     showSlide(newSlide);
 }
@@ -106,10 +112,6 @@ function changeThumbnailSet(direction) {
     currentThumbnailSet = newThumbnailSet;
     updateThumbnails();
 }
-
-thumbnails.forEach((thumbnail, index) => {
-    thumbnail.addEventListener('click', () => showSlide(index));
-});
 
 updateThumbnails();  
 </script>
