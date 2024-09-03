@@ -304,12 +304,13 @@ nav#home a{
 
     filter: drop-shadow(rgb(118, 118, 118)   0.5rem  0.3rem 2px );
 }
+
 .featured-image {
    
     height: auto;
     transition: filter 0.3s ease;
   }
-  
+
   .Post-title {
     position: relative;
 
