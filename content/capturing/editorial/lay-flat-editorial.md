@@ -17,4 +17,4 @@ descblurb: Lay-flat photography, and post-production by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: Editorial
 ---
-Shot, and edited in the Knock Twice Studio for Knock Twice and Ecelcstacy, 2023.
+Shot, and edited in the Knock Twice Studio for Knock Twice, 2023.
