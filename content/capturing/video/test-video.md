@@ -2,6 +2,7 @@
 layout: blog
 title: test video
 date: 2024-09-01T23:41:00.000Z
+featuredimage: /image/screenshot-2024-09-06-081633.png
 video: >-
   <blockquote class="instagram-media"
   data-instgrm-permalink="https://www.instagram.com/reel/C6AMbXsNvON/?utm_source=ig_embed&amp;utm_campaign=loading"
