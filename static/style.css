@@ -18,7 +18,7 @@ html, body{
     height: 100%;
 font-family: 'GT-Maru-Mono-Regular';
 margin: 0;
-background-color: #e3e3e3;
+background-color: rgba(255, 255, 255, 0);
 }
 *{
  
@@ -30,46 +30,13 @@ background-color: #e3e3e3;
 }
 
 
-/* Breadcrumb Styles */
-.breadcrumb {
-    padding: 8px 15px;
-    margin-bottom: 20px;
-    list-style: none;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-}
-
-.breadcrumb-item {
-    display: inline-block;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
-    content: "›";
-    padding: 0 5px;
-    color: #777;
-}
-
-.breadcrumb-item + .breadcrumb-item a::before {
-    content: "›";
-    padding: 0 5px;
-    color: #777;
-}
-
-.breadcrumb-item.active {
-    color: #777;
-}
-
-.breadcrumb-item.active::after {
-    content: "(current)";
-    padding-left: 5px;
-}
-
 
 #top-right{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 30000;
+    margin-top: 2%;
     margin-left: 2%;
     font-weight: 600;
     font-size: 1.3em;
@@ -77,10 +44,9 @@ background-color: #e3e3e3;
 .navright{
     
     cursor: pointer;
-    margin-top: 0.2em;
-    margin-right: 2em;
-    height: 3.5em;
-    width: 3.5em;
+   
+    height: auto;
+    width: auto;
     text-align: center;
     display: inline-block;
     /* padding: 1em;
@@ -101,17 +67,18 @@ background-color: #e3e3e3;
   }
   .navright:after{
     content: '\2630';
+    margin-top: 3%;
   }
   .active::after{
-    content: "\0425"; 
+    color: #858585;
   }
   
   /* Style the collapsible content. Note: hidden by default */
   .content {
-    padding: 0 18px;
+
     display: none;
     overflow: hidden;
-
+    margin-left: 2%;
   }
 
   .titlerow{
@@ -130,7 +97,7 @@ margin: 0 auto;
     text-decoration: none;
     color: #3f3e3e;
 font-size: 2em;
-margin-left: 1%;
+
 user-select: none;
 }
 main{
@@ -153,21 +120,21 @@ margin: 0 auto;
 display: block;
 text-decoration: none;
 color: black;
-font-size: 1.3em;
-margin-top: 3%;
+font-size: 1.5em;
+margin-top: 2%;
 margin-bottom: 2%;
 text-align: center;
 height: 4dvh;
 }
 #mailicon{
     margin: 0 auto;
-    margin-top: 2.5%;
+    margin-top: 2%;
     margin-bottom: 2%;
     color: black;
     width: 5%;
 }
 .fa.fa-envelope-o{
-font-size: 36px;
+font-size: 1.8em;
 }
 .regular-content{
     display: flex;
@@ -180,6 +147,7 @@ font-size: 36px;
 #regular-content{
     display: flex;
     flex-direction: column;
+    margin-top: 1% !important;
  margin: 5%;
  overflow-y: none;
     
@@ -207,7 +175,7 @@ font-size: 36px;
 }
 .subcategory{
     display: inline-block;
-    font-weight: 300;
+    font-weight: 600;
     font-size:0.9em ;
     text-align: center;
     text-decoration: none;
@@ -254,6 +222,7 @@ margin-left: 0.5%;
     box-sizing: border-box;
     position: relative;
 text-align: center;
+
 }
 
 .grid-item a{
@@ -299,30 +268,41 @@ nav#home a{
 }
 
 .featured-image{
-    max-width: 95%;  
-    
+   width: 100%;  
+      height: auto;
+    transition: filter 0.3s ease;
 
     filter: drop-shadow(rgb(118, 118, 118)   0.5rem  0.3rem 2px );
 }
-
-.featured-image {
-   
-    height: auto;
-    transition: filter 0.3s ease;
-  }
+.imgcontainer{
+    position: relative;
+    text-align: center;
+}
 
   .Post-title {
-    position: relative;
-
-    color: black;
-    font-size: 1rem;
+    position: absolute; /* Position the title absolutely within the grid-image */
+    bottom: 1px; /* Position it at the bottom of the image */
+    left: 0;
+    width: 100%; /* Make it span the full width */
     text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.5); /* Optional background for readability */
+    color: white; /* Text color */
+  
+    z-index: 10; /* Ensure it displays on top of the image */
     opacity: 0;
     transition: opacity 0.3s ease;
+   
   }
-  
+  .grid-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    position: relative;/* or a fixed height as per your layout */
+  }
   .grid-image:hover .featured-image {
-    filter: blur(5px);
+    
   }
   
   .grid-image:hover .Post-title {
@@ -330,7 +310,7 @@ nav#home a{
   }
 .Post-title{
 
-position: relative;
+
 
 z-index: 999 !important;
 }
@@ -406,6 +386,9 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
+  .video-container{
+    width: 70%;
+  }
   .featuredimage{
     height: auto;
     display: block;
@@ -432,6 +415,10 @@ margin: 0 auto;
     cursor: pointer;
     z-index: 10;
     transition: background-color 0.3s ease;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
   }
   .arrow:hover {
     color: #858585;
@@ -479,6 +466,7 @@ flex-wrap: wrap;
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 #description-block{
     width: 50%;

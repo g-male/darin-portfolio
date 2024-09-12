@@ -6,7 +6,7 @@
     <description>Recent content in Darin on Darin Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Sep 2024 23:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 12:02:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recent</title>
@@ -14,6 +14,13 @@
       <pubDate>Tue, 02 Jul 2024 10:56:08 -0400</pubDate>
       <guid>//localhost:1313/recent/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>CLothing</title>
+      <link>//localhost:1313/capturing/video/clothing/</link>
+      <pubDate>Fri, 06 Sep 2024 12:02:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/video/clothing/</guid>
+      <description>This is where the text of the video goes, a description/context</description>
     </item>
     <item>
       <title>test video</title>
@@ -51,7 +58,7 @@
       <description>Made using Scotch Tape packaging, Star Wars playing cards, film photographs, and vintage magazine snippets.</description>
     </item>
     <item>
-      <title>Stroll with Friends</title>
+      <title>Field Research</title>
       <link>//localhost:1313/creation/collage/stroll-with-friends/</link>
       <pubDate>Mon, 12 Aug 2024 17:09:00 +0000</pubDate>
       <guid>//localhost:1313/creation/collage/stroll-with-friends/</guid>
@@ -139,7 +146,7 @@
       <link>//localhost:1313/capturing/editorial/friends-neighbours-event-poster/</link>
       <pubDate>Fri, 02 Aug 2024 14:10:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/editorial/friends-neighbours-event-poster/</guid>
-      <description>This photo was used to promote one of Knock Twice&amp;rsquo;s open-studio events, where we, along with friends, vended our vintage and designer goods to the public. Building on the success of our previous video advertisement, we decided to continue the theme of the &amp;ldquo;Human Clothing Hanger.&amp;rdquo; This concept not only draws attention and is eye-catching, but it also stands out as something unique and thought-provoking.&#xA;The open-studio event was an opportunity for us and other vendors to showcase a curated selection of unique vintage and designer pieces.</description>
+      <description>This photo was used to promote one of Knock Twice&amp;rsquo;s open-studio events, where we, along with friends, vended our vintage and designer goods to the public. Building on the success of our previous video advertisement, we decided to continue the theme of the &amp;ldquo;Human Clothing Hanger.&amp;rdquo;&#xA;The open-studio event was an opportunity for us and other vendors to showcase a curated selection of unique vintage and designer pieces. The &amp;ldquo;Human Clothing Hanger&amp;rdquo; theme highlighted our creative approach to fashion and marketing, encouraging visitors to engage with the idea of clothing and its presentation in a new way.</description>
     </item>
     <item>
       <title>&#34;Aurascapes&#34; for THINKER</title>
@@ -233,18 +240,25 @@
       <description>Someone asked if I was sad when I made this. I&amp;rsquo;m rarely ever sad, more contemplative if anything. Thats what this guys doing: contemplating.</description>
     </item>
     <item>
-      <title>Ants Video 2</title>
-      <link>//localhost:1313/capturing/video/video2-ants/</link>
-      <pubDate>Tue, 30 Apr 2024 10:55:32 -0400</pubDate>
-      <guid>//localhost:1313/capturing/video/video2-ants/</guid>
-      <description></description>
+      <title>Glossy Ibis</title>
+      <link>//localhost:1313/capturing/bird/glossy-ibis/</link>
+      <pubDate>Tue, 19 Mar 2024 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/glossy-ibis/</guid>
+      <description>My birding goal of this trip was to get a nice shot of just one measly Glossy Ibis. Shortly after expressing my concern for completing said goal, a big flock of them came shooting by right above us. Thankfully, my extreme bird-photography skills and instincts kicked in and I was able to get this awesome composition of the species I had been seeking.&#xA;Shot in Olhão, Portugal, 2024.</description>
     </item>
     <item>
-      <title>Video</title>
-      <link>//localhost:1313/capturing/video/video1/</link>
-      <pubDate>Tue, 30 Apr 2024 10:55:32 -0400</pubDate>
-      <guid>//localhost:1313/capturing/video/video1/</guid>
-      <description></description>
+      <title>Cattle Egret Overwatch</title>
+      <link>//localhost:1313/capturing/bird/cattle-egret-overwatch/</link>
+      <pubDate>Fri, 15 Mar 2024 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/cattle-egret-overwatch/</guid>
+      <description>Two Cattle Egrets perched, getting a nice breeze through their ruffled feathers. Shot in Olhão, Portugal, 2024.</description>
+    </item>
+    <item>
+      <title>Varied Tit</title>
+      <link>//localhost:1313/capturing/bird/varied-tit/</link>
+      <pubDate>Mon, 11 Mar 2024 09:09:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/varied-tit/</guid>
+      <description>I wish i could teleport you to where i was in this moment.</description>
     </item>
     <item>
       <title>Sota at Knock Twice</title>
@@ -289,11 +303,25 @@
       <description>Shot and edited for the Knock Twice x Eclecstacy Varsity Jacket, 2023.</description>
     </item>
     <item>
+      <title>Fish in Lake</title>
+      <link>//localhost:1313/capturing/bird/fish-in-lake/</link>
+      <pubDate>Sat, 01 Apr 2023 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/fish-in-lake/</guid>
+      <description>The wettest bird i&amp;rsquo;ve ever had the pleasure of capturing. Taken in Beppu, Japan, 2023.</description>
+    </item>
+    <item>
+      <title>Japanese Cormorant</title>
+      <link>//localhost:1313/capturing/bird/japanese-cormorant/</link>
+      <pubDate>Sun, 19 Mar 2023 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/japanese-cormorant/</guid>
+      <description>Buddy didn&amp;rsquo;t move an inch for like half an hour it was awesome.</description>
+    </item>
+    <item>
       <title>Lay-flat Editorial</title>
       <link>//localhost:1313/capturing/editorial/lay-flat-editorial/</link>
       <pubDate>Thu, 02 Feb 2023 14:02:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/editorial/lay-flat-editorial/</guid>
-      <description>Shot, and edited in the Knock Twice Studio for Knock Twice and Ecelcstacy, 2023.</description>
+      <description>Shot, and edited in the Knock Twice Studio for Knock Twice, 2023.</description>
     </item>
     <item>
       <title>Knock Twice x Eclecstacy Varsity Jacket</title>
@@ -324,6 +352,13 @@
       <description>Yota wearing assorted vintage from Knock Twice, for Kijij&amp;rsquo;s back to school campaign in 2022.</description>
     </item>
     <item>
+      <title>Assorted Products for Knock Twice</title>
+      <link>//localhost:1313/capturing/product/assorted-products-for-knock-twice/</link>
+      <pubDate>Sun, 01 May 2022 11:01:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/product/assorted-products-for-knock-twice/</guid>
+      <description>Product shots taken for Knock Twice, 2022.</description>
+    </item>
+    <item>
       <title>Claire for Knock Twice</title>
       <link>//localhost:1313/capturing/editorial/claire-for-knock-twice/</link>
       <pubDate>Mon, 18 Apr 2022 11:11:00 +0000</pubDate>
@@ -331,11 +366,25 @@
       <description>Shot and edited for KnockTwice, 2022.</description>
     </item>
     <item>
+      <title>Owl and Horse</title>
+      <link>//localhost:1313/capturing/bird/owl-and-horse/</link>
+      <pubDate>Thu, 07 Apr 2022 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/owl-and-horse/</guid>
+      <description>First time framing two unique beasts in one picture. Taken outside of Tavira on the road to Bodega, 2022.</description>
+    </item>
+    <item>
       <title>Kurt for Knock Twice</title>
       <link>//localhost:1313/capturing/editorial/kurt-for-knock-twice/</link>
       <pubDate>Fri, 01 Apr 2022 11:11:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/editorial/kurt-for-knock-twice/</guid>
       <description>Shot, and edited for Knock Twice, 2022</description>
+    </item>
+    <item>
+      <title>Knock Twice Website Launch</title>
+      <link>//localhost:1313/capturing/editorial/knock-twice-website-launch/</link>
+      <pubDate>Thu, 17 Feb 2022 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/editorial/knock-twice-website-launch/</guid>
+      <description>Shot for the Knock Twice Web launch, 2022.</description>
     </item>
     <item>
       <title>Knock Twice Product Content</title>

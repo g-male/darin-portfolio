@@ -12,9 +12,9 @@
   {{range where .Site.RegularPages "Type" "content" }} 
   <div class="grid-item">
   <div class="grid-image">
-    <a  href="{{ .Permalink }}">
+    <a class="imgcontainer" href="{{ .Permalink }}">
 
-        <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
+     <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
      <div class="Post-title">{{ .Params.Title}} </div>
      
     </a>
