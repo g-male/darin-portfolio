@@ -32,59 +32,84 @@
 </div>
 
 {{ end }}
-
 <script>
-let currentSlide = 0;
-let currentThumbnailSet = 0;
-const slides = document.querySelectorAll('.carousel img');
-const thumbnails = document.querySelectorAll('.thumbnails img');
-const thumbnailsPerPage = 4;  // Number of thumbnails to show at once
-
-function showSlide(index) {
-    slides[currentSlide].classList.remove('active');
-    thumbnails[currentSlide].classList.remove('active');
-    currentSlide = index;
-    slides[currentSlide].classList.add('active');
-    thumbnails[currentSlide].classList.add('active');
+    let currentSlide = 0;
+    let currentThumbnailSet = 0;
+    const slides = document.querySelectorAll('.carousel img');
+    const thumbnails = document.querySelectorAll('.thumbnails img');
+    const thumbnailsPerPage = 4;  // Number of thumbnails to show at once
     
-    // Automatically switch thumbnail set if necessary
-    if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
-        currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    // Function to detect swipe direction
+    function handleGesture() {
+        if (touchEndX < touchStartX) {
+            changeSlide(1);  // Swipe left (Next)
+        }
+        if (touchEndX > touchStartX) {
+            changeSlide(-1);  // Swipe right (Previous)
+        }
+    }
+    
+    // Add touch event listeners to the carousel container
+    const carouselContainer = document.querySelector('.carousel');
+    
+    carouselContainer.addEventListener('touchstart', function(e) {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+    
+    carouselContainer.addEventListener('touchend', function(e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleGesture();  // Handle the swipe gesture when the touch ends
+    });
+    
+    function showSlide(index) {
+        slides[currentSlide].classList.remove('active');
+        thumbnails[currentSlide].classList.remove('active');
+        currentSlide = index;
+        slides[currentSlide].classList.add('active');
+        thumbnails[currentSlide].classList.add('active');
+        
+        // Automatically switch thumbnail set if necessary
+        if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
+            currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+            updateThumbnails();
+        }
+    }
+    
+    function changeSlide(direction) {
+        let newSlide = currentSlide + direction;
+        if (newSlide >= slides.length) {
+            newSlide = 0;  // Cycle to the first slide
+        } else if (newSlide < 0) {
+            newSlide = slides.length - 1;  // Cycle to the last slide
+        }
+        showSlide(newSlide);
+    }
+    
+    function updateThumbnails() {
+        thumbnails.forEach((thumbnail, index) => {
+            if (index >= currentThumbnailSet * thumbnailsPerPage && index < (currentThumbnailSet + 1) * thumbnailsPerPage) {
+                thumbnail.style.display = 'inline-block';
+            } else {
+                thumbnail.style.display = 'none';
+            }
+        });
+    }
+    
+    function changeThumbnailSet(direction) {
+        let newThumbnailSet = currentThumbnailSet + direction;
+        const maxSet = Math.ceil(thumbnails.length / thumbnailsPerPage) - 1;
+        if (newThumbnailSet > maxSet) {
+            newThumbnailSet = 0;
+        } else if (newThumbnailSet < 0) {
+            newThumbnailSet = maxSet;
+        }
+        currentThumbnailSet = newThumbnailSet;
         updateThumbnails();
     }
-}
-
-function changeSlide(direction) {
-    let newSlide = currentSlide + direction;
-    if (newSlide >= slides.length) {
-        newSlide = 0;  // Cycle to the first slide
-    } else if (newSlide < 0) {
-        newSlide = slides.length - 1;  // Cycle to the last slide
-    }
-    showSlide(newSlide);
-}
-
-function updateThumbnails() {
-    thumbnails.forEach((thumbnail, index) => {
-        if (index >= currentThumbnailSet * thumbnailsPerPage && index < (currentThumbnailSet + 1) * thumbnailsPerPage) {
-            thumbnail.style.display = 'inline-block';
-        } else {
-            thumbnail.style.display = 'none';
-        }
-    });
-}
-
-function changeThumbnailSet(direction) {
-    let newThumbnailSet = currentThumbnailSet + direction;
-    const maxSet = Math.ceil(thumbnails.length / thumbnailsPerPage) - 1;
-    if (newThumbnailSet > maxSet) {
-        newThumbnailSet = 0;
-    } else if (newThumbnailSet < 0) {
-        newThumbnailSet = maxSet;
-    }
-    currentThumbnailSet = newThumbnailSet;
-    updateThumbnails();
-}
-
-updateThumbnails();  // Initialize thumbnail visibility on page load
-</script>
+    
+    updateThumbnails();  // Initialize thumbnail visibility on page load
+    </script>
+    
