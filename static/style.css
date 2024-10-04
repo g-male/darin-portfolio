@@ -20,6 +20,29 @@ font-family: 'GT-Maru-Mono-Regular';
 margin: 0;
 background-color: rgba(255, 255, 255, 0);
 }
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .page-arrows a {
+    margin: 0 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .page-arrows a.active {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .page-arrows a:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
 *{
  
 }

@@ -1,21 +1,18 @@
-
-
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
 <div id="regular-content">
- 
+
 <div class="grid">
-   
 
-
-  {{range where .Site.RegularPages "Type" "content" }} 
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "content") 20 }}
+  {{ range $paginator.Pages }}
   <div class="grid-item">
   <div class="grid-image">
     <a class="imgcontainer" href="{{ .Permalink }}">
 
      <img class="featured-image" src='{{.Params.FeaturedImage}}'> 
-     <div class="Post-title">{{ .Params.Title}} </div>
+     <div class="Post-title">{{ .Params.Title }} </div>
      
     </a>
 
@@ -25,10 +22,29 @@
       <div class="title">{{ .Title }}  </div>
     </a>
   </div>
- {{ end }}
+  {{ end }}
+  
+</div>
+
+<!-- Pagination controls -->
+<div class="pagination">
+  {{ if gt $paginator.TotalPages 1 }}
+    <div class="page-arrows">
+      {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="prev">← Previous</a>
+      {{ end }}
+
+      {{ range $paginator.Pagers }}
+        <a href="{{ .URL }}" class="{{ if eq .PageNumber $paginator.PageNumber }}active{{ end }}">{{ .PageNumber }}</a>
+      {{ end }}
+
+      {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="next">Next →</a>
+      {{ end }}
+    </div>
+  {{ end }}
 </div>
 
 </div>
-
 
 {{ end }}
