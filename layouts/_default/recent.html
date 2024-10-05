@@ -5,7 +5,7 @@
 
 <div class="grid">
 
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "content") 20 }}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "content") 15 }}
   {{ range $paginator.Pages }}
   <div class="grid-item">
   <div class="grid-image">
