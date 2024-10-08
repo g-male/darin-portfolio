@@ -42,7 +42,7 @@ background-color: rgba(255, 255, 255, 0);
   }
   
   .page-arrows a:hover {
-    background-color: #858585;
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
   }
   .next{
@@ -51,8 +51,8 @@ background-color: rgba(255, 255, 255, 0);
   .prev{
     border: none !important;
   }
-  .next:hover{
-    background-color: none;
+  .next.active{
+    background-color: transparent;
   }
   .prev:hover{
     background-color: none;
@@ -251,7 +251,7 @@ margin-left: 0.5%;
     width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     gap: 1rem;
    
 }
