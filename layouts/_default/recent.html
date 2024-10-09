@@ -31,7 +31,7 @@
   {{ if gt $paginator.TotalPages 1 }}
     <div class="page-arrows">
       {{ if $paginator.HasPrev }}
-        <a href="{{ $paginator.Prev.URL }}" class="prev">← Previous</a>
+        <a href="{{ $paginator.Prev.URL }}" class="prev">←</a>
       {{ end }}
 
       {{ range $paginator.Pagers }}
@@ -39,7 +39,7 @@
       {{ end }}
 
       {{ if $paginator.HasNext }}
-        <a href="{{ $paginator.Next.URL }}" class="next">Next →</a>
+        <a href="{{ $paginator.Next.URL }}" class="next">→</a>
       {{ end }}
     </div>
   {{ end }}

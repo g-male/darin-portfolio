@@ -31,19 +31,18 @@ background-color: rgba(255, 255, 255, 0);
     margin: 0 5px;
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 40%;
+
     color: black;
   }
   
   .page-arrows a.active {
-    background-color: #5f5f5f;
-    color: white;
+
+    color: grey;
   }
   
   .page-arrows a:hover {
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: white;
+   
+    color: grey;
   }
   .next{
     border: none !important;
@@ -565,6 +564,15 @@ color: black;
         width: 100%;
         margin: 0;
      }
+
+
+     .page-arrows a {
+      margin: 0 5px;
+      text-decoration: none;
+      padding: 4px 5px;
+ 
+      color: black;
+    }
 .about{
     grid-template-columns: 1fr !important;
     margin: 0 auto;
@@ -612,7 +620,7 @@ color: black;
         margin: 0 auto;
         }
         .icon.grid{
-        margin-top: -155px !important;
+          top: 38% !important;
         }
         .thumbimage{
             max-width: 30vw;
