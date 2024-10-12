@@ -3,11 +3,11 @@
 {{ partial "navigation.html" . }}
 <div id="regular-content">
 
-<div class="grid">
+<div class="grid workgrid">
 
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "content") 15 }}
   {{ range $paginator.Pages }}
-  <div class="grid-item">
+  <div class="grid-item workblock">
   <div class="grid-image">
     <a class="imgcontainer" href="{{ .Permalink }}">
 

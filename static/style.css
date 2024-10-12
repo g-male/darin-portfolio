@@ -186,7 +186,7 @@ font-size: 1.8em;
     margin-top: 1% !important;
  margin: 5%;
  overflow-y: none;
- align-items: center;
+
 
 }
 #regular-content #icons{
@@ -262,6 +262,9 @@ margin-left: 0.5%;
   flex-basis: calc(100% / 5);
 	box-sizing: border-box;
 	object-fit: contain;
+
+}
+.workblock{
 
 }
 
@@ -340,18 +343,14 @@ nav#home a{
     align-items: center;
     height: 100%; 
     position: relative;/* or a fixed height as per your layout */
+    margin: 3%;
   }
-  .grid-image:hover .featured-image {
-    
-  }
+ 
   
   .grid-image:hover .Post-title {
     opacity: 1;
   }
 .Post-title{
-
-
-
 z-index: 999 !important;
 }
 .grid-image:hover + .Post-title{
@@ -576,6 +575,14 @@ color: black;
 		width: 100%;
 	height: 20vh;
 		align-items: center;
+    margin-bottom: 3%;
+     }
+     .workblock{
+    height: auto;
+    gap: 2%;
+     }
+     .workgrid{
+      
      }
      .last{
       flex-basis: 100%; /* Make the last item take the full width */
@@ -631,6 +638,12 @@ color: black;
         grid-gap: 14px;
         margin: 3%;
      }
+     .grid-image{
+      margin: 5%;
+     }
+     .featured-image{
+      width: 100%;
+     }
      .single-featured-image{
         max-width: 85vw;
         max-height: 65dvh;
@@ -638,7 +651,7 @@ color: black;
         }
         .icon.grid{
          position: relative !important;
-         margin-top: 30% !important;
+         margin-top: 25% !important;
      
         }
 
