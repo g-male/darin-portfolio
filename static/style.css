@@ -193,7 +193,9 @@ font-size: 1.8em;
     width: 100%;
     height: 100%;
 }
-
+.icon{
+  display: flex;
+}
 .icon.grid{
     left: 0 !important; 
     margin-top: -100px !important; 
@@ -212,7 +214,7 @@ font-size: 1.8em;
 }
 .subcategory{
     display: inline-block;
-    font-weight: 600;
+    font-weight: 300;
     font-size:0.9em ;
     text-align: center;
     text-decoration: none;
@@ -236,7 +238,7 @@ font-size: 1.8em;
     display: none;
 }
 .work-title{
-    font-weight: 300;
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }

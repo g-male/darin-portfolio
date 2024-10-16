@@ -12,3 +12,13 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+const gridContainer = document.querySelector('.icon.grid');
+const gridItems = document.querySelectorAll('.grid-item.drawnicon');
+const numberOfItems = gridItems.length;
+const flexBasisValue = `calc(100% / ${numberOfItems})`;
+
+gridItems.forEach(item => {
+  item.style.flexBasis = flexBasisValue;
+});
+

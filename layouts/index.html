@@ -7,7 +7,7 @@
   <div class="icon grid">
       {{ $allPosts := .Site.RegularPages }} <!-- Get all posts -->
       {{ range (where .Site.Pages "Type" "category") }}
-      <div class="grid-item">
+      <div class="grid-item drawnicon">
           {{ $postCount := 0 }}
           {{ if eq .Title "Recent" }}   
               {{ $postCount = len (where $allPosts "Type" "content") }} <!-- Count all posts if it's the Recent section -->
@@ -24,7 +24,7 @@
           <br>
       </div>
       {{ end }}
-      <div class="grid-item last">
+      <div class="grid-item last drawnicon">
      
         <a href="https://admin.shopify.com/store/715b5c/themes" target="_blank" rel="noopener noreferrer"vv class="subcategory">
             <div class="thumbimage-wrapper">
