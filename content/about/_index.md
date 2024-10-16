@@ -5,7 +5,6 @@ title: About
 weight: 0
 date: 2024-04-30T14:56:08.000Z
 contentdesc: Me
-profileImage: /image/yourface.jpg
 profileimage: /image/screen-shot-2024-05-27-at-6.16.25-pm.png
 type: category
 thumbImage: /image/iconsforwebsite/about.png

@@ -277,8 +277,12 @@ margin-left: 0.5%;
 .double{
    grid-column: 1/4;
 }
-.about{
-    grid-template-columns: 1fr 1fr !important;
+.grid.about{
+  flex-direction: column;
+}
+.aboutimg{
+  width: 65%;
+  margin-left: 40%;
 }
 nav#home{
     font-size: 2em;
@@ -319,6 +323,7 @@ nav#home a{
 
     filter: drop-shadow(rgb(118, 118, 118)   0.5rem  0.3rem 2px );
 }
+
 .imgcontainer{
     position: relative;
     text-align: center;
@@ -545,6 +550,7 @@ position: relative;
         margin-top: 0px;
         max-height: none;
     }
+
     .toprow{
         margin: 2%;
     }
@@ -579,6 +585,13 @@ color: black;
 		align-items: center;
     margin-bottom: 3%;
      }
+      .grid-item.last{
+      flex-basis: 100% !important;  /* Make the last item take the full width */
+    text-align: center; /* Center text if needed */
+     }
+     .grid-item{
+      flex-basis: calc(100% / 2) !important;
+     }
      .workblock{
     height: auto;
     gap: 2%;
@@ -586,10 +599,7 @@ color: black;
      .workgrid{
       
      }
-     .last{
-      flex-basis: 100%; /* Make the last item take the full width */
-    text-align: center; /* Center text if needed */
-     }
+   
 
 
      .page-arrows a {
@@ -604,7 +614,8 @@ color: black;
     margin: 0 auto;
 }
 .aboutimg{
-   margin-left: -5%;
+margin-left: 0%;
+   width: 100%;
 }
      .navright{
         padding-bottom: 0;
@@ -626,7 +637,7 @@ color: black;
 }
 
      .allcats{
-        width: 75%;
+        width: 60%;
      }
      .subcategory{
         font-size: 0.7em;
