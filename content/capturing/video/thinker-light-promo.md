@@ -7,6 +7,6 @@ video: https://www.instagram.com/reel/C4imvJ6rUOE/
 type: content
 descblurb: Starring Owen, and Greg
 postyear: "2024"
-contentdesc: Video
+contentdesc: video
 ---
 Shot in March 2024 for Thinker.

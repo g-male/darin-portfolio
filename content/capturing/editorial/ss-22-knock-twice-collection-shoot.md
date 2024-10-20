@@ -14,7 +14,7 @@ images:
 type: content
 descblurb: Shot by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Editorial photoshoot for the Knock Twice Essential Collection, shot in our (at the time) favourite Raghouse, capturing the overwhelming chaos of thousands of pounds of used clothing. 
 

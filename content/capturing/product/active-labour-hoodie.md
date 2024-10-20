@@ -16,6 +16,6 @@ images:
 type: content
 descblurb: Lay-flat product photography and post production by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Product
+contentdesc: product
 ---
 Crewneck, Hoodie, and Tee, shot and post-production for Active Labour, 2023

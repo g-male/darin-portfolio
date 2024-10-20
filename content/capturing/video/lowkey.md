@@ -7,6 +7,6 @@ video: https://www.instagram.com/reel/C5o8ER6Nem6/
 type: content
 descblurb: Directed by Darin Morrison-Beer and Kurtis Tipoff
 postyear: "2024"
-contentdesc: Video
+contentdesc: video
 ---
 Jalen and Jake for Knock Twice 2024.

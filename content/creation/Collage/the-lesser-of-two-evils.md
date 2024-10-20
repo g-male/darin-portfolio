@@ -6,6 +6,6 @@ featuredimage: /image/the_lesser_of_two_evils.png
 type: content
 descblurb: Mixed Media Collage
 postyear: "2024"
-contentdesc: Collage
+contentdesc: collage
 ---
 Made using Scotch Tape packaging, Star Wars playing cards, film photographs, and vintage magazine snippets.

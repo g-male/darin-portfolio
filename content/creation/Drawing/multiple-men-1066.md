@@ -6,7 +6,7 @@ featuredimage: /image/mm_1066_dmb_2024_web.png
 type: content
 descblurb: Alcohol Marker on grid Paper [8.5 x 14]
 postyear: "2024"
-contentdesc: Drawing
+contentdesc: drawing
 ---
 A very early version of Multiple Men. 
 

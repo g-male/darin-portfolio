@@ -11,7 +11,7 @@ images:
 type: content
 descblurb: Photography, and Type Treatment by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 This photo was used to promote one of Knock Twice's open-studio events, where we, along with friends, vended our vintage and designer goods to the public. Building on the success of our previous video advertisement, we decided to continue the theme of the "Human Clothing Hanger."
 

@@ -7,6 +7,6 @@ images: []
 type: content
 descblurb: "-"
 postyear: "2024"
-contentdesc: Collage
+contentdesc: collage
 ---
 Made using found and purchased objects. Postcard sized.

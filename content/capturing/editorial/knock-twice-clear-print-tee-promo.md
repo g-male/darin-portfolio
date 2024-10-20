@@ -13,6 +13,6 @@ images:
 type: content
 descblurb: Shot, and post production by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Staged, shot, and post-production for Knock Twice

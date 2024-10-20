@@ -7,7 +7,7 @@ type: content
 descblurb: Digitally Manipulated Photograph, shot, edited, and type treatment by
   Darin Morrison-beer, Creative assist by Kurtis Tipoff
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 This promotional photo was taken to promote Another Chance Vol. 2, an event celebrating the unique raghouse aesthetic and raising awareness about the issues of fast fashion. The event featured hand-restored vintage graphic tees sourced from massive clothing facilities known as raghouses. At these facilities, thousands of pounds of clothing are draped chaotically over every surface, with workers sorting through piles of used garments. Our goal was to bring this eclectic vibe to the event, creating an immersive shopping experience for visitors and highlighting the enormous scale and overflow of used textiles that raghouses manage.
 

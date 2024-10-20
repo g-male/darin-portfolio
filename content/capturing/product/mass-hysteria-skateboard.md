@@ -17,6 +17,6 @@ images:
 type: content
 descblurb: Lay-flat Photography by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Product
+contentdesc: product
 ---
 Trucker hat, tee, Enamel pin, and skateboard shot for Mass Hysteria in 2023.

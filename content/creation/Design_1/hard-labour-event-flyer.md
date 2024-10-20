@@ -7,7 +7,7 @@ type: content
 descblurb: Photography, Digital manipulation, Type treatment, and Design by
   Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Design
+contentdesc: design_1
 ---
 This photo was taken by me months prior, and while brainstorming and going through material for the flyer, we came across some old telephoto pictures I had taken years earlier of a crane operator high up in his crane. Initially, I took this photo out of curiosity to see if I could zoom in and see what the operator looked like, with no intention of ever using it for anything else.
 

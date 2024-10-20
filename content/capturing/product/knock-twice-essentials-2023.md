@@ -12,6 +12,6 @@ images:
 type: content
 descblurb: Photography by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Product
+contentdesc: product
 ---
 Shot and edited for Knock Twice, 2023.

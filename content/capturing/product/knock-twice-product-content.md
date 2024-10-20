@@ -9,6 +9,6 @@ images:
 type: content
 descblurb: Photography and Post-Production by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: product
 ---
 Staged, shot, and edited in-studio at Knock Twice, 2023.

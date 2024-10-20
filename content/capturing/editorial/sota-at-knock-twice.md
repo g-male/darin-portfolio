@@ -12,6 +12,6 @@ type: content
 descblurb: "Photography, and Post-production by Darin Morrison-Beer, Modeled by:
   Sota Mori"
 postyear: "2024"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Sota, shot and edited by me for Knock Twice, 2024.

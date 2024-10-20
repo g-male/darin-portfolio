@@ -6,6 +6,6 @@ featuredimage: /image/no_time_for_smalltalk.png
 type: content
 descblurb: Collage
 postyear: "2024"
-contentdesc: Collage
+contentdesc: collage
 ---
 Made using vintage World of Combat elements I found at the landfill. 

@@ -9,6 +9,6 @@ images:
 type: content
 descblurb: Design, post production, and lay-flat photography by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Product
+contentdesc: product
 ---
 Designed, shot and edited small capsule of 15 Vintage Re-born Varsity Jackets, for Knock Twice x Eclecstacy in 2023. 

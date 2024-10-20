@@ -4,23 +4,28 @@
 
 <div id="regular-content icons">
   <div class="icon grid">
+
     {{ $allPosts := .Site.RegularPages }}
+    
+
     
     {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
     <div class="grid-item drawnicon">
       {{ $subsection := . }} <!-- Current subsection -->
       
-      <!-- Filter posts to match the current subsection -->
-      {{ $contentPosts := where $allPosts "Section" $subsection.Section }}
-      {{ $specificPosts := where $contentPosts "Type" "content" }}
-      
-      <!-- Check if the current post's section matches the subsection title (e.g., "product") -->
-      {{ $postCount := len (where $specificPosts "File.Dir" (printf "%s/" $subsection.File.Dir)) }}
-      
+      <!-- Extract the base of the subsection's permalink -->
+      {{ $subsectionBase := path.Base $subsection.RelPermalink }}
+
+      <!-- Filter posts that belong to the current subsection's section (e.g., "bird") -->
+      {{ $contentPosts := where $allPosts ".Params.contentdesc" $subsectionBase }}
+      {{ $postCount := len $contentPosts }}
+ <!-- <a> {{$contentPosts}}</a>
+     TESTING: Output the post count and section title 
+      <a> {{ $subsectionBase }} (Post Count: {{ $postCount }})</a>-->
       <a class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}" href="{{ .Permalink }}">
         <div class="thumbimage-wrapper">
           <img class="thumbimage" src="{{ .Params.thumbimage }}">
-          <!--  <div class="post-count">{{ $postCount }}</div> -->
+          <div class="post-count">{{ $postCount }}</div>
         </div>
         <br> {{ .Title }}
       </a>
@@ -31,3 +36,4 @@
 </div>
 
 {{ end }}
+

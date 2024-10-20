@@ -12,6 +12,6 @@ type: content
 descblurb: Photography, and post-production, and styling by Darin Morrison-Beer,
   modeled by Yota
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Yota wearing assorted vintage from Knock Twice, for Kijij's back to school campaign in 2022.

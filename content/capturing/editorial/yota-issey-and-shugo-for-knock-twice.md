@@ -13,7 +13,7 @@ type: content
 descblurb: Photography, and post-production by Darin Morrison-Beer, modeled by
   Yota, Issey, and Shugo
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Yota, Issey, and Shugo, shot and edited by me for the 2023 Knock Twice essentials line.
 

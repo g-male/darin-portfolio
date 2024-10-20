@@ -15,6 +15,6 @@ images:
 type: content
 descblurb: Digicam photography and Post Production by Darin Morrison-Beer
 postyear: "2024"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Editorial/post-production, shot on digicam for PRNGRPHY, 2024

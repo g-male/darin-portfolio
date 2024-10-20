@@ -8,6 +8,6 @@ images:
 type: content
 descblurb: Product photography by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Product
+contentdesc: product
 ---
 Product shots taken for Knock Twice, 2022.

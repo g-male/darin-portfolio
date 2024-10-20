@@ -10,6 +10,6 @@ images:
 type: content
 descblurb: Photography and post-production by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Shot and edited for the Knock Twice x Eclecstacy Varsity Jacket, 2023.

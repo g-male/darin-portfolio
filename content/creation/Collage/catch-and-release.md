@@ -7,6 +7,6 @@ images: []
 type: content
 descblurb: Collage
 postyear: "2024"
-contentdesc: Collage
+contentdesc: collage
 ---
 Made using Indiana Jones Board game Map, 1990's Marvel Comic, and 1940's National Geographic.

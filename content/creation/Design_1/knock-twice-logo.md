@@ -6,6 +6,6 @@ featuredimage: /image/knocktwicelogo.png
 type: content
 descblurb: Knock Twice Icon Logo
 postyear: "2018"
-contentdesc: Logo Design
+contentdesc: design_1
 ---
 Logo made in collaboration with Kurtis Tipoff for the brand we co-founded

@@ -13,6 +13,6 @@ images:
 type: content
 descblurb: Photography and Post Production by Darin Morrison-Beer Styled by James Wallace
 postyear: "2024"
-contentdesc: Product
+contentdesc: product
 ---
 Model e-commerce shoot for Haunted Starbucks at Knock Twice Studio, with careful post-production. Every detail was refined to look sharp, even up close, with a strong focus on perfecting the lighting and color. 

@@ -15,7 +15,7 @@ images:
 type: content
 descblurb: Artificial Intelligence Assisted Ad Campaign
 postyear: "2024"
-contentdesc: A.I
+contentdesc: ai
 ---
 The A.I. "Aurascapes" series for THINKER was crafted to convey the aura or vibe of nostalgic, perfect scenes from the past—ideal for enjoying the specific cannabis strain that each ad promotes. Drawing on my previous experience with AI, an extensive mood board, and a rich library of physical media, I created a precise combination of keywords to achieve the vibe of vintage Japanese and Americana magazines.
 

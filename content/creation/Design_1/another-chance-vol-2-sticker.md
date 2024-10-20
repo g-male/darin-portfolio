@@ -6,7 +6,7 @@ featuredimage: /image/anotherchancev2altsticker.jpg
 type: content
 descblurb: '2" x 4" Sticker '
 postyear: "2022"
-contentdesc: Design
+contentdesc: design_1
 ---
 For the follow-up event to showcase and sell graphic tees from Knock Twice, I designed a special sticker that captured the essence and vibe of the event. This sticker was created by scanning elements from vintage magazines, then manipulating and positioning them to fit the aesthetic of our unique venue setup.
 

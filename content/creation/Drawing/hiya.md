@@ -9,6 +9,6 @@ images:
 type: content
 descblurb: Alcohol Marker on Printer Paper [8.5 x 11]
 postyear: "2024"
-contentdesc: Drawing
+contentdesc: drawing
 ---
 I'm not sure if I could illustrate a more innocent, joyful looking individual. Some of my best works are done super quickly with zero consideration or thought behind them. This is a prime example of what I'm talking about. Clearly there was nothing else going on in my mind, and I let my hand and subconscious do all the work.

@@ -11,6 +11,6 @@ images:
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Shot for the Knock Twice Web launch, 2022.

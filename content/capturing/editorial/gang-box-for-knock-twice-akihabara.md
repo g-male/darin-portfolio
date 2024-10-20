@@ -12,6 +12,6 @@ images:
 type: content
 descblurb: "Fumijya and Twins for GB x KT shot by Darin Morrison-Beer "
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Shot and edited in Akihabara for the Knock Twice by Gangbox collection, 2023.

@@ -7,6 +7,6 @@ images: []
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Bird
+contentdesc: bird
 ---
 The wettest bird i've ever had the pleasure of capturing. Taken in Beppu, Japan, 2023.

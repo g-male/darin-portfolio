@@ -10,6 +10,6 @@ type: content
 descblurb: Knock Twice Hard Labour event Shot by Darin Morrison-Beer, featuring
   Hunter Thomas
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Editorial photoshoot for the Knock Twice Hard Labour event, featuring Hunter surrounded by used clothing piles to recreate the chaotic vibe of a raghouse. The images captured the essence of our brand, highlighting our graphic tees and hoodies printed on restored vintage garments, while raising awareness about fast fashion and creating a memorable shopping experience.

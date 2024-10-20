@@ -8,7 +8,7 @@ images:
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2024"
-contentdesc: Bird
+contentdesc: bird
 ---
 Two Cattle Egrets perched, getting a nice breeze through their ruffled feathers. Shot in 
 Olhão, Portugal, 2024.

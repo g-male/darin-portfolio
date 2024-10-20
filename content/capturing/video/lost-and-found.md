@@ -7,6 +7,6 @@ video: https://www.instagram.com/reel/CnX44GHPcJm/
 type: content
 descblurb: Filmed and Directed by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Video
+contentdesc: video
 ---
 Starring Yota, Shugo, and Issey for Knock Twices Essential Logo Collection, 2023.

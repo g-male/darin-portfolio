@@ -10,6 +10,6 @@ images:
 type: content
 descblurb: Shot on and edited by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 dude shot on digicam for Knock Twice 2023. 

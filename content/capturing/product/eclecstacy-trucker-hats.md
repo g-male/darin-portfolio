@@ -13,6 +13,6 @@ images:
 type: content
 descblurb: Product photography and post production by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Product
+contentdesc: product
 ---
 Shot and edited for Eclecstacy at the Knock Twice Studio, 2023.

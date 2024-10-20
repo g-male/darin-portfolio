@@ -7,6 +7,6 @@ video: https://www.instagram.com/reel/Ci35yr8PlzQ/
 type: content
 descblurb: Filmed, and Directed by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Video
+contentdesc: video
 ---
 Starring Yota, for Knock Twice's Another Chance Vol.1 Promo.

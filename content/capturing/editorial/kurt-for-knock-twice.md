@@ -13,6 +13,6 @@ images:
 type: content
 descblurb: "Photography and Post-Production by Darin Morrison-Beer, model: Kurtis Tipoff"
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Shot, and edited for Knock Twice, 2022

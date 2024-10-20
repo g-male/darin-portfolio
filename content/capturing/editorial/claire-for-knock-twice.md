@@ -12,6 +12,6 @@ images:
 type: content
 descblurb: "Photography and Post-Production by Darin Morrison-Beer, model: Claire Hoang"
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Shot and edited for KnockTwice, 2022.

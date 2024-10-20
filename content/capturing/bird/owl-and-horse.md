@@ -9,6 +9,6 @@ images:
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Bird
+contentdesc: bird
 ---
 First time framing two unique beasts in one picture. Taken outside of Tavira on the road to Bodega, 2022.

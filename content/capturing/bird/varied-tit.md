@@ -8,6 +8,6 @@ images:
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Bird
+contentdesc: bird
 ---
 I wish i could teleport you to where i was in this moment. 

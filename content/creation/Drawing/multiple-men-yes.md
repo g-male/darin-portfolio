@@ -6,7 +6,7 @@ featuredimage: /image/mm_yes_dmb_2024.png
 type: content
 descblurb: Paint Marker on Graph Paper on Canvas (18" x 32")
 postyear: "2024"
-contentdesc: Drawing
+contentdesc: drawing
 ---
 The canvas this piece was created on, was taken from my next door neighbors curb back in 2018. She had begun painting some sort of nautilus shell and given up. 
 

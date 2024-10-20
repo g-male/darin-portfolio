@@ -106,6 +106,6 @@ video: >-
 type: content
 descblurb: test vid 1
 postyear: "2024"
-contentdesc: reel
+contentdesc: video
 ---
  body

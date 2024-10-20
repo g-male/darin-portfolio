@@ -6,6 +6,6 @@ featuredimage: /image/lookin-down.jpg
 type: content
 descblurb: Alcohol Marker on Printer Paper [8.5" x 11"]
 postyear: "2024"
-contentdesc: Drawing
+contentdesc: drawing
 ---
 Someone asked if I was sad when I made this. I'm rarely ever sad, more contemplative if anything. Thats what this guys doing: contemplating.

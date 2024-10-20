@@ -8,6 +8,6 @@ images:
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Bird
+contentdesc: bird
 ---
 Buddy didn't move an inch for like half an hour it was awesome. 

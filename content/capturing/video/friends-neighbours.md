@@ -7,6 +7,6 @@ video: https://www.instagram.com/reel/CilhNLtJu78/
 type: content
 descblurb: Filmed, and Directed by Darin Morrison-Beer
 postyear: "2022"
-contentdesc: Video
+contentdesc: video
 ---
 Danny, Lin, Kurt, and Leo for friends and neighbors 2022.

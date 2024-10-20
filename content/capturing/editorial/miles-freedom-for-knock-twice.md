@@ -14,6 +14,6 @@ images:
 type: content
 descblurb: Miles Freedom shot by Darin Morrison-Beer Styled by Kurtis Tipoff
 postyear: "2022"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 -

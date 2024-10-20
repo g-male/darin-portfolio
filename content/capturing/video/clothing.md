@@ -106,6 +106,6 @@ video: >-
 type: content
 descblurb: Video
 postyear: "2024"
-contentdesc: Video
+contentdesc: video
 ---
 This is where the text of the video goes, a description/context

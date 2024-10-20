@@ -11,6 +11,6 @@ images:
 type: content
 descblurb: Photography, and post-production by Darin Morrison-Beer
 postyear: "2023"
-contentdesc: Editorial
+contentdesc: editorial
 ---
 Shot and edited in Tokyo for the Knock Twice by Gangbox collection in 2023.
