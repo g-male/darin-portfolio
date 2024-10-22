@@ -269,7 +269,9 @@ margin-left: 0.5%;
 .workblock{
 
 }
-
+.wrapper{
+  width: 100vw;
+}
 .grid-item a{
     text-decoration: none;
     color: black;
@@ -277,12 +279,25 @@ margin-left: 0.5%;
 .double{
    grid-column: 1/4;
 }
+#regular-content.about{
+  margin: 0;
+}
 .grid.about{
-  flex-direction: column;
+  flex-direction: row;
+margin-bottom: 2%;
+}
+.grid.about.text{
+align-items: top;
+}
+.grid-item.about{
+ flex-basis: calc(100%/2);
+
+ justify-content: right;
+
 }
 .aboutimg{
   width: 65%;
-  margin-left: 40%;
+float: right;
 }
 nav#home{
     font-size: 2em;
@@ -370,7 +385,7 @@ margin: 0 auto;
 }
 .carousel {
     position: relative;
-    max-width: 70%;
+    max-width: 60%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -409,7 +424,7 @@ margin: 0 auto;
 }
 
 .thumbnails img {
-    width: 5dvw;
+    width: 3dvw;
     cursor: pointer;
     opacity: 0.6;
     height: auto;
@@ -568,6 +583,15 @@ color: black;
     #gohome{
         margin-left: 10%;
     }
+    .icon.grid{
+      /*  position: relative !important;
+        margin-top: 25% !important; */
+    height: auto !important;
+    top: 8% !important;
+    margin-top: 0px !important;
+    position: relative !important;
+    flex-direction: column !important;
+       }
      .grid{
       display: flex;
       flex-direction: row;
@@ -617,6 +641,34 @@ color: black;
 margin-left: 0%;
    width: 100%;
 }
+
+#regular-content.about{
+  margin: 0;
+}
+.grid.about{
+  flex-direction: column;
+
+}
+.grid-item.about.text p{
+
+  margin-left: 15%;
+margin-right: 15%;
+}
+.social-links{
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+.grid-item.about{
+ flex-basis: calc(100%/2);
+
+ justify-content: right;
+
+}
+.aboutimg{
+  width: 100%;
+float: none;
+}
      .navright{
         padding-bottom: 0;
      }
@@ -662,13 +714,7 @@ margin-left: 0%;
         max-height: 65dvh;
         margin: 0 auto;
         }
-        .icon.grid{
-       /*  position: relative !important;
-         margin-top: 25% !important; */
-     height: auto !important;
-     top: 26% !important;
-     margin-top: 0px !important;
-        }
+   
 
 
         .thumbimage{
