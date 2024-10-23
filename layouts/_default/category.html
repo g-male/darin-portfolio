@@ -23,8 +23,28 @@
      TESTING: Output the post count and section title 
       <a> {{ $subsectionBase }} (Post Count: {{ $postCount }})</a>-->
       <a class="subcategory {{ if .Section }} {{else}} subcatactive {{end}}" href="{{ .Permalink }}">
+       
+       
+       
         <div class="thumbimage-wrapper">
-          <img class="thumbimage" src="{{ .Params.thumbimage }}">
+          {{ $image := .Params.thumbImage }}
+       
+          {{ $imageResource := resources.Get $image }}
+          {{ if $imageResource }}
+               {{ $small := $imageResource.Fit "120x120" }}
+               {{ $large := $imageResource.Fit "200x200" }}
+
+      <img class="thumbimage" src="{{ $large.Permalink }}"
+           srcset="{{ $small.Permalink }} 120w,
+                   {{ $large.Permalink }} 200w"
+           sizes="(max-width: 600px) 120px,
+                  200px"
+           alt="{{ .Title }}">
+  {{ end }}
+
+         <!-- <img class="thumbimage" src="{{ .Params.thumbimage }}"> -->
+
+          
           <div class="post-count">{{ $postCount }}</div>
         </div>
         <br> {{ .Title }}

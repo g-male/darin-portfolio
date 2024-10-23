@@ -27,7 +27,25 @@
           {{ end }}
           <a href="{{ .Permalink }}" class="subcategory">
               <div class="thumbimage-wrapper">
-                  <img class="thumbimage" src="{{ .Params.thumbImage }}">
+                  
+        {{ $image := .Params.thumbImage }}
+       
+            {{ $imageResource := resources.Get $image }}
+            {{ if $imageResource }}
+                 {{ $small := $imageResource.Fit "120x120" }}
+                 {{ $large := $imageResource.Fit "200x200" }}
+
+        <img class="thumbimage" src="{{ $large.Permalink }}"
+             srcset="{{ $small.Permalink }} 120w,
+                     {{ $large.Permalink }} 200w"
+             sizes="(max-width: 600px) 120px,
+                    200px"
+             alt="{{ .Title }}">
+    {{ end }}
+
+
+                <!-- Count posts in the specific section 
+                <img  src="{{ .Params.thumbImage }}">-->
                   <div class="post-count">{{ $postCount }}</div>
               </div>
               <br>{{ .Title }}
