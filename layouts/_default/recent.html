@@ -11,7 +11,27 @@
   <div class="grid-image">
     <a class="imgcontainer" href="{{ .Permalink }}">
 
-     <img class="featured-image" alt="{{.Params.Title}}" src='{{.Params.FeaturedImage}}'> 
+      {{ $image := .Params.FeaturedImage }}
+       
+      {{ $imageResource := resources.Get $image }}
+      {{ if $imageResource }}
+           {{ $small := $imageResource.Resize "160x" }}
+           {{ $large := $imageResource.Resize "220x" }}
+
+  <img class="featured-image" src="{{ $large.Permalink }}"
+       srcset="{{ $small.Permalink }} 160w,
+               {{ $large.Permalink }} 220w"
+       sizes="(max-width: 600px) 120px,
+              220px"
+       alt="{{ .Params.Title }}">
+{{ end }}
+
+
+
+   <!--  <img class="featured-image" alt="{{.Params.Title}}" src='{{.Params.FeaturedImage}}'> -->
+
+
+
      <div class="Post-title">{{ .Params.Title }} </div>
      
     </a>
