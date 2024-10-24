@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Knock Twice Clear Print Tee Promo
-date: 2023-07-04T02:02:00.000Z
+date: 2023-10-26T22:02:00.000Z
 featuredimage: /image/knock_twice_clearprint_tee_editorial-3.jpg
 images:
   - src: /image/knock_twice_clearprint_tee_editorial-3.jpg
