@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Hard Labour Event Promo
-date: 2024-08-06T15:38:00.000Z
+date: 2023-04-19T02:30:00.000Z
 featuredimage: /image/kt_hardlabour_poster-4.jpg
 images:
   - src: /image/kt_hardlabour_poster-4.jpg
