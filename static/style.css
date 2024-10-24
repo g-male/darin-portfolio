@@ -56,14 +56,6 @@ background-color: rgba(255, 255, 255, 0);
   .prev:hover{
     background-color: none;
   }
-*{
- 
-}
-.wrapper{
-    display: grid;
-   
-    height: 80vh; 
-}
 
 
 
@@ -72,7 +64,7 @@ background-color: rgba(255, 255, 255, 0);
     top: 0;
     left: 0;
     z-index: 30000;
-    margin-top: 2%;
+    margin-top: 1.8%;
     margin-left: 2%;
     font-weight: 600;
     font-size: 1.3em;
@@ -131,10 +123,13 @@ margin: 0 auto;
     /* text-align: center; */
     margin-bottom: 1em;
     text-decoration: none;
-    color: #3f3e3e;
+    color: black;
 font-size: 2em;
 
 user-select: none;
+}
+.content a:hover{
+  color: #6e6e6e;
 }
 main{
     width: 100%;
@@ -148,10 +143,10 @@ main{
 .toprow{
 display: flex;
 flex-direction: row;
-
+width: 95%;
 }
 #gohome{
-width: 95%;
+width: 100%;
 margin: 0 auto;
 display: block;
 text-decoration: none;
@@ -159,15 +154,19 @@ color: black;
 font-size: 1.5em;
 margin-top: 2%;
 margin-bottom: 2%;
-text-align: center;
+margin-left: 5%;
 height: 4dvh;
+}
+#gohome:hover{
+  color: #6e6e6e;
 }
 #mailicon{
     margin: 0 auto;
     margin-top: 2%;
     margin-bottom: 2%;
     color: black;
-    width: 5%;
+    width: 2%;
+    display: none;
 }
 .fa.fa-envelope-o{
 font-size: 1.8em;
@@ -221,6 +220,10 @@ font-size: 1.8em;
     color: black;
     margin-left: 0.5%;
   
+    
+  }
+  .subcategory:hover{
+    color: #6e6e6e;
   }
   .subcatactive{
     text-decoration: underline;
@@ -298,6 +301,13 @@ align-items: top;
 .aboutimg{
   width: 65%;
 float: right;
+}
+.social-links{
+  line-height: 1.5em;
+  font-size: 1em;
+}
+.social-links a:hover{
+  color: #636363;
 }
 nav#home{
     font-size: 2em;
@@ -420,7 +430,7 @@ margin: 0 auto;
     justify-content: center;
     gap: 10px;
     flex-wrap: nowrap;
-    min-width: 300px;
+    min-width: 195px;
 }
 
 .thumbnails img {
@@ -532,6 +542,7 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5%;
 }
 #description-block{
     width: 50%;
@@ -555,7 +566,7 @@ position: relative;
     display: none;
 }
 .grey{
-    opacity: 0.5;
+  color: #6e6e6e;
 }
 @media only screen and (max-width: 480px) {
     body{
@@ -657,7 +668,15 @@ margin-right: 15%;
 .social-links{
   margin-left: 15%;
   margin-right: 15%;
-  text-align: center;
+ 
+  margin-bottom: 3%;
+}
+.social-links a:hover{
+
+}
+.nameandemail{
+  float: left;
+  margin-left: 15%;
 }
 .grid-item.about{
  flex-basis: calc(100%/2);
