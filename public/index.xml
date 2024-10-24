@@ -6,15 +6,8 @@
     <description>Recent content in Darin on Darin Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Sep 2024 12:02:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 23:41:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CLothing</title>
-      <link>//localhost:1313/capturing/video/clothing/</link>
-      <pubDate>Fri, 06 Sep 2024 12:02:00 +0000</pubDate>
-      <guid>//localhost:1313/capturing/video/clothing/</guid>
-      <description>This is where the text of the video goes, a description/context</description>
-    </item>
     <item>
       <title>test video</title>
       <link>//localhost:1313/capturing/video/test-video/</link>
@@ -76,7 +69,7 @@
       <link>//localhost:1313/capturing/editorial/we-love-you-kate-shoot-for-prngrphy/</link>
       <pubDate>Tue, 06 Aug 2024 16:15:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/editorial/we-love-you-kate-shoot-for-prngrphy/</guid>
-      <description>Editorial/post-production, shot on digicam for PRNGRPHY, 2024</description>
+      <description>Editorial/post-production, shot on digicam for PRNGRPHY, 2024.&#xA;Charliexcx wearing one on stage, 2024.</description>
     </item>
     <item>
       <title>Haunted Starbucks Layflats</title>
@@ -289,6 +282,13 @@
       <description>dude shot on digicam for Knock Twice 2023.</description>
     </item>
     <item>
+      <title>Knock Twice Clear Print Tee</title>
+      <link>//localhost:1313/capturing/video/knock-twice-clear-print-tee/</link>
+      <pubDate>Thu, 26 Oct 2023 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/video/knock-twice-clear-print-tee/</guid>
+      <description>Promotional video for Knock Twice shot in the studio, 2023.</description>
+    </item>
+    <item>
       <title>Knock Twice Clear Prints 2023</title>
       <link>//localhost:1313/capturing/product/knock-twice-clear-prints-2023/</link>
       <pubDate>Wed, 11 Oct 2023 11:11:00 +0000</pubDate>
@@ -356,7 +356,7 @@
       <link>//localhost:1313/capturing/video/lost-and-found/</link>
       <pubDate>Fri, 13 Jan 2023 11:11:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/video/lost-and-found/</guid>
-      <description>Starring Yota, Shugo, and Issey for Knock Twices Essential Logo Collection, 2023.</description>
+      <description>Starring Yota, Shugo, and Issey for Knock Twices Essential Logo Collection, 2022.</description>
     </item>
     <item>
       <title>Yota, Issey, and Shugo for Knock Twice</title>
@@ -373,18 +373,11 @@
       <description>Yota and Issey for Knock Twices Another Chance Vol.1</description>
     </item>
     <item>
-      <title>Yota for Another Chance Vol.1 </title>
+      <title>Yota&#39;s Phonecall</title>
       <link>//localhost:1313/capturing/video/yota-for-another-chance-vol-1/</link>
       <pubDate>Fri, 23 Sep 2022 11:11:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/video/yota-for-another-chance-vol-1/</guid>
       <description>Starring Yota, for Knock Twice&amp;rsquo;s Another Chance Vol.1 Promo.</description>
-    </item>
-    <item>
-      <title>Friends &amp; Neighbours</title>
-      <link>//localhost:1313/capturing/video/friends-neighbours/</link>
-      <pubDate>Fri, 16 Sep 2022 11:11:00 +0000</pubDate>
-      <guid>//localhost:1313/capturing/video/friends-neighbours/</guid>
-      <description>Danny, Lin, Kurt, and Leo for friends and neighbors 2022.</description>
     </item>
     <item>
       <title>Yota for Kijiji</title>
