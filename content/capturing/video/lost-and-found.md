@@ -2,7 +2,7 @@
 layout: blog
 title: Lost and Found
 date: 2023-01-13T11:11:00.000Z
-featuredimage: /image/screenshot-2024-09-23-162646.png
+featuredimage: /image/fe43ef9ed20ed34e2e110ad928f59992_video_dashinit.gif
 video: >-
   <blockquote class="instagram-media" data-instgrm-captioned
   data-instgrm-permalink="https://www.instagram.com/reel/CnX44GHPcJm/?utm_source=ig_embed&amp;utm_campaign=loading"
