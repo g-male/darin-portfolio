@@ -1,17 +1,17 @@
 ---
 layout: blog
-title: The Magic Desk
-date: 2022-10-26T11:11:00.000Z
-featuredimage: /image/ae49b4f5b7910fd8782b5d898455adbe_video_dashinit.gif
+title: Fox 4G for Knock Twice
+date: 2023-02-14T11:11:00.000Z
+featuredimage: /image/7e4afe13c0d6f450481138ca74a8e798_video_dashinit.gif
 video: >-
   <blockquote class="instagram-media" data-instgrm-captioned
-  data-instgrm-permalink="https://www.instagram.com/reel/CkLzyOapyBO/?utm_source=ig_embed&amp;utm_campaign=loading"
+  data-instgrm-permalink="https://www.instagram.com/reel/CqtsPuFLSoJ/?utm_source=ig_embed&amp;utm_campaign=loading"
   data-instgrm-version="14" style=" background:#FFF; border:0;
   border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0
   rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0;
   width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div
   style="padding:16px;"> <a
-  href="https://www.instagram.com/reel/CkLzyOapyBO/?utm_source=ig_embed&amp;utm_campaign=loading"
+  href="https://www.instagram.com/reel/CqtsPuFLSoJ/?utm_source=ig_embed&amp;utm_campaign=loading"
   style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center;
   text-decoration:none; width:100%;" target="_blank"> <div style=" display:
   flex; flex-direction: row; align-items: center;"> <div
@@ -96,7 +96,7 @@ video: >-
   font-family:Arial,sans-serif; font-size:14px; line-height:17px;
   margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px;
   text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a
-  href="https://www.instagram.com/reel/CkLzyOapyBO/?utm_source=ig_embed&amp;utm_campaign=loading"
+  href="https://www.instagram.com/reel/CqtsPuFLSoJ/?utm_source=ig_embed&amp;utm_campaign=loading"
   style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px;
   font-style:normal; font-weight:normal; line-height:17px;
   text-decoration:none;" target="_blank">A post shared by Knock Twice™
@@ -104,8 +104,8 @@ video: >-
 
   <script async src="//www.instagram.com/embed.js"></script>
 type: content
-descblurb: Directed, and filmed by Darin Morrison-Beer
-postyear: "2022"
+descblurb: Featuring Fox 4G, Yota, and NEO 2056
+postyear: "2023"
 contentdesc: video
 ---
-Yota and Issey for Knock Twices Another Chance Vol.1 
+Shot in Kandatcho, 2023.
