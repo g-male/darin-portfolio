@@ -12,7 +12,10 @@
     <lastmod>2024-04-30T10:56:08-04:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-09-01T23:41:00+00:00</lastmod>
+    <lastmod>2024-10-23T11:11:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/creation/design_1/mace-no-windu/</loc>
+    <lastmod>2024-10-23T11:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/video/test-video/</loc>
     <lastmod>2024-09-01T23:41:00+00:00</lastmod>
@@ -64,9 +67,6 @@
   </url><url>
     <loc>//localhost:1313/creation/design_1/hard-labour-event-flyer/</loc>
     <lastmod>2024-08-02T14:19:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/capturing/editorial/friends-neighbours-event-poster/</loc>
-    <lastmod>2024-08-02T14:10:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/creation/ai/aurascapes-for-thinker/</loc>
     <lastmod>2024-08-02T11:28:00+00:00</lastmod>
@@ -155,17 +155,17 @@
     <loc>//localhost:1313/capturing/editorial/knock-twice-clear-print/</loc>
     <lastmod>2023-11-01T11:11:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/capturing/editorial/knock-twice-clear-print-tee-promo/</loc>
+    <lastmod>2023-10-26T22:02:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/capturing/video/knock-twice-clear-print-tee/</loc>
     <lastmod>2023-10-26T11:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/product/knock-twice-clear-prints-2023/</loc>
     <lastmod>2023-10-11T11:11:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/capturing/product/knock-twice-essentials-2023/</loc>
-    <lastmod>2023-08-11T02:02:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/capturing/editorial/knock-twice-clear-print-tee-promo/</loc>
-    <lastmod>2023-07-04T02:02:00+00:00</lastmod>
+    <loc>//localhost:1313/creation/design_1/knock-twice-x-eclecstacy-reincarnated-varsity-jacket-graphic/</loc>
+    <lastmod>2023-06-21T11:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/product/active-labour-hoodie/</loc>
     <lastmod>2023-06-12T11:11:00+00:00</lastmod>
@@ -173,17 +173,23 @@
     <loc>//localhost:1313/capturing/editorial/knock-twice-x-eclecstacy-varsity-jacket/</loc>
     <lastmod>2023-06-06T01:01:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/capturing/product/knock-twice-x-eclecstacy-varsity-jacket/</loc>
+    <lastmod>2023-06-05T06:11:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/capturing/bird/fish-in-lake/</loc>
     <lastmod>2023-04-01T11:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/bird/japanese-cormorant/</loc>
     <lastmod>2023-03-19T11:11:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/capturing/product/knock-twice-x-eclecstacy-varsity-jacket/</loc>
-    <lastmod>2023-02-01T11:11:00+00:00</lastmod>
+    <loc>//localhost:1313/capturing/video/fox-4g-for-knock-twice/</loc>
+    <lastmod>2023-02-14T11:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/editorial/chiyoda-ku-streets-for-knock-twice-by-gangbox/</loc>
     <lastmod>2023-02-01T01:01:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/capturing/product/knock-twice-essentials-2023/</loc>
+    <lastmod>2023-01-13T22:02:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/video/lost-and-found/</loc>
     <lastmod>2023-01-13T11:11:00+00:00</lastmod>
@@ -199,6 +205,12 @@
   </url><url>
     <loc>//localhost:1313/capturing/video/</loc>
     <lastmod>2022-09-22T15:39:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/capturing/editorial/friends-neighbours-event-poster/</loc>
+    <lastmod>2022-09-22T13:03:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/creation/design_1/eclecstacy-logo/</loc>
+    <lastmod>2022-09-09T11:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/editorial/yota-for-kijiji/</loc>
     <lastmod>2022-07-12T11:11:00+00:00</lastmod>
@@ -217,6 +229,9 @@
   </url><url>
     <loc>//localhost:1313/capturing/editorial/knock-twice-website-launch/</loc>
     <lastmod>2022-02-17T11:11:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/creation/design_1/k2/</loc>
+    <lastmod>2022-02-09T02:11:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/capturing/product/knock-twice-product-content/</loc>
     <lastmod>2022-01-01T01:01:00+00:00</lastmod>
