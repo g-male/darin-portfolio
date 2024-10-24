@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Gang Box for Knock Twice (Akihabara)
-date: 2024-08-06T15:47:00.000Z
+date: 2023-02-12T11:11:00.000Z
 featuredimage: /image/gb_for_kt_akihabara-10.jpg
 images:
   - src: /image/gb_for_kt_akihabara-10.jpg
