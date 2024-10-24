@@ -645,7 +645,7 @@ color: black;
       color: black;
     }
 .about{
-    grid-template-columns: 1fr !important;
+
     margin: 0 auto;
     
 }
