@@ -647,6 +647,10 @@ color: black;
 .about{
     grid-template-columns: 1fr !important;
     margin: 0 auto;
+    
+}
+#about{
+  display: inline;
 }
 .aboutimg{
 margin-left: 0%;
@@ -658,7 +662,7 @@ margin-left: 0%;
 }
 .grid.about{
   flex-direction: column;
-
+position: relative;
 }
 .grid-item.about.text p{
 
