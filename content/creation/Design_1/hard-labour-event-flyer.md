@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Hard Labour Event Flyer
-date: 2024-08-02T14:19:00.000Z
+date: 2023-04-18T02:31:00.000Z
 featuredimage: /image/kensingtonpopupposterhuge-10.jpg
 type: content
 descblurb: Photography, Digital manipulation, Type treatment, and Design by
