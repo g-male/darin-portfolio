@@ -12,9 +12,12 @@ images:
   - src: /image/we_love_you_kate_for_prngrphy-2121.jpg
   - src: /image/we_love_you_kate_for_prngrphy-2073.jpg
   - src: /image/we_love_you_kate_for_prngrphy-2072.jpg
+  - src: /image/charliexcx-kt.jpg
 type: content
 descblurb: Digicam photography and Post Production by Darin Morrison-Beer
 postyear: "2024"
 contentdesc: editorial
 ---
-Editorial/post-production, shot on digicam for PRNGRPHY, 2024
+Editorial/post-production, shot on digicam for PRNGRPHY, 2024.
+
+Charliexcx wearing one on stage, 2024.
