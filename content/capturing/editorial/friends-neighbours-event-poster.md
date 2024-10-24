@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Friends & Neighbours Event Flyer
-date: 2024-08-02T14:10:00.000Z
+date: 2022-09-22T13:03:00.000Z
 featuredimage: /image/friends-neighbours-.jpg
 images:
   - src: /image/friends-neighbours-.jpg
