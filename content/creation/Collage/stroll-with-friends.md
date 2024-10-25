@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Field Research
-date: 2024-08-12T17:09:00.000Z
+date: 2023-11-24T23:11:00.000Z
 featuredimage: /image/stroll_with_friends.png
 type: content
 descblurb: Collage
