@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Another Chance Vol.2 Sticker
-date: 1901-08-02T07:48:00.000Z
+date: 2022-10-01T11:11:00.000Z
 featuredimage: /image/anotherchancev2altsticker.jpg
 type: content
 descblurb: '2" x 4" Sticker '
