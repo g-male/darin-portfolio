@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Yota for Kijiji
-date: 2022-07-27T11:11:00.000Z
+date: 2022-07-11T07:11:00.000Z
 featuredimage: /image/aqnygxtylakgafdfr-kiqdlv6589bqj9rcx_dlezn07m42w0pkgtqqrlrfdt4g5zzzzcaaclyldkclorsfsniugr.gif
 video: >-
   <blockquote class="instagram-media" data-instgrm-captioned
