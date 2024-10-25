@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: SS 22 Knock Twice Collection Shoot
-date: 1901-06-06T11:49:00.000Z
+date: 2022-03-01T11:11:00.000Z
 featuredimage: /image/ragshoot_2022-25.jpg
 images:
   - src: /image/ragshoot_2022-25.jpg
