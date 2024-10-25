@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Glossy Ibis
-date: 2024-03-19T11:11:00.000Z
+date: 2024-05-11T07:11:00.000Z
 featuredimage: /image/birds_for_web-12.jpg
 images:
   - src: /image/birds_for_web-12.jpg
