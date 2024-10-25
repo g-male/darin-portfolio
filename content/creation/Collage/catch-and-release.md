@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Catch and Release
-date: 2024-08-12T17:03:00.000Z
+date: 2023-11-01T11:11:00.000Z
 featuredimage: /image/catch_and_release.png
 images: []
 type: content
