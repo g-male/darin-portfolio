@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: '"Aurascapes" for THINKER'
-date: 2024-08-02T11:28:00.000Z
+date: 2024-02-29T07:28:00.000Z
 featuredimage: /image/thinker_on_ai_ad_v3.jpg
 images:
   - src: /image/thinker_on_ai_ad_v3.jpg
