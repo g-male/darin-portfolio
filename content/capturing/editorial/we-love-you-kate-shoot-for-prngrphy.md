@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: '"We love you Kate" Shoot for PRNGRPHY '
-date: 2024-08-06T16:15:00.000Z
+date: 2023-10-11T11:11:00.000Z
 featuredimage: /image/we_love_you_kate_for_prngrphy-2045.jpg
 images:
   - src: /image/we_love_you_kate_for_prngrphy-2045.jpg
