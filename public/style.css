@@ -25,6 +25,7 @@ background-color: rgba(255, 255, 255, 0);
     text-align: center;
     margin-top: 20px;
     margin: 5% !important;
+    margin-bottom: 10% !important;
   }
   
   .page-arrows a {
@@ -64,7 +65,7 @@ background-color: rgba(255, 255, 255, 0);
     top: 0;
     left: 0;
     z-index: 30000;
-    margin-top: 1.8%;
+    margin-top: 2.3%;
     margin-left: 2%;
     font-weight: 600;
     font-size: 1.3em;
@@ -151,7 +152,7 @@ margin: 0 auto;
 display: block;
 text-decoration: none;
 color: black;
-font-size: 1.5em;
+font-size: 2em;
 margin-top: 2%;
 margin-bottom: 2%;
 margin-left: 5%;
@@ -697,7 +698,7 @@ float: none;
      }
      #top-right{
         margin-left: 4%;
-        margin-top: 2vh;
+        margin-top: 2.5vh;
      }
      .content{
         margin-left: 4%;
