@@ -20,4 +20,4 @@ contentdesc: editorial
 ---
 Editorial/post-production, shot on digicam for PRNGRPHY, 2024.
 
-Charliexcx wearing one on stage, 2024.
+As seen on Charliexcx, 2024.
