@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Kait for Knock Twice
-date: 2021-01-01T01:01:00.000Z
+date: 2022-03-11T11:11:00.000Z
 featuredimage: /image/kait_for_kt-.jpg
 images:
   - src: /image/kait_for_kt_evisu2piece-3.jpg
