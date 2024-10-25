@@ -1,8 +1,10 @@
 ---
 layout: blog
-title: Knock Twice x Eclecstacy Reincarnated Varsity Jacket Graphic
+title: Knock Twice x Eclecstacy Varsity Jacket Graphic
 date: 2023-06-21T11:11:00.000Z
-featuredimage: /image/knock_twice_x_eclecstacy_varsity_graphic.png
+featuredimage: /image/kt_x_ec_final_design_for_web.png
+images:
+  - src: /image/kt_x_ec_final_design_for_web.png
 type: other
 descblurb: Collaborative Design with Darin Morrison-Beer, Kurtis Tipoff, and
   Hunter Thomas, 2023
