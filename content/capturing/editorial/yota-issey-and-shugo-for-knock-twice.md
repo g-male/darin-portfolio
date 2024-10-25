@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Yota, Issey, and Shugo for Knock Twice
-date: 2023-01-12T01:11:00.000Z
+date: 2023-01-13T20:11:00.000Z
 featuredimage: /image/nihon_goons_for_kt_2023-.jpg
 images:
   - src: /image/nihon_goons_for_kt_2023-.jpg
