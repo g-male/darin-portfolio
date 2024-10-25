@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Knock Twice Logo
-date: 1901-05-31T05:41:00.000Z
+date: 2020-09-07T11:11:00.000Z
 featuredimage: /image/knocktwicelogo.png
 type: content
 descblurb: Knock Twice Icon Logo
