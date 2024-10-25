@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Demolition Company Paper "
-date: 1901-07-06T12:06:00.000Z
+date: 2021-12-08T11:11:00.000Z
 featuredimage: /image/oligarchy-demo-company-paper-gif.gif
 type: content
 descblurb: Product Photography by Darin Morrison-Beer
