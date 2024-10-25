@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Gang Box for Knock Twice (Chiyoda-ku)
-date: 2024-08-06T15:45:00.000Z
+date: 2023-02-13T11:11:00.000Z
 featuredimage: /image/gb_for_kt_chiyoda_ku-.jpg
 images:
   - src: /image/gb_for_kt_chiyoda_ku-.jpg
