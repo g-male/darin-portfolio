@@ -594,6 +594,7 @@ color: black;
     }
     #gohome{
         margin-left: 10%;
+        font-size: 1.8em;
     }
     .icon.grid{
       /*  position: relative !important;
@@ -698,7 +699,7 @@ float: none;
      }
      #top-right{
         margin-left: 4%;
-        margin-top: 2.5vh;
+        margin-top: 2vh;
      }
      .content{
         margin-left: 4%;
