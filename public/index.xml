@@ -6,35 +6,14 @@
     <description>Recent content in Darin on Darin Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Oct 2024 18:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 11:11:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test image- editorial. </title>
-      <link>//localhost:1313/capturing/editorial/test-image-editorial/</link>
-      <pubDate>Sat, 26 Oct 2024 18:50:00 +0000</pubDate>
-      <guid>//localhost:1313/capturing/editorial/test-image-editorial/</guid>
-      <description>markdown here</description>
-    </item>
-    <item>
-      <title>Thiss is a test editorial post</title>
-      <link>//localhost:1313/capturing/editorial/thiss-is-a-test-editorial-post/</link>
-      <pubDate>Sat, 26 Oct 2024 18:44:00 +0000</pubDate>
-      <guid>//localhost:1313/capturing/editorial/thiss-is-a-test-editorial-post/</guid>
-      <description>MARKDOWN This is a test post to see if the images are loading properly</description>
-    </item>
-    <item>
-      <title>design test</title>
-      <link>//localhost:1313/creation/design_1/design-test/</link>
-      <pubDate>Fri, 25 Oct 2024 12:54:00 +0000</pubDate>
-      <guid>//localhost:1313/creation/design_1/design-test/</guid>
-      <description>MArk down is here. This is a test post</description>
-    </item>
-    <item>
-      <title>Mace no Windu </title>
-      <link>//localhost:1313/creation/design_1/mace-no-windu/</link>
+      <title>Mace no Windu</title>
+      <link>//localhost:1313/creation/design_1/mace-no-windu-1/</link>
       <pubDate>Wed, 23 Oct 2024 11:11:00 +0000</pubDate>
-      <guid>//localhost:1313/creation/design_1/mace-no-windu/</guid>
-      <description>Part of the friends of Knock Twice Sticker sheet</description>
+      <guid>//localhost:1313/creation/design_1/mace-no-windu-1/</guid>
+      <description>Included in the &amp;ldquo;Friends of Knock Twice&amp;rdquo; Sticker sheet</description>
     </item>
     <item>
       <title>&#34;Colmillo&#34; Hoodie for DATA </title>
@@ -107,13 +86,6 @@
       <description>First variant of Multiple Men to have baggy jeans, the second MM made at a larger scale.</description>
     </item>
     <item>
-      <title>Armée D&#39;un</title>
-      <link>//localhost:1313/capturing/editorial/arme%CC%81e-dun/</link>
-      <pubDate>Tue, 25 Jun 2024 11:11:00 +0000</pubDate>
-      <guid>//localhost:1313/capturing/editorial/arme%CC%81e-dun/</guid>
-      <description>Promo content made for Armée D&amp;rsquo;un shot in the Viapiana / Armée D&amp;rsquo;un Studio.</description>
-    </item>
-    <item>
       <title>Souvenirs from the Dump</title>
       <link>//localhost:1313/creation/collage/souvenir_01/</link>
       <pubDate>Mon, 17 Jun 2024 14:54:00 +0000</pubDate>
@@ -182,6 +154,13 @@
       <pubDate>Thu, 22 Feb 2024 14:22:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/editorial/sota-at-knock-twice/</guid>
       <description>Sota, shot and edited by me for Knock Twice, 2024.</description>
+    </item>
+    <item>
+      <title>Armée D&#39;un 2</title>
+      <link>//localhost:1313/capturing/editorial/arme%CC%81e-dun-2/</link>
+      <pubDate>Mon, 05 Feb 2024 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/editorial/arme%CC%81e-dun-2/</guid>
+      <description>shot in via stu</description>
     </item>
     <item>
       <title>Birdwatching Alone</title>
@@ -343,6 +322,13 @@
       <pubDate>Sun, 12 Feb 2023 11:11:00 +0000</pubDate>
       <guid>//localhost:1313/capturing/editorial/gang-box-for-knock-twice-akihabara/</guid>
       <description>Shot and edited in Akihabara for the Knock Twice by Gangbox collection, 2023.</description>
+    </item>
+    <item>
+      <title>Large-Billed Crow</title>
+      <link>//localhost:1313/capturing/bird/large-billed-crow/</link>
+      <pubDate>Sat, 11 Feb 2023 11:11:00 +0000</pubDate>
+      <guid>//localhost:1313/capturing/bird/large-billed-crow/</guid>
+      <description>Seen on a quick walk around Nobeoka.</description>
     </item>
     <item>
       <title>Varied Tit</title>
