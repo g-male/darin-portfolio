@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   # This line should *not* be indented
 media_folder: "/assets/image" # Media files will be stored in the repo under images/uploads
-public_folder: "/assets/image" 
+public_folder: "assets/image" 
 display_url: https://darinjmb.com
 logo_url: "/assets/image/iconsforwebsite/32x32.png"
 collections:
