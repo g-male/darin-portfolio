@@ -408,7 +408,10 @@ margin: 0 auto;
    max-width: 30vw;
    
    transition: opacity 0.3s ease-in-out; 
+
+
   }
+
   .featuredimage{
    
  max-width: 28vw;
@@ -563,6 +566,9 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    max-height: 80vh; /* Limit the height to 80% of the viewport */
+    overflow-y: auto;
+
 }
 .description-mobile{
     display: none;
@@ -701,7 +707,7 @@ float: none;
      }
      #top-right{
         margin-left: 4%;
-        margin-top: 0%;
+       
         font-size: 1.8em;
      }
      .content{
