@@ -16,21 +16,18 @@
 <div class="carousel">
     
     {{ range $index, $image := $images }}
-     <img src="{{ $image.src }}" alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}">
-     <!-- {{ $imageResource := resources.Get $image.src }}
-            {{ if $imageResource }}
-                 {{ $small := $imageResource.Fit "370x370" }}
-                 {{ $large := $imageResource.Fit "600x600" }}
-    <img src="{{ $large.Permalink }}" 
-    srcset="{{ $small.Permalink }} 370w,
-                 {{ $large.Permalink }} 600w"
-         sizes="(max-width: 600px) 370px,
-                600px"
+        {{ $imageResource := resources.Get $image.src }}
+        
+        {{ if $imageResource }}
+            {{ $small := $imageResource.Fit "370x370" }}
+            {{ $large := $imageResource.Fit "600x600" }}
 
-alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}">
-
-     
-    {{ end }}-->
+            <img src="{{ $large.Permalink }}" 
+                 srcset="{{ $small.Permalink }} 370w, {{ $large.Permalink }} 600w"
+                 sizes="(max-width: 600px) 370px, 600px"
+                 alt="{{ $image.alt | default "Image" }}" 
+                 class="{{ if eq $index 0 }}active{{ end }}">
+        {{ end }}
     {{ end }}
     <div class="post-meta">
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>

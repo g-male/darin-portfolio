@@ -11,7 +11,7 @@
   <div class="grid-image">
     <a class="imgcontainer" href="{{ .Permalink }}">
 
-      {{ $image := .Params.FeaturedImage }}
+      {{ $image := .Params.featuredimage }}
        
       {{ $imageResource := resources.Get $image }}
       {{ if $imageResource }}
