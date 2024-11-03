@@ -14,8 +14,10 @@
 {{ if and $images (gt (len $images) 0) }}
 
 <div class="carousel">
+    
     {{ range $index, $image := $images }}
-    {{ $imageResource := resources.Get $image.src }}
+     <img src="{{ $image.src }}" alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}">
+     <!-- {{ $imageResource := resources.Get $image.src }}
             {{ if $imageResource }}
                  {{ $small := $imageResource.Fit "370x370" }}
                  {{ $large := $imageResource.Fit "600x600" }}
@@ -27,8 +29,8 @@
 
 alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}">
 
-      <!--  <img src="{{ $image.src }}" alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}">-->
-    {{ end }}
+     
+    {{ end }}-->
     {{ end }}
     <div class="post-meta">
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
