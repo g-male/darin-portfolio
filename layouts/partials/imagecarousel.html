@@ -1,5 +1,23 @@
-<div class="image-container {{ if .Params.images }}hidden{{ end }}">
-    <img class="featuredimage" src="{{ .Params.FeaturedImage }}">
+
+
+
+
+
+<div class="image-container {{ if and .Params.images (gt (len .Params.images) 0) }}hidden{{ end }}">
+   
+    {{ $featuredImage := .Params.featuredimage }}
+    {{ $featuredImageResource := resources.Get $featuredImage }}
+    
+    {{ if $featuredImageResource }}
+        {{ $featuredSmall := $featuredImageResource.Resize "400x" }}
+        {{ $featuredLarge := $featuredImageResource.Resize "650x" }}
+    <img class="featuredimage" src="{{ $featuredLarge.Permalink }}"
+    srcset="{{ $featuredSmall.Permalink }} 160w,
+                         {{ $featuredLarge.Permalink }} 650w"
+                 sizes="(max-width: 600px) 400px,
+                        650px"
+                 alt="{{ .Params.Title }}">
+                 {{ end }}
     <div class="post-meta">
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
       
@@ -39,7 +57,16 @@
     <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
     <div class="thumbnails">
         {{ range $index, $image := $images }}
-            <img src="{{ $image.src }}" alt="{{ $image.alt }}" class="{{ if eq $index 0 }}active{{ end }}" onclick="showSlide({{ $index }})">
+            {{ $thumbnailResource := resources.Get $image.src }}
+            
+            {{ if $thumbnailResource }}
+                {{ $thumbnailSmall := $thumbnailResource.Resize "60x" }}
+                
+                <img src="{{ $thumbnailSmall.Permalink }}" 
+                     alt="{{ $image.alt }}" 
+                     class="{{ if eq $index 0 }}active{{ end }}" 
+                     onclick="showSlide({{ $index }})">
+            {{ end }}
         {{ end }}
     </div>
     <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
