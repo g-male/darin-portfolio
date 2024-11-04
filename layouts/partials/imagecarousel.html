@@ -7,7 +7,7 @@
         {{ $featuredSmall := $featuredImageResource.Resize "400x" }}
         {{ $featuredLarge := $featuredImageResource.Resize "650x" }}
         <img class="featuredimage" src="{{ $featuredLarge.Permalink }}"
-             srcset="{{ $featuredSmall.Permalink }} 400w,
+             srcset="{{ $featuredSmall.Permalink }} 160w,
                      {{ $featuredLarge.Permalink }} 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
@@ -25,10 +25,10 @@
         {{ $imageResource := resources.Get $image.src }}
         {{ if $imageResource }}
             {{ $small := $imageResource.Fit "370x370" }}
-            {{ $large := $imageResource.Fit "650x650" }}
+            {{ $large := $imageResource.Fit "600x600" }}
             <img src="{{ $large.Permalink }}"
-                 srcset="{{ $small.Permalink }} 400w, {{ $large.Permalink }} 650w"
-                 sizes="(max-width: 600px) 400px, 650px"
+                 srcset="{{ $small.Permalink }} 370w, {{ $large.Permalink }} 600w"
+                 sizes="(max-width: 600px) 370px, 600px"
                  alt="{{ $image.alt | default "Image" }}"
                  class="{{ if eq $index 0 }}active{{ end }}">
         {{ end }}
