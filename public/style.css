@@ -4,12 +4,14 @@
     font-weight: 400;
     font-style: normal;
     src: url("/font/GT-Maru-Mono-Regular.woff2") format('woff2');
+    font-display: fallback;
   }
   @font-face {
     font-family: 'GT-Maru-Mono-Bold';
     font-weight: 400;
     font-style:normal;
     src: url("/font/GT-Maru-Mono-Bold.woff2") format('woff2');
+    font-display: fallback;
   }
 
 
@@ -643,6 +645,9 @@ color: black;
      }
      .workgrid{
       
+     }
+     .pagination{
+      margin: 0;
      }
    
 

@@ -11,7 +11,7 @@
                      {{ $featuredLarge.Permalink }} 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="{{ .Params.Title }}">
+             alt="{{ .Params.Title }}" loading="lazy">
     {{ end }}
 
     <div class="post-meta">
@@ -30,7 +30,7 @@
                  srcset="{{ $small.Permalink }} 370w, {{ $large.Permalink }} 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="{{ $image.alt | default "Image" }}"
-                 class="{{ if eq $index 0 }}active{{ end }}">
+                 class="{{ if eq $index 0 }}active{{ end }}" loading="lazy">
         {{ end }}
     {{ end }}
 
@@ -49,7 +49,7 @@
                 <img src="{{ $thumbnailSmall.Permalink }}"
                      alt="{{ $image.alt }}"
                      class="{{ if eq $index 0 }}active{{ end }}"
-                     onclick="showSlide({{ $index }})">
+                     onclick="showSlide({{ $index }})" loading="lazy">
             {{ end }}
         {{ end }}
     </div>
@@ -58,7 +58,7 @@
 {{ end }}
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');
