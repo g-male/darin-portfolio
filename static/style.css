@@ -399,7 +399,7 @@ margin: 0 auto;
 }
 .carousel {
     position: relative;
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -551,6 +551,9 @@ flex-wrap: wrap;
     align-items: center;
  
 }
+.imageandarrows{
+  min-height: 80dvh;
+}
 #description-block{
     width: 50%;
     float: left;
@@ -632,6 +635,9 @@ color: black;
 		align-items: center;
     margin-bottom: 3%;
      }
+     .imageandarrows{
+      min-height: 50dvh;
+    }
       .grid-item.last{
       flex-basis: 100% !important;  /* Make the last item take the full width */
     text-align: center; /* Center text if needed */
@@ -643,9 +649,7 @@ color: black;
     height: auto;
     gap: 2%;
      }
-     .workgrid{
-      
-     }
+   
      .pagination{
       margin: 0;
      }

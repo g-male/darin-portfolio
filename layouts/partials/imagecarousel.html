@@ -1,3 +1,4 @@
+<div class="imageandarrows">
 {{ $images := .Params.images }}
 <div class="image-container {{ if and $images (gt (len $images) 0) }}hidden{{ end }}">
     {{ $featuredImage := .Params.featuredimage }}
@@ -18,7 +19,7 @@
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
     </div>
 </div>
-<div class="imageandarrows">
+
 {{ if and $images (gt (len $images) 0) }}
 <div class="carousel">
     {{ range $index, $image := $images }}
