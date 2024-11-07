@@ -62,7 +62,7 @@
                      //localhost:1313/image/ktweblaunch-5_hu99c9056053ac6481f76d8c17bb95d1c2_832225_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Knock Twice Website Launch">
+             alt="Knock Twice Website Launch" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/ktweblaunch-5_hu99c9056053ac6481f76d8c17bb95d1c2_832225_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/ktweblaunch-5_hu99c9056053ac6481f76d8c17bb95d1c2_832225_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/ktweblaunch-3_hub056f3b5549e8efe90f4ece5ab68b40e_874508_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/ktweblaunch-3_hub056f3b5549e8efe90f4ece5ab68b40e_874508_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -103,7 +103,7 @@
                  srcset="//localhost:1313/image/ktweblaunch-4_hu9d579935e62ca59ffa116687cafaa8a7_757295_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/ktweblaunch-4_hu9d579935e62ca59ffa116687cafaa8a7_757295_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -114,7 +114,7 @@
                  srcset="//localhost:1313/image/ktweblaunch-_hu983a6f2d5898c7119b6dd21f236ceafb_974587_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/ktweblaunch-_hu983a6f2d5898c7119b6dd21f236ceafb_974587_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -133,7 +133,7 @@
                 <img src="//localhost:1313/image/ktweblaunch-5_hu99c9056053ac6481f76d8c17bb95d1c2_832225_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -142,7 +142,7 @@
                 <img src="//localhost:1313/image/ktweblaunch-3_hub056f3b5549e8efe90f4ece5ab68b40e_874508_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
             
@@ -151,7 +151,7 @@
                 <img src="//localhost:1313/image/ktweblaunch-4_hu9d579935e62ca59ffa116687cafaa8a7_757295_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 2 )">
+                     onclick="showSlide( 2 )" loading="lazy">
             
         
             
@@ -160,7 +160,7 @@
                 <img src="//localhost:1313/image/ktweblaunch-_hu983a6f2d5898c7119b6dd21f236ceafb_974587_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 3 )">
+                     onclick="showSlide( 3 )" loading="lazy">
             
         
     </div>
@@ -169,7 +169,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

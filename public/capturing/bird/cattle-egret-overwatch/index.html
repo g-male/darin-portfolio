@@ -63,7 +63,7 @@ Olhão, Portugal, 2024.</p>
                      //localhost:1313/image/birds_for_web-16-2_hua817643939a901ffb09d706ac1d93a9c_930059_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Cattle Egret Overwatch">
+             alt="Cattle Egret Overwatch" loading="lazy">
     
 
     <div class="post-meta">
@@ -82,7 +82,7 @@ Olhão, Portugal, 2024.</p>
                  srcset="//localhost:1313/image/birds_for_web-16-2_hua817643939a901ffb09d706ac1d93a9c_930059_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/birds_for_web-16-2_hua817643939a901ffb09d706ac1d93a9c_930059_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
 
@@ -101,7 +101,7 @@ Olhão, Portugal, 2024.</p>
                 <img src="//localhost:1313/image/birds_for_web-16-2_hua817643939a901ffb09d706ac1d93a9c_930059_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
     </div>
@@ -110,7 +110,7 @@ Olhão, Portugal, 2024.</p>
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

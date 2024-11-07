@@ -62,7 +62,7 @@
                      //localhost:1313/image/eclecstacy_x_knocktwice_varsity_back_2_hu96de0db9b22eaea82d864eaa49b5c17b_3229681_650x0_resize_box_1.gif 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Knock Twice x Eclecstacy Varsity Jacket">
+             alt="Knock Twice x Eclecstacy Varsity Jacket" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/eclecstacy_x_knocktwice_varsity_back_2_hu96de0db9b22eaea82d864eaa49b5c17b_3229681_370x370_fit_box_1.gif 370w, //localhost:1313/image/eclecstacy_x_knocktwice_varsity_back_2_hu96de0db9b22eaea82d864eaa49b5c17b_3229681_600x600_fit_box_1.gif 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/eclecstacy_x_knocktwice_varsity_front_2_hu6d74a2e7539f1b4a73ae31d13f999410_2899231_370x370_fit_box_1.gif 370w, //localhost:1313/image/eclecstacy_x_knocktwice_varsity_front_2_hu6d74a2e7539f1b4a73ae31d13f999410_2899231_600x600_fit_box_1.gif 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -111,7 +111,7 @@
                 <img src="//localhost:1313/image/eclecstacy_x_knocktwice_varsity_back_2_hu96de0db9b22eaea82d864eaa49b5c17b_3229681_60x0_resize_box_1.gif"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -120,7 +120,7 @@
                 <img src="//localhost:1313/image/eclecstacy_x_knocktwice_varsity_front_2_hu6d74a2e7539f1b4a73ae31d13f999410_2899231_60x0_resize_box_1.gif"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
     </div>
@@ -129,7 +129,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

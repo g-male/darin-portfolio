@@ -64,7 +64,7 @@
                      //localhost:1313/image/friends-neighbours-2_hu22ec5b9f57deafb19d9a1ae7961b8e83_1004997_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Friends &amp; Neighbours Event Flyer">
+             alt="Friends &amp; Neighbours Event Flyer" loading="lazy">
     
 
     <div class="post-meta">
@@ -83,7 +83,7 @@
                  srcset="//localhost:1313/image/friends-neighbours-2_hu22ec5b9f57deafb19d9a1ae7961b8e83_1004997_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/friends-neighbours-2_hu22ec5b9f57deafb19d9a1ae7961b8e83_1004997_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -94,7 +94,7 @@
                  srcset="//localhost:1313/image/friends-neighbours-4_hu2d96e6efd0d764d46700eff5ee5d1a3d_971752_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/friends-neighbours-4_hu2d96e6efd0d764d46700eff5ee5d1a3d_971752_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -105,7 +105,7 @@
                  srcset="//localhost:1313/image/friends-neighbours-_hu7feef27d1ea082ddd5e2a9048c7ce24c_944419_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/friends-neighbours-_hu7feef27d1ea082ddd5e2a9048c7ce24c_944419_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -116,7 +116,7 @@
                  srcset="//localhost:1313/image/friends-neighbours-3_hu0b42d2f436c6e108053c1ef260fa7386_799304_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/friends-neighbours-3_hu0b42d2f436c6e108053c1ef260fa7386_799304_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -135,7 +135,7 @@
                 <img src="//localhost:1313/image/friends-neighbours-2_hu22ec5b9f57deafb19d9a1ae7961b8e83_1004997_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -144,7 +144,7 @@
                 <img src="//localhost:1313/image/friends-neighbours-4_hu2d96e6efd0d764d46700eff5ee5d1a3d_971752_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
             
@@ -153,7 +153,7 @@
                 <img src="//localhost:1313/image/friends-neighbours-_hu7feef27d1ea082ddd5e2a9048c7ce24c_944419_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 2 )">
+                     onclick="showSlide( 2 )" loading="lazy">
             
         
             
@@ -162,7 +162,7 @@
                 <img src="//localhost:1313/image/friends-neighbours-3_hu0b42d2f436c6e108053c1ef260fa7386_799304_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 3 )">
+                     onclick="showSlide( 3 )" loading="lazy">
             
         
     </div>
@@ -171,7 +171,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

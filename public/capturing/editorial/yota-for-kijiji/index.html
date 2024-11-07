@@ -62,7 +62,7 @@
                      //localhost:1313/image/yota_for_kijiji_refocus-_hu20e4c10d3e54144033d2a93828ff6317_844470_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Yota for Kijiji">
+             alt="Yota for Kijiji" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/yota_for_kijiji_refocus-_hu20e4c10d3e54144033d2a93828ff6317_844470_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/yota_for_kijiji_refocus-_hu20e4c10d3e54144033d2a93828ff6317_844470_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/yota_for_kijiji-_hu697843a95259632fc43a36dfc7ae5800_970476_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/yota_for_kijiji-_hu697843a95259632fc43a36dfc7ae5800_970476_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -103,7 +103,7 @@
                  srcset="//localhost:1313/image/yota_for_kijiji_refocus-2_hu7ff90e9a26451380efb3074895c43858_1005780_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/yota_for_kijiji_refocus-2_hu7ff90e9a26451380efb3074895c43858_1005780_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -114,7 +114,7 @@
                  srcset="//localhost:1313/image/yota_for_kijiji-5_hu0e984192861ed577b2a19f1896a762ec_925864_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/yota_for_kijiji-5_hu0e984192861ed577b2a19f1896a762ec_925864_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -133,7 +133,7 @@
                 <img src="//localhost:1313/image/yota_for_kijiji_refocus-_hu20e4c10d3e54144033d2a93828ff6317_844470_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -142,7 +142,7 @@
                 <img src="//localhost:1313/image/yota_for_kijiji-_hu697843a95259632fc43a36dfc7ae5800_970476_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
             
@@ -151,7 +151,7 @@
                 <img src="//localhost:1313/image/yota_for_kijiji_refocus-2_hu7ff90e9a26451380efb3074895c43858_1005780_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 2 )">
+                     onclick="showSlide( 2 )" loading="lazy">
             
         
             
@@ -160,7 +160,7 @@
                 <img src="//localhost:1313/image/yota_for_kijiji-5_hu0e984192861ed577b2a19f1896a762ec_925864_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 3 )">
+                     onclick="showSlide( 3 )" loading="lazy">
             
         
     </div>
@@ -169,7 +169,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

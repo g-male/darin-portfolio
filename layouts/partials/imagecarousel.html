@@ -18,7 +18,7 @@
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
     </div>
 </div>
-
+<div class="imageandarrows">
 {{ if and $images (gt (len $images) 0) }}
 <div class="carousel">
     {{ range $index, $image := $images }}
@@ -30,7 +30,7 @@
                  srcset="{{ $small.Permalink }} 370w, {{ $large.Permalink }} 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="{{ $image.alt | default "Image" }}"
-                 class="{{ if eq $index 0 }}active{{ end }}" loading="lazy">
+                 class="{{ if eq $index 0 }}active{{ end }}" >
         {{ end }}
     {{ end }}
 
@@ -49,14 +49,14 @@
                 <img src="{{ $thumbnailSmall.Permalink }}"
                      alt="{{ $image.alt }}"
                      class="{{ if eq $index 0 }}active{{ end }}"
-                     onclick="showSlide({{ $index }})" loading="lazy">
+                     onclick="showSlide({{ $index }})">
             {{ end }}
         {{ end }}
     </div>
     <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
 </div>
 {{ end }}
-
+</div>
 
 <script defer>
     let currentSlide = 0;

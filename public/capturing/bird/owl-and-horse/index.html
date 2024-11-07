@@ -62,7 +62,7 @@
                      //localhost:1313/image/birds_for_web-3_hu0e9226a1c3601fc45f9014ad483fe46f_978576_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Owl and Horse">
+             alt="Owl and Horse" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/birds_for_web-3_hu0e9226a1c3601fc45f9014ad483fe46f_978576_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/birds_for_web-3_hu0e9226a1c3601fc45f9014ad483fe46f_978576_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/birds_for_web-1_hue9342aee6ae9d684f53c10c900ab6951_477644_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/birds_for_web-1_hue9342aee6ae9d684f53c10c900ab6951_477644_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -111,7 +111,7 @@
                 <img src="//localhost:1313/image/birds_for_web-3_hu0e9226a1c3601fc45f9014ad483fe46f_978576_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -120,7 +120,7 @@
                 <img src="//localhost:1313/image/birds_for_web-1_hue9342aee6ae9d684f53c10c900ab6951_477644_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
     </div>
@@ -129,7 +129,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

@@ -62,7 +62,7 @@
                      //localhost:1313/image/claire_in_craig_green-10_huc8961f720e98b9cb3e74cdfbae4fdff9_949151_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Claire for Knock Twice">
+             alt="Claire for Knock Twice" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/claire_in_craig_green-10_huc8961f720e98b9cb3e74cdfbae4fdff9_949151_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/claire_in_craig_green-10_huc8961f720e98b9cb3e74cdfbae4fdff9_949151_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/claire_in_craig_green-4_hu16d6588851f3d9ab04c3ab91cdbabd48_925961_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/claire_in_craig_green-4_hu16d6588851f3d9ab04c3ab91cdbabd48_925961_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -103,7 +103,7 @@
                  srcset="//localhost:1313/image/claire_in_craig_green-5_huca3924fcfb6e13b401017f4e5ed3154c_895343_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/claire_in_craig_green-5_huca3924fcfb6e13b401017f4e5ed3154c_895343_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -114,7 +114,7 @@
                  srcset="//localhost:1313/image/claire_in_evis-4_hufa74b820685010ad7dd717e39336dd5c_947325_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/claire_in_evis-4_hufa74b820685010ad7dd717e39336dd5c_947325_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -125,7 +125,7 @@
                  srcset="//localhost:1313/image/claire_in_evis-2_hu5ebaab71eeb27cc28e52aedb536efc6f_831823_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/claire_in_evis-2_hu5ebaab71eeb27cc28e52aedb536efc6f_831823_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -144,7 +144,7 @@
                 <img src="//localhost:1313/image/claire_in_craig_green-10_huc8961f720e98b9cb3e74cdfbae4fdff9_949151_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -153,7 +153,7 @@
                 <img src="//localhost:1313/image/claire_in_craig_green-4_hu16d6588851f3d9ab04c3ab91cdbabd48_925961_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
             
@@ -162,7 +162,7 @@
                 <img src="//localhost:1313/image/claire_in_craig_green-5_huca3924fcfb6e13b401017f4e5ed3154c_895343_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 2 )">
+                     onclick="showSlide( 2 )" loading="lazy">
             
         
             
@@ -171,7 +171,7 @@
                 <img src="//localhost:1313/image/claire_in_evis-4_hufa74b820685010ad7dd717e39336dd5c_947325_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 3 )">
+                     onclick="showSlide( 3 )" loading="lazy">
             
         
             
@@ -180,7 +180,7 @@
                 <img src="//localhost:1313/image/claire_in_evis-2_hu5ebaab71eeb27cc28e52aedb536efc6f_831823_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 4 )">
+                     onclick="showSlide( 4 )" loading="lazy">
             
         
     </div>
@@ -189,7 +189,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

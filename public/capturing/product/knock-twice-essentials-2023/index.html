@@ -62,7 +62,7 @@
                      //localhost:1313/image/editorial_layflats-56_hu6a635eb7765f00985b3a1e94a71ebbd8_1004000_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Knock Twice Essentials 2023">
+             alt="Knock Twice Essentials 2023" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/editorial_layflats-56_hu6a635eb7765f00985b3a1e94a71ebbd8_1004000_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/editorial_layflats-56_hu6a635eb7765f00985b3a1e94a71ebbd8_1004000_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/editorial_layflats-8_huf0550af611a0a4aea9ebaac5d73945ce_913308_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/editorial_layflats-8_huf0550af611a0a4aea9ebaac5d73945ce_913308_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -103,7 +103,7 @@
                  srcset="//localhost:1313/image/editorial_layflats-7_hu49ed404d39088b2f8c0604afb328d604_1019866_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/editorial_layflats-7_hu49ed404d39088b2f8c0604afb328d604_1019866_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -114,7 +114,7 @@
                  srcset="//localhost:1313/image/editorial_layflats-9_hucd9672776184fcd72861ba4ae65e5ad6_955757_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/editorial_layflats-9_hucd9672776184fcd72861ba4ae65e5ad6_955757_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
         
@@ -125,7 +125,7 @@
                  srcset="//localhost:1313/image/editorial_layflats-_hu62c3af36aecda3fe84b8fb85a6875096_954231_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/editorial_layflats-_hu62c3af36aecda3fe84b8fb85a6875096_954231_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -144,7 +144,7 @@
                 <img src="//localhost:1313/image/editorial_layflats-56_hu6a635eb7765f00985b3a1e94a71ebbd8_1004000_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -153,7 +153,7 @@
                 <img src="//localhost:1313/image/editorial_layflats-8_huf0550af611a0a4aea9ebaac5d73945ce_913308_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
             
@@ -162,7 +162,7 @@
                 <img src="//localhost:1313/image/editorial_layflats-7_hu49ed404d39088b2f8c0604afb328d604_1019866_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 2 )">
+                     onclick="showSlide( 2 )" loading="lazy">
             
         
             
@@ -171,7 +171,7 @@
                 <img src="//localhost:1313/image/editorial_layflats-9_hucd9672776184fcd72861ba4ae65e5ad6_955757_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 3 )">
+                     onclick="showSlide( 3 )" loading="lazy">
             
         
             
@@ -180,7 +180,7 @@
                 <img src="//localhost:1313/image/editorial_layflats-_hu62c3af36aecda3fe84b8fb85a6875096_954231_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 4 )">
+                     onclick="showSlide( 4 )" loading="lazy">
             
         
     </div>
@@ -189,7 +189,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

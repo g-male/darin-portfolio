@@ -62,7 +62,7 @@
                      //localhost:1313/image/evisu_cowichan_in_kt-2_hu0ac4f65ef3323ce060ee4df03b7e9210_792956_650x0_resize_q75_box.jpg 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="Evisu Dowluck Cowichan">
+             alt="Evisu Dowluck Cowichan" loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/evisu_cowichan_in_kt-2_hu0ac4f65ef3323ce060ee4df03b7e9210_792956_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/evisu_cowichan_in_kt-2_hu0ac4f65ef3323ce060ee4df03b7e9210_792956_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/evisu_cowichan_in_kt-1_hu66452232a20e7ceed4a6b85d51a92149_947751_370x370_fit_q75_box.jpg 370w, //localhost:1313/image/evisu_cowichan_in_kt-1_hu66452232a20e7ceed4a6b85d51a92149_947751_600x600_fit_q75_box.jpg 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -111,7 +111,7 @@
                 <img src="//localhost:1313/image/evisu_cowichan_in_kt-2_hu0ac4f65ef3323ce060ee4df03b7e9210_792956_60x0_resize_q75_box.jpg"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -120,7 +120,7 @@
                 <img src="//localhost:1313/image/evisu_cowichan_in_kt-1_hu66452232a20e7ceed4a6b85d51a92149_947751_60x0_resize_q75_box.jpg"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
     </div>
@@ -129,7 +129,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');

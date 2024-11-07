@@ -62,7 +62,7 @@
                      //localhost:1313/image/data_hoodie_black_hua362e38c5857fdd6d69f56694eb4c031_894669_650x0_resize_box_1.gif 650w"
              sizes="(max-width: 600px) 400px,
                     650px"
-             alt="&#34;Colmillo&#34; Hoodie for DATA ">
+             alt="&#34;Colmillo&#34; Hoodie for DATA " loading="lazy">
     
 
     <div class="post-meta">
@@ -81,7 +81,7 @@
                  srcset="//localhost:1313/image/data_hoodie_black_hua362e38c5857fdd6d69f56694eb4c031_894669_370x370_fit_box_1.gif 370w, //localhost:1313/image/data_hoodie_black_hua362e38c5857fdd6d69f56694eb4c031_894669_600x600_fit_box_1.gif 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="active">
+                 class="active" loading="lazy">
         
     
         
@@ -92,7 +92,7 @@
                  srcset="//localhost:1313/image/data_hoodie_white_hu8573c8f2d92efeba29374cd6cee98c57_1111843_370x370_fit_box_1.gif 370w, //localhost:1313/image/data_hoodie_white_hu8573c8f2d92efeba29374cd6cee98c57_1111843_600x600_fit_box_1.gif 600w"
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="Image"
-                 class="">
+                 class="" loading="lazy">
         
     
 
@@ -111,7 +111,7 @@
                 <img src="//localhost:1313/image/data_hoodie_black_hua362e38c5857fdd6d69f56694eb4c031_894669_60x0_resize_box_1.gif"
                      alt=""
                      class="active"
-                     onclick="showSlide( 0 )">
+                     onclick="showSlide( 0 )" loading="lazy">
             
         
             
@@ -120,7 +120,7 @@
                 <img src="//localhost:1313/image/data_hoodie_white_hu8573c8f2d92efeba29374cd6cee98c57_1111843_60x0_resize_box_1.gif"
                      alt=""
                      class=""
-                     onclick="showSlide( 1 )">
+                     onclick="showSlide( 1 )" loading="lazy">
             
         
     </div>
@@ -129,7 +129,7 @@
 
 
 
-<script>
+<script defer>
     let currentSlide = 0;
     let currentThumbnailSet = 0;
     const slides = document.querySelectorAll('.carousel img');
