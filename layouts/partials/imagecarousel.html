@@ -41,7 +41,7 @@
 </div>
 
 <div class="thumbnails-container">
-    <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10092;</div>
     <div class="thumbnails">
         {{ range $index, $image := $images }}
             {{ $thumbnailResource := resources.Get $image.src }}
@@ -54,7 +54,7 @@
             {{ end }}
         {{ end }}
     </div>
-    <div class="arrow right-arrow" onclick="changeSlide(1)">&#10095;</div>
+    <div class="arrow right-arrow" onclick="changeSlide(1)">&#10093;</div>
 </div>
 {{ end }}
 </div>
