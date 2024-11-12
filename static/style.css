@@ -403,7 +403,7 @@ margin: 0 auto;
 }
 .carousel {
     position: relative;
-    max-width: 100%;
+    max-width: 91%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -478,7 +478,7 @@ margin: 0 auto;
     height: auto;
     display: block;
   
-    max-width: 100%;
+    max-width: 91%;
   }
   .featuredimage.hidden{
     display: none;
