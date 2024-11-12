@@ -1,10 +1,17 @@
 <div class="imageandarrows">
 {{ $images := .Params.images }}
 <div class="image-container {{ if and $images (gt (len $images) 0) }}hidden{{ end }}">
+  
     {{ $featuredImage := .Params.featuredimage }}
     {{ $featuredImageResource := resources.Get $featuredImage }}
 
     {{ if $featuredImageResource }}
+
+    <img class="featuredimage" src="{{ $featuredImageResource.Permalink }}"
+         alt="{{ .Params.Title }}" loading="lazy">
+{{ end }}
+
+   <!-- {{ if $featuredImageResource }}
         {{ $featuredSmall := $featuredImageResource.Resize "400x" }}
         {{ $featuredLarge := $featuredImageResource.Resize "650x" }}
         <img class="featuredimage" src="{{ $featuredLarge.Permalink }}"
@@ -14,7 +21,7 @@
                     650px"
              alt="{{ .Params.Title }}" loading="lazy">
     {{ end }}
-
+-->
     <div class="post-meta">
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
     </div>
@@ -22,7 +29,7 @@
 
 {{ if and $images (gt (len $images) 0) }}
 <div class="carousel">
-    {{ range $index, $image := $images }}
+   <!-- {{ range $index, $image := $images }}
         {{ $imageResource := resources.Get $image.src }}
         {{ if $imageResource }}
             {{ $small := $imageResource.Fit "370x370" }}
@@ -32,8 +39,21 @@
                  sizes="(max-width: 600px) 370px, 600px"
                  alt="{{ $image.alt | default "Image" }}"
                  class="{{ if eq $index 0 }}active{{ end }}" >
-        {{ end }}
-    {{ end }}
+
+        {{ end }} 
+    {{ end }} -->
+
+    {{ range $index, $image := $images }}
+    {{ $imageResource := resources.Get $image.src }}
+    {{ if $imageResource }}
+  
+        <img src="{{ $imageResource.Permalink }}"
+             sizes="(max-width: 600px) "
+             alt="{{ .Params.Descblurb }}"
+             class="{{ if eq $index 0 }}active{{ end }}" >
+
+    {{ end }} 
+{{ end }}
 
     <div class="post-meta">
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
