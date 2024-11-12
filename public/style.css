@@ -409,7 +409,10 @@ margin: 0 auto;
     flex-direction: column;
   }
   .carousel img {
-   height: auto;
+ 
+   max-height: 80vh; /* Limit image height to 70% of the viewport height */
+   object-fit: contain; /* Ensure the whole image fits within the bounds */
+ 
     display: none;
    max-width: 30vw;
    
@@ -475,7 +478,9 @@ margin: 0 auto;
     width: 70%;
   }
   .featuredimage{
-    height: auto;
+    max-height: 80vh; /* Limit image height to 70% of the viewport height */
+    object-fit: contain; /* Ensure the whole image fits within the bounds */
+  
     display: block;
   
     max-width: 100%;
@@ -810,7 +815,7 @@ float: none;
             transition: opacity 0.3s ease-in-out; 
            }
            .image-container{
-         max-width: 96%;
+         max-width: 96% !important;
            }
         .thumbnails img{
             width: 12dvw;
