@@ -411,7 +411,7 @@ margin: 0 auto;
   .carousel img {
    height: auto;
     display: none;
-   max-width: 35vw;
+   max-width: 30vw;
    
    transition: opacity 0.3s ease-in-out; 
 
@@ -466,7 +466,7 @@ margin: 0 auto;
   }
   .image-container{
     position: relative;
-    max-width: 80%;
+    max-width: 75%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -478,7 +478,7 @@ margin: 0 auto;
     height: auto;
     display: block;
   
-    max-width: 91%;
+    max-width: 100%;
   }
   .featuredimage.hidden{
     display: none;
@@ -557,6 +557,8 @@ flex-wrap: wrap;
 }
 .imageandarrows{
   min-height: 80dvh;
+  display: block;
+  position: relative;
 }
 #description-block{
     width: 50%;
