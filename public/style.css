@@ -403,7 +403,7 @@ margin: 0 auto;
 }
 .carousel {
     position: relative;
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -411,7 +411,7 @@ margin: 0 auto;
   .carousel img {
    height: auto;
     display: none;
-   max-width: 30vw;
+   max-width: 35vw;
    
    transition: opacity 0.3s ease-in-out; 
 
@@ -466,8 +466,8 @@ margin: 0 auto;
   }
   .image-container{
     position: relative;
-    max-width: 70%;
-    margin: 0 auto;
+    max-width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
   }
