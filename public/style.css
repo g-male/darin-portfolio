@@ -179,8 +179,8 @@ font-size: 1.8em;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers content vertically */
-    align-items: center;     /* Centers content horizontally if needed */
-    max-height: 100dvh;
+    align-items: stretch;     /* Centers content horizontally if needed */
+    height: 90dvh;
     margin-top: -3dvh;   
 }
 #regular-content{
@@ -403,7 +403,7 @@ margin: 0 auto;
 }
 .carousel {
     position: relative;
-    max-width: 91%;
+    max-width: 60%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -411,21 +411,17 @@ margin: 0 auto;
   .carousel img {
  
    max-height: 80vh; /* Limit image height to 70% of the viewport height */
-   object-fit: contain; /* Ensure the whole image fits within the bounds */
+
  
     display: none;
-   max-width: 30vw;
+   /*max-width: 30vw;*/
    
    transition: opacity 0.3s ease-in-out; 
 
 
   }
 
-  .featuredimage{
-   
- max-width: 28vw;
- 
-  }
+
   .carousel img.active {
     display: block;
   }
@@ -478,7 +474,7 @@ margin: 0 auto;
     width: 70%;
   }
   .featuredimage{
-    max-height: 80vh; /* Limit image height to 70% of the viewport height */
+    max-height: 90vh; /* Limit image height to 70% of the viewport height */
     object-fit: contain; /* Ensure the whole image fits within the bounds */
   
     display: block;
@@ -553,17 +549,16 @@ flex-wrap: wrap;
 }
 #image-block{
     width: 49%;
-    float: right;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
  
 }
 .imageandarrows{
-  min-height: 80dvh;
-  display: block;
-  position: relative;
+/*  min-height: 80dvh; */
+float: right;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 #description-block{
     width: 50%;
@@ -648,6 +643,7 @@ color: black;
      }
      .imageandarrows{
       min-height: 50dvh;
+      width: 100%;
     }
       .grid-item.last{
       flex-basis: 100% !important;  /* Make the last item take the full width */
