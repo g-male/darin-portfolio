@@ -593,7 +593,7 @@ position: relative;
     }
     .regular-content{
         margin-top: 0px;
-        max-height: 90dvh;
+        height: auto;
     }
 
     .toprow{
