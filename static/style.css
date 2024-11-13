@@ -403,14 +403,14 @@ margin: 0 auto;
 }
 .carousel {
     position: relative;
-    max-width: 60%;
+    max-width: 90%;
     margin: auto;
     display: flex;
     flex-direction: column;
   }
   .carousel img {
  
-   max-height: 80vh; /* Limit image height to 70% of the viewport height */
+   max-height: 70vh; /* Limit image height to 70% of the viewport height */
 
  
     display: none;
@@ -554,7 +554,7 @@ flex-wrap: wrap;
 }
 .imageandarrows{
 /*  min-height: 80dvh; */
-float: right;
+
 text-align: center;
 display: flex;
 flex-direction: column;
