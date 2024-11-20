@@ -787,6 +787,7 @@ float: none;
         }
         .video-container{
             width: 90%;
+            margin: 0 auto;
         }
         .post-meta{
            
