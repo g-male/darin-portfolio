@@ -9,4 +9,4 @@ descblurb: Photographed by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: bird
 ---
-Bro didn't move an inch for like half an hour. Awesome bird. Shot in Oita, Beppu, Japan. 
+Bro didn't move an inch for like half an hour. Awesome bird. Shot in Beppu, Japan. 
