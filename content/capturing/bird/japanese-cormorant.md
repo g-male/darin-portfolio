@@ -9,4 +9,4 @@ descblurb: Photographed by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: bird
 ---
-Buddy didn't move an inch for like half an hour it was awesome. 
+Buddy didn't move an inch for like half an hour it was awesome. Taken in Beppu, Oita. 
