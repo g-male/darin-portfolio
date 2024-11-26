@@ -12,4 +12,4 @@ contentdesc: bird
 ---
 My birding goal of this trip was to get a nice shot of just one measly Glossy Ibis. Shortly after expressing my concern for completing said goal, a big flock of them came shooting by right above us. Thankfully, my extreme bird-photography skills and instincts kicked in and I was able to get this awesome composition of the species I had been seeking.
 
-Shot in Olhão, Portugal, 2024.
+Shot in Olhão, Portugal.
