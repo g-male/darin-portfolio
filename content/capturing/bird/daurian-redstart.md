@@ -8,4 +8,4 @@ descblurb: Picture taken by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: bird
 ---
-Japanese birds are a lot like Japan. Lots of earth tones, humble, cute. 
+Japanese birds are a lot like Japan. Lots of earth tones, humble, cute. Shot in Nobeoka, Japan.
