@@ -2,7 +2,7 @@
 layout: blog
 title: Japanese Cormorant
 date: 2023-02-01T07:11:00.000Z
-featuredimage: /image/birds_for_web-5.jpg
+featuredimage: /image/japanese_corm.jpg
 images: []
 type: content
 descblurb: Photographed by Darin Morrison-Beer
