@@ -8,4 +8,4 @@ descblurb: Picture taken by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: bird
 ---
-Spotless Starling, eating a worm, on an ancient wall, overlooking the Portuguese beach, on a sunny day. Shot in Ria Formosa.
+Spotless Starling, eating a worm, on an ancient wall, overlooking the Portuguese beach, on a sunny day. Shot in Ria Formosa, Portugal.
