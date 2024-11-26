@@ -8,4 +8,4 @@ descblurb: Picture taken by Darin Morrison-Beer
 postyear: "2021"
 contentdesc: bird
 ---
-This little guy had just finished bathing when he decided to land on a branch in the sun and mean mug me.
+This little guy had just finished bathing when he decided to land on a branch in the sun and mean mug me. Cant remember where I shot this, Canada. 
