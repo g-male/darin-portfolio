@@ -9,4 +9,4 @@ descblurb: Photographed by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: bird
 ---
-The wettest bird i've ever had the pleasure of capturing. Taken in Beppu, Japan.
+The wettest bird i've ever had the pleasure of capturing. Shot in Beppu, Japan.
