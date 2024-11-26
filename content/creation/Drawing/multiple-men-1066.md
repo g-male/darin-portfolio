@@ -10,4 +10,4 @@ contentdesc: drawing
 ---
 A very early version of Multiple Men. 
 
-A couple Juicy Ass IPA's and boredom sparked this one. Up until this point i hadn't spent much time working on Multiple Men, and after completing the last face on the page, it filled me with immense satisfaction, inspiring me to push the concept further. Thus making this a catalyst piece. 
+A couple Juicy Ass IPA's and boredom sparked this one. Up until this point i hadn't spent much time working on Multiple Men, and after completing the last face on the page, it filled me with immense satisfaction, inspiring me to push the concept further. Thus making this a catalyst piece. Alcohol Marker on grid Paper [8.5 x 14]
