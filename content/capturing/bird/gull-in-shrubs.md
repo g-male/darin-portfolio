@@ -8,4 +8,4 @@ descblurb: Picture taken by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: bird
 ---
-This mother gull wasn't too happy having a sweaty bearded lunatic staring at her, while she was trying to tend to her nest.
+This mother gull wasn't too happy having a sweaty bearded lunatic staring at her, while she was trying to tend to her nest. Shot in Castro Marim, Porugal.
