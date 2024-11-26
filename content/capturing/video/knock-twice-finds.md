@@ -108,4 +108,4 @@ descblurb: Aiden, and Owen, for Knock Twice Finds
 postyear: "2024"
 contentdesc: video
 ---
-Shot on the train tracks behind the Knock Twice Studio in Toronto.
+Starring Aidan Blance, and Owen Lisle. Shot on the train tracks behind the Knock Twice Studio, Toronto.
