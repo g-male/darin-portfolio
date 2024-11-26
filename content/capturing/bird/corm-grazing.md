@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Corm grazing
-date: 2024-09-05T14:07:00.000Z
+date: 2023-03-23T14:22:00.000Z
 featuredimage: /image/birds_for_web-3-4.jpg
 type: content
 descblurb: Picture taken by Darin Morrison-Beer
