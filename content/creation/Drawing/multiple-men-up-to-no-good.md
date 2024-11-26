@@ -8,4 +8,4 @@ descblurb: Alcohol Marker on paper (10 x 14")
 postyear: "2024"
 contentdesc: drawing
 ---
-Another earlier example of further exploration into Multiple Men.
+Earlier example of further exploration into Multiple Men. Alcohol Marker on paper (10 x 14")
