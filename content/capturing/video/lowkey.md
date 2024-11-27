@@ -108,4 +108,4 @@ descblurb: Directed by Darin Morrison-Beer and Kurtis Tipoff
 postyear: "2024"
 contentdesc: video
 ---
-Jalen and Jake for Knock Twice 2024.
+Promotional material for Knock Twice 2024. Starring JALENXX and NEO 2056. 
