@@ -2,7 +2,9 @@
 
 {{ partial "navigation.html" . }}
 <div id="regular-content">
-
+  <div class="Titlerow"> 
+    <h1 class="workheading"><a class="work-title">Recent</a></h1>
+  </div>
 <div class="grid workgrid">
 
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "content") 15 }}

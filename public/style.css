@@ -36,6 +36,7 @@ background-color: rgba(255, 255, 255, 0);
     padding: 5px 10px;
 
     color: black;
+    margin-bottom: 3%;
   }
   
   .page-arrows a.active {
@@ -593,11 +594,14 @@ position: relative;
         margin-top: 0px;
         height: auto;
     }
+    .regular-content-mobile{
+      height: 90dvh !important;
+    }
 #regular-content{
-  height: 90dvh;
+  height: auto;
   position: relative;
   margin: 3%;
-  
+
 }
     .toprow{
         margin: 2%;
