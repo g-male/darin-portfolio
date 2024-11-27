@@ -70,7 +70,7 @@ background-color: rgba(255, 255, 255, 0);
     margin-top: 2%;
     margin-left: 2%;
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 1.3vw;
 }
 .navright{
     
@@ -115,6 +115,7 @@ background-color: rgba(255, 255, 255, 0);
   .titlerow{
     display:block;
 margin: 0 auto;
+text-align: center;
   }
 
 .content a{
@@ -127,7 +128,7 @@ margin: 0 auto;
     margin-bottom: 1em;
     text-decoration: none;
     color: black;
-font-size: 2em;
+font-size: 2vw;
 
 user-select: none;
 }
@@ -155,9 +156,9 @@ margin: 0 auto;
 display: block;
 text-decoration: none;
 color: black;
-font-size: 1.5em;
+font-size: 1.5vw;
 margin-top: 2%;
-margin-bottom: 2%;
+margin-bottom: 1%;
 margin-left: 4%;
 height: 4dvh;
 }
@@ -184,12 +185,9 @@ font-size: 1.8em;
     margin-top: -3dvh;   
 }
 #regular-content{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1% !important;
- margin: 5%;
- overflow-y: none;
-
+margin: 3%;
+margin-top: 1%;
+margin-bottom: 3% ;
 
 }
 #regular-content #icons{
@@ -218,7 +216,7 @@ font-size: 1.8em;
 .subcategory{
     display: inline-block;
     font-weight: 300;
-    font-size:0.9em ;
+    font-size: 1vw ;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -345,7 +343,7 @@ nav#home a{
     color: black;
     padding: 2px 6px;
     border-radius: 50%;
-    font-size: 1.2em;
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
@@ -595,7 +593,12 @@ position: relative;
         margin-top: 0px;
         height: auto;
     }
-
+#regular-content{
+  height: 90dvh;
+  position: relative;
+  margin: 3%;
+  
+}
     .toprow{
         margin: 2%;
     }
@@ -619,10 +622,11 @@ color: black;
       /*  position: relative !important;
         margin-top: 25% !important; */
     height: auto !important;
-    top: 8% !important;
+ 
     margin-top: 0px !important;
     position: relative !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
+    transform: translateY(-50%);
        }
      .grid{
       display: flex;
@@ -634,7 +638,7 @@ color: black;
 
      }
      .grid-item{
-      flex-basis: calc(100% / 2);
+      flex-basis: calc(100% / 2) !important;
       box-sizing: border-box;
 		width: 100%;
 	height: 20vh;
@@ -649,9 +653,7 @@ color: black;
       flex-basis: 100% !important;  /* Make the last item take the full width */
     text-align: center; /* Center text if needed */
      }
-     .grid-item{
-      flex-basis: calc(100% / 2) !important;
-     }
+   
      .workblock{
     height: auto;
     gap: 2%;
@@ -659,6 +661,7 @@ color: black;
    
      .pagination{
       margin: 0;
+     position: relative;
      }
    
 
@@ -739,6 +742,7 @@ float: none;
 .post-count{
     top: -5px;
     right: 0px;
+    font-size: 3vw;
 }
 
      .allcats{

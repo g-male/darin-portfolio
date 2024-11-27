@@ -2,6 +2,7 @@
        
 </nav>
 <div class="content"> 
+  <a href="/">Home</a> <br>
   {{ range where .Site.Pages "Type" "category" }} 
     <A href="{{ .Permalink }}"> {{ .Title}} </A>
 

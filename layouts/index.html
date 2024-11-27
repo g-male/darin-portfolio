@@ -3,9 +3,9 @@
 {{ define "main" }}
 
 {{ partial "navigation.html" . }}
-<div id="regular-content icons">
+<div id="regular-content">
   <div class="icon grid">
-    <div class="grid-item last drawnicon">
+    <div class="grid-item drawnicon">
      
         <a href="https://dmb.world" target="_blank" rel="noopener noreferrer"vv class="subcategory">
             <div class="thumbimage-wrapper">
@@ -32,14 +32,10 @@
        
             {{ $imageResource := resources.Get $image }}
             {{ if $imageResource }}
-                 {{ $small := $imageResource.Fit "120x120" }}
-                 {{ $large := $imageResource.Fit "200x200" }}
+               
 
-        <img class="thumbimage" src="{{ $large.Permalink }}"
-             srcset="{{ $small.Permalink }} 120w,
-                     {{ $large.Permalink }} 200w"
-             sizes="(max-width: 600px) 120px,
-                    200px"
+        <img class="thumbimage" src="{{ $imageResource.Permalink }}"
+             sizes="(max-width: 600px)"
              alt="{{ .Title }}">
     {{ end }}
 
