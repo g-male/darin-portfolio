@@ -108,4 +108,4 @@ descblurb: Directed, and filmed by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: video
 ---
-Yota and Issey for Knock Twices Another Chance Vol.1 
+Promotional Material for Another Chance Vol.1. Starring Yota , and Issey Kawamura. Shot in Knock Twice, Toronto.

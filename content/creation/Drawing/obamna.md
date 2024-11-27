@@ -9,4 +9,4 @@ descblurb: Alcohol Marker, Ink, and Oil Pastel on Paper (10" x 14")
 postyear: "2024"
 contentdesc: drawing
 ---
-As a lot of friends an acquaintances i know, i am a fan of pop-culture symbol that Obama has unintentionally become. With that being said; sometimes i draw him.
+As friends an acquaintances know, i am a fan of the pop-culture symbol that Obama has become. If somethings on my mind, its got to get out, and this time, it happened to be through ink. 

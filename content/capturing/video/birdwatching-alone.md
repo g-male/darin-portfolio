@@ -26,4 +26,4 @@ descblurb: Shot and edited by myself for fun, 2024
 postyear: "2024"
 contentdesc: video
 ---
-A cold day birding with the pros.
+A cold day birding with the pros. Starring Connor Smith, Eildert Beeftink, and Steve McClellan. 
