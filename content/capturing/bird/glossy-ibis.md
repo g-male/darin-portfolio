@@ -3,8 +3,7 @@ layout: blog
 title: Glossy Ibis
 date: 2024-05-11T07:11:00.000Z
 featuredimage: /image/birds_for_web-12.jpg
-images:
-  - src: /image/birds_for_web-12.jpg
+images: []
 type: content
 descblurb: Photographed by Darin Morrison-Beer
 postyear: "2024"
