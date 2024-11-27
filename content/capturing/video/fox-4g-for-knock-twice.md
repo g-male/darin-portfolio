@@ -108,4 +108,4 @@ descblurb: Featuring Fox 4G, Yota, and NEO 2056
 postyear: "2023"
 contentdesc: video
 ---
-Shot in Kandatcho, Japan. Starring Fox 4G, Yota, and NEO 2056
+Shot in Kandatcho, Japan for the Knock Twice "Knock & Knock" collection. Starring Fox 4G, Yota Kayama, and NEO 2056.
