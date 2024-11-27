@@ -12,6 +12,6 @@ descblurb: "-"
 postyear: "2024"
 contentdesc: collage
 ---
-A lot of the time I'm making collages, I take pride in knowing that the first person to combine two specific elements together. It's a very personal process. 1990's NBA, Super Mario Bros, and film photos from Asia in the 80's, it screams Darin to me. 
+A lot of the time I'm making collages, I take pride in knowing that I'm the first person to combine two things together. It's a very personal process. 1990's NBA cards, Dollar Store Super Mario Bros Stickers, and film photos from Asia in the 80's, it screams Darin to me. 
 
-Made using found, and purchased objects. Postcard sized. 
+Made using found, and purchased objects. Postcard sized, (4" x 6").
