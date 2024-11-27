@@ -108,4 +108,12 @@ descblurb: Josh for Thinker Cannabis, 2024
 postyear: "2024"
 contentdesc: video
 ---
-Typical morning for Mr.Mcguinnis 
+I threw a relatively large house-party for Halloween in 2023. I wanted it to be the talk of my peers for years to come, really impress people. So much so that I asked Thinker Cannabis to sponsor the house-party.
+
+ Thinker Cannabis obliged, and came through with a big ass bowl of pre rolls. All I had to do was make some content during the house party. The party ended up getting so out of control I spent the whole night roleplaying the Eye of Sauron in the hopes of minimizing damage created by the chaos. By the time the sun came up all of the joints had been smoked, the Thinker Cannabis neon sign had been broken, and I captured zero content of the event. 
+
+This video (Starring the legendary Joshua Mcginniss) was made as some sort of consolation for my lack of content to Thinker Cannabis to promote their 24 J's for the Holidays Advent Calendar. I felt I owed them for their graciousness, and they ended up liking the video. 
+
+Something is always better than nothing.
+
+Also Shoutout my boy Bosko for fixing the neon light in his shed for me- that was clutch.  

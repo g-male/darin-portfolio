@@ -108,4 +108,4 @@ descblurb: Starring Owen, and Greg
 postyear: "2024"
 contentdesc: video
 ---
-Shot at my family home in Scarborough for Thinker Cannabis. Starring Owen Lisle, and Greg Pantelic.
+Shot at my family home in Scarborough for Thinker Cannabis, 2024. Starring Owen Lisle, and Greg Pantelic.

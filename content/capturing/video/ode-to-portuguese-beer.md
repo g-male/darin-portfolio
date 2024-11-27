@@ -26,4 +26,11 @@ descblurb: Camera work by Liam Morrison-Beer
 postyear: "2024 "
 contentdesc: video
 ---
-Both Superbock and Sagres are excellent beers- would highly recommend.
+
+This video represents perfectly, a philosophy I haven't found a name for yet. 
+
+The idea for this video came to me so quickly, it was so insignificant. Just another one of the hundreds  of stupid little ideas I'll typically have in a week. The difference with this one was, I immediately executed it to completion. 
+
+My theory is that some of the best ideas are one of the ones that you'd normally dismiss 99% of the time because it doesn't seem radical enough, or you'd rather not expend the energy needed to make it happen. 
+
+From start to finish I must've been done in 40 minutes. I directed my brother Liam with the exact camera angles I had imagined just 5 minutes prior, made a bootleg Kanye audio, and slapped some comically shitty PNG's on there, and wam- 63k on TikTok.

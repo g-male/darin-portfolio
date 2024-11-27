@@ -108,4 +108,4 @@ descblurb: Featuring Cyrel, Lin, Danny, Kurt, Leo, and guy
 postyear: "2022"
 contentdesc: video
 ---
-Made to promote Friends and Neighbors Pop-up hosted at the Knock Twice Studio, Toronto. Starring Cyrel, Lin, Danny, Kurt, Leo, and Guy.
+Made to promote the Friends and Neighbors Pop-up hosted at the Knock Twice Studio, Toronto. Starring Cyrel Torrejas, Lin, Danny, Kurtis Tipoff, Leo, and Guy.
