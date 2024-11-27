@@ -108,4 +108,4 @@ descblurb: Yota for Kijiji, 2022
 postyear: "2022"
 contentdesc: video
 ---
-Back to school campaign promo for Kijiji Canada.
+Back to school campaign promo for Kijiji Canada. Shot on the corner of Wiltshire, and Adrian ave, Toronto, 2022. Starring Yota Kayama.
