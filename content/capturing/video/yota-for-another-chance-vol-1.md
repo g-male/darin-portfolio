@@ -108,4 +108,4 @@ descblurb: Filmed, and Directed by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: video
 ---
-Starring Yota, for Knock Twice's Another Chance Vol.1 Promo.
+Promotional Material for the Knock Twice Another Chance Vol.1 event. Shot in the Wiltshire parking lot, Toronto, 2024. Starring Yota Kayama. 
