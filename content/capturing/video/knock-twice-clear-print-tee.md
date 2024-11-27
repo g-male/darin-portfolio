@@ -108,4 +108,4 @@ descblurb: Shot and edited by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: video
 ---
-Promotional video for Knock Twice shot in the studio, 2023.
+Promotional video for the Knock Twice Clear print collection. Shot at the Knock Twice studio, 2023.
