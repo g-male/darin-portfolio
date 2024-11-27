@@ -108,4 +108,4 @@ descblurb: Directed, and filmed by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: video
 ---
-Promotional Material for Another Chance Vol.1. Starring Yota , and Issey Kawamura. Shot in Knock Twice, Toronto.
+Promotional Material for Another Chance Vol.1. Starring Yota Kayama, and Issey Kawamura. Shot in the Knock Twice studio, Toronto, 2022.
