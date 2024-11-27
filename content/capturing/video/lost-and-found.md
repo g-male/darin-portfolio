@@ -108,4 +108,6 @@ descblurb: Filmed and Directed by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: video
 ---
-Starring Yota, Shugo, and Issey for Knock Twices Essential Logo Collection, 2022.
+This was the first instance in which I envisioned the video, created a detailed storyboard, and the end product turned out exactly how I saw it in my head. I Love this video.
+
+Promotional material made for the Knock Twice Essential Logo Collection, 2022. Starring Yota Kayama, Shugo Sugihara, and Issey Kawamura. 
