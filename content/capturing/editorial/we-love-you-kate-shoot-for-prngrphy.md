@@ -18,6 +18,7 @@ descblurb: Digicam photography and Post Production by Darin Morrison-Beer
 postyear: "2024"
 contentdesc: editorial
 ---
-Editorial/post-production, shot on digicam for PRNGRPHY, 2024.
+Shot, and edited for PRNGRPHY's WE LOVE YOU KATE Collection.
+
 
 As seen on Charliexcx, 2024.
