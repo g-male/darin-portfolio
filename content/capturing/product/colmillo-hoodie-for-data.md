@@ -12,4 +12,4 @@ descblurb: Hoodie Designed and produced by Elliott Muscat, Product Photography
 postyear: "2024"
 contentdesc: product
 ---
-Lay flat e-commerce shoot, and editing for Tainy's album DATA merchandise "COLMILLO" Hoodie and T-Shirt.
+Lay flat e-commerce shoot, and editing for Tainy's album DATA merchandise "COLMILLO" Hoodie, and T-Shirt at the Knock Twice studio.
