@@ -16,4 +16,7 @@ descblurb: Miles Freedom shot by Darin Morrison-Beer Styled by Kurtis Tipoff
 postyear: "2022"
 contentdesc: editorial
 ---
--
+Shot and edited for Knock Twice, in the Knock Twice Studio.
+
+
+Model: Miles Freedom
