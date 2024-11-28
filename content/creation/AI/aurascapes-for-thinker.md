@@ -17,14 +17,24 @@ descblurb: Artificial Intelligence Assisted Ad Campaign
 postyear: "2024"
 contentdesc: ai
 ---
-The A.I. "Aurascapes" series for THINKER was crafted to convey the aura or vibe of nostalgic, perfect scenes from the past—ideal for enjoying the specific cannabis strain that each ad promotes. Drawing on my previous experience with AI, an extensive mood board, and a rich library of physical media, I created a precise combination of keywords to achieve the vibe of vintage Japanese and Americana magazines.
+The A.I. "Aurascapes" series for THINKER was made to convey the aura or vibe of nostalgic scenes from the past—ideal for enjoying the specific cannabis strain that each ad promotes. 
 
-The visual style of these images is reminiscent of a cool vintage Japanese magazine advertisement, evoking the kind of scene that makes viewers think, "Whoa, that looks cool, I want to do that." This aesthetic is intertwined with classic themes from Camel and Marlboro advertisements, creating a unique and compelling visual appeal.
+Drawing on my extensive mood board, and rich library of physical media, I created a precise combination of keywords to achieve the vibe of vintage Japanese and Americana magazines.
 
-The purpose of this ad campaign was to promote THINKER's current line of cannabis products to both existing consumers and potential customers. The target audience comprises younger individuals aged 19-39 who seek to purchase from a brand that is not only trustworthy and cool but also appreciates finer products, aesthetic taste, and clever marketing.
 
-Standout elements of this series are the immersive aurascapes, which create scenarios that any cannabis enthusiast would want to experience while enjoying THINKLER's cannabis products. These captivating scenes invite viewers to imagine themselves in those exact settings, enhancing the allure of the product.
 
-The campaign was notably well-received by both consumers and industry competitors, marking a significant impact.
 
-On a personal level, this project allowed me to hone my skills and realize that my extensive background in curation has significantly enhanced my talent for AI prompting. Combining AI text prompting with Photoshop, color grading, and type design has shown me that, with time and patience, achieving almost any desired outcome is possible.
+
+The purpose of this ad campaign was to promote THINKER's current line of cannabis products to both existing consumers and potential customers. The target audience comprises younger individuals aged 19-39 who want to buy from a brand that is not only trustworthy and cool but also appreciates aesthetic taste, and clever marketing.
+
+
+
+
+
+The campaign was notably well-received by both consumers and industry competitors.
+
+
+
+On a personal level, this project made me realize that my extensive background in curation has significantly enhanced my ability for AI prompting.
+
+Combining AI prompting with Photoshop, color grading, and type design has shown me that, with time and patience, almost any desired outcome is possible.
