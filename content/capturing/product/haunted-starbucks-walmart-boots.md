@@ -8,4 +8,7 @@ descblurb: Photographed and Post Production by Darin Morrison-Beer
 postyear: "2024"
 contentdesc: product
 ---
-E-commerce product photography, and editing for Haunted Starbucks. Shot in the Knock Twice Studio.
+E-commerce product photography, and editing for Haunted Starbucks.
+
+
+Shot in the Knock Twice studio, Toronto.
