@@ -15,4 +15,8 @@ descblurb: "Photography and Post-Production by Darin Morrison-Beer, model: Kurti
 postyear: "2022"
 contentdesc: editorial
 ---
-Shot, and edited for Knock Twice, 2022
+Shot, and edited for Knock Twice. 
+
+Taken in the legendary Wiltshire parking lot.
+
+Model: Kurtis Tipoff
