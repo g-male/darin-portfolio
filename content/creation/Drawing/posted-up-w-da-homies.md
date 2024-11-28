@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: posted up w/ da homies
+title: Posted Up
 date: 2024-05-03T11:11:00.000Z
 featuredimage: /image/posted_up.png
 type: content
