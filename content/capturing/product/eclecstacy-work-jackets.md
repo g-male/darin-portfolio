@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Eclecstacy Work jackets
+title: Eclecstacy Work Jackets
 date: 2023-04-20T11:11:00.000Z
 featuredimage: /image/eclecstacy_jackets_-.gif
 images:
