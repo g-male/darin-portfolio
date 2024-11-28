@@ -17,4 +17,8 @@ descblurb: Photography and Post-Production by Darin Morrison-Beer, Modeling by K
 postyear: "2021"
 contentdesc: editorial
 ---
-Kait wearing Evisu, and Jil Sanders shot and post-production for Knock Twice.
+Shot and edited for the Knock Twice Instagram in our reselling era. Thank god Kait lived around the corner from the studio and was always down to shoot some bs. Shoutout Kait.
+
+Model: Kait
+
+
