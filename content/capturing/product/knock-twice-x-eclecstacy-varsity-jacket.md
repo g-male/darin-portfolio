@@ -11,4 +11,4 @@ descblurb: Design, post production, and lay-flat photography by Darin Morrison-B
 postyear: "2023"
 contentdesc: product
 ---
-Designed, shot and edited small capsule of 15 Vintage Re-born Varsity Jackets, for Knock Twice x Eclecstacy. Shot in the Knock Twice studio, 2023.
+Designed, shot and edited small capsule of 15 Vintage Re-born Varsity Jackets, for Knock Twice x Eclecstacy. Shot in the Knock Twice studio.
