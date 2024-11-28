@@ -15,4 +15,8 @@ descblurb: Product photography and post production by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Product photography and editing for Eclecstacy. Shot at the Knock Twice studio.
+Product photography and editing for Eclecstacy.
+
+
+
+Shot in the Knock Twice studio, Toronto.
