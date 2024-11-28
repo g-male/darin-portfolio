@@ -1,20 +1,20 @@
 
 {{ define "main" }}
 {{ partial "navigation.html" .}}
-    
-<div id="regular-content" class="regular-content-mobile">
-  
-  <div class="Titlerow"> 
-    <h1 class="workheading"><a class="work-title">{{ .Title }}</a></h1>
-    <div class="allcats">
-        {{ $currentPage := . }}
-        {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
-            {{ if ne .Permalink $currentPage.Permalink }}
-                <a class="subcategory {{ if .Section }}{{ else }}subcatactive{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
-            {{ end }}
-        {{ end }}
-    </div>
+<div class="Titlerow"> 
+  <h1 class="workheading"><a class="work-title">{{ .Title }}</a></h1>
+  <div class="allcats">
+      {{ $currentPage := . }}
+      {{ range where (where .Site.Pages "Type" "subcategory") "Section" .Section }}
+          {{ if ne .Permalink $currentPage.Permalink }}
+              <a class="subcategory {{ if .Section }}{{ else }}subcatactive{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ end }}
+      {{ end }}
+  </div>
 </div>
+<div id="regular-content" >
+  
+
 <div class="grid workgrid">
   {{ $paginator := .Paginate (where .Site.RegularPages "CurrentSection.Path" .CurrentSection.Path) 15 }}
   {{ range $paginator.Pages }}

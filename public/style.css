@@ -161,7 +161,7 @@ font-size: 1.5vw;
 margin-top: 2%;
 margin-bottom: 1%;
 margin-left: 4%;
-height: 4dvh;
+height: auto;
 }
 #gohome:hover{
   color: #6e6e6e;
@@ -208,7 +208,7 @@ margin-bottom: 3% ;
 }
 .workheading{ 
   
-   
+   margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 3%;
     font-size: 2em;
@@ -750,13 +750,14 @@ float: none;
 }
 
      .allcats{
-        width: 60%;
+        width: 50%;
      }
      .subcategory{
         font-size: 0.7em;
      }
      .workheading{ 
         font-size: 1.5rem;
+        margin-left: 4%;
      }
      .project-metadata{
         display: grid;
