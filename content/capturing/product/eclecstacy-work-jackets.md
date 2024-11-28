@@ -15,4 +15,4 @@ descblurb: Layflat Photography, and post production by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Shot and edited for Eclecstacy, 2023
+Product photography and editing for Eclecstacy, shot at the Knock Twice Studio, 2023.
