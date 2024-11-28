@@ -288,12 +288,18 @@ margin-left: 0.5%;
 }
 #regular-content.about{
   margin: 0;
+  
 }
 .grid.about{
   flex-direction: row;
 margin-bottom: 2%;
 
+
 }
+.grid-item.abouttext{
+  flex-basis: calc(100% /3);
+}
+
 .grid.about.text{
 align-items: top;
 }
@@ -491,7 +497,7 @@ margin: 0 auto;
   }
   .meta-titledate{
     font-family:'GT-Maru-Mono-Bold' ;
-    font-size: 1vw;
+   
   }
   .arrow {
     position: absolute;

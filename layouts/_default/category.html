@@ -31,14 +31,10 @@
        
           {{ $imageResource := resources.Get $image }}
           {{ if $imageResource }}
-               {{ $small := $imageResource.Fit "120x120" }}
-               {{ $large := $imageResource.Fit "200x200" }}
+               
 
-      <img class="thumbimage" src="{{ $large.Permalink }}"
-           srcset="{{ $small.Permalink }} 120w,
-                   {{ $large.Permalink }} 200w"
-           sizes="(max-width: 600px) 120px,
-                  200px"
+      <img class="thumbimage" src="{{ $imageResource.Permalink }}"
+           sizes="(max-width: 600px) "
            alt="{{ .Title }}">
   {{ end }}
 
