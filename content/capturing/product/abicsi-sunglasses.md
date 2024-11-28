@@ -9,4 +9,4 @@ descblurb: Product Photography and Post Production by Darin Morrison-Beer
 postyear: "2021"
 contentdesc: product
 ---
-E-commerce shoot for ABICSI sunglasses case at Knock Twice Studio.
+E-commerce shoot for ABICSI sunglasses case at the Knock Twice Studio.
