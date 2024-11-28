@@ -14,4 +14,7 @@ descblurb: "Fumijya and Twins for GB x KT shot by Darin Morrison-Beer "
 postyear: "2023"
 contentdesc: editorial
 ---
-Shot and edited in Akihabara for the Knock Twice by Gangbox collection, 2023.
+Shot and edited for the Knock Twice by Gangbox collection. Akihabara, Tokyo.
+
+
+Models: Fumiya, Naho, and Miho.
