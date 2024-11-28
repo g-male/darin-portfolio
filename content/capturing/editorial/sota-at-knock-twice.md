@@ -14,4 +14,4 @@ descblurb: "Photography, and Post-production by Darin Morrison-Beer, Modeled by:
 postyear: "2024"
 contentdesc: editorial
 ---
-Sota, shot and edited by me for Knock Twice, 2024.
+Sota Mori, shot and edited by me for Knock Twice, Toronto.
