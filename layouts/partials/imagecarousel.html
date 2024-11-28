@@ -11,17 +11,7 @@
          alt="{{ .Params.Title }}" loading="lazy">
 {{ end }}
 
-   <!-- {{ if $featuredImageResource }}
-        {{ $featuredSmall := $featuredImageResource.Resize "400x" }}
-        {{ $featuredLarge := $featuredImageResource.Resize "650x" }}
-        <img class="featuredimage" src="{{ $featuredLarge.Permalink }}"
-             srcset="{{ $featuredSmall.Permalink }} 160w,
-                     {{ $featuredLarge.Permalink }} 650w"
-             sizes="(max-width: 600px) 400px,
-                    650px"
-             alt="{{ .Params.Title }}" loading="lazy">
-    {{ end }}
--->
+
     <div class="post-meta">
         <a class="meta-titledate">{{ .Params.Title }}, {{ .Params.Postyear }}</a><br>
     </div>
@@ -29,19 +19,7 @@
 
 {{ if and $images (gt (len $images) 0) }}
 <div class="carousel">
-   <!-- {{ range $index, $image := $images }}
-        {{ $imageResource := resources.Get $image.src }}
-        {{ if $imageResource }}
-            {{ $small := $imageResource.Fit "370x370" }}
-            {{ $large := $imageResource.Fit "600x600" }}
-            <img src="{{ $large.Permalink }}"
-                 srcset="{{ $small.Permalink }} 370w, {{ $large.Permalink }} 600w"
-                 sizes="(max-width: 600px) 370px, 600px"
-                 alt="{{ $image.alt | default "Image" }}"
-                 class="{{ if eq $index 0 }}active{{ end }}" >
 
-        {{ end }} 
-    {{ end }} -->
 
     {{ range $index, $image := $images }}
     {{ $imageResource := resources.Get $image.src }}
