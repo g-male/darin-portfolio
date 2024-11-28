@@ -12,4 +12,6 @@ descblurb: Shot on and edited by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: editorial
 ---
-dude shot on digicam for Knock Twice 2023. 
+Shot and edited for the Knock Twice Clear Print Graphic Tee Collection. 
+
+Model: Philip
