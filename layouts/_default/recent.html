@@ -18,14 +18,14 @@
        
       {{ $imageResource := resources.Get $image }}
       {{ if $imageResource }}
-           {{ $small := $imageResource.Resize "160x" }}
-           {{ $large := $imageResource.Resize "220x" }}
+           {{ $small := $imageResource.Resize "260x" }}
+           {{ $large := $imageResource.Resize "420x" }}
 
   <img class="featured-image" src="{{ $large.Permalink }}"
-       srcset="{{ $small.Permalink }} 160w,
-               {{ $large.Permalink }} 220w"
-       sizes="(max-width: 600px) 150px,
-              220px"
+       srcset="{{ $small.Permalink }} 260w,
+               {{ $large.Permalink }} 420w"
+       sizes="(max-width: 600px) 260px,
+              420px"
        alt="{{ .Params.Title }}" loading="lazy">
 {{ end }}
 

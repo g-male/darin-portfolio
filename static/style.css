@@ -26,8 +26,9 @@ background-color: rgba(255, 255, 255, 0);
 .pagination {
     text-align: center;
     margin-top: 20px;
-    margin: 5% !important;
-    margin-bottom: 10% !important;
+
+    padding-bottom: 3% !important;
+    padding-top: 3% !important;
   }
   
   .page-arrows a {
@@ -383,6 +384,7 @@ nav#home a{
     height: 100%; 
     position: relative;/* or a fixed height as per your layout */
     margin: 3%;
+    margin-top: 0%;
   }
  
   
@@ -489,6 +491,7 @@ margin: 0 auto;
   }
   .meta-titledate{
     font-family:'GT-Maru-Mono-Bold' ;
+    font-size: 1vw;
   }
   .arrow {
     position: absolute;
@@ -580,11 +583,35 @@ position: relative;
     overflow-y: auto;
 
 }
+.description p{
+  font-size: 1.2vw;
+}
 .description-mobile{
     display: none;
 }
 .grey{
   color: #6e6e6e;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.content a{
+  font-size: 2em;
+}
+  #gohome{
+  font-size: 2.5vw;
+  margin-left: 5%;
+ }
+ #top-right{
+  font-size: 2.3vw;
+
+ }
+ .subcategory{
+  font-size: 1.5vw;
+ }
+ .grid.about{
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  position: absolute;
+ }
 }
 @media only screen and (max-width: 480px) {
     body{
@@ -666,9 +693,14 @@ color: black;
      .pagination{
       margin: 0;
      position: relative;
+   
+ 
+     display: block;
      }
    
-
+.page-arrows{
+  margin-bottom: 5%;
+}
 
      .page-arrows a {
       margin: 0 5px;
@@ -768,6 +800,7 @@ float: none;
      .grid-image.about{
       margin-top: 0;
       margin: 4%;
+ 
       height: auto !important;
      }
      .featured-image{
