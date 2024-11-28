@@ -17,4 +17,4 @@ descblurb: Sayachi and dude for GB x KT shot and edited by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: editorial
 ---
-Directed, shot, and edited by Darin Morrison-Beer in Tokyo for the Knock Twice by Gang Box Collection, 2023.
+Directed, shot, and edited by Darin Morrison-Beer in Tokyo for the Knock Twice by Gang Box Collection, 2023. Starring Shin and Sai.
