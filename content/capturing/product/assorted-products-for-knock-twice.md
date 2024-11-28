@@ -10,4 +10,4 @@ descblurb: Product photography by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: product
 ---
-Product shots taken and edited for Knock Twice.
+Product photography and editing for Knock Twice, shot at the Knock Twice studio.
