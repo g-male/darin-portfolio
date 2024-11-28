@@ -2,10 +2,10 @@
 layout: blog
 title: '"Colmillo" Hoodie for DATA '
 date: 2024-08-08T14:12:00.000Z
-featuredimage: /image/data_hoodie_black.gif
+featuredimage: /image/data_hoodie_black.webp
 images:
-  - src: /image/data_hoodie_black.gif
-  - src: /image/data_hoodie_white.gif
+  - src: /image/data_hoodie_black.webp
+  - src: /image/data_hoodie_white.webp
 type: content
 descblurb: Hoodie Designed and produced by Elliott Muscat, Product Photography
   by Darin Morrison-Beer, Modeled by Parker Murchison
