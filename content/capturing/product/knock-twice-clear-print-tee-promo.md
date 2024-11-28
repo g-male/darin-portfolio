@@ -17,4 +17,4 @@ contentdesc: product
 ---
 Staged, shot, and edited for the Knock Twice Clear Print Graphic Tee Collection. 
 
-Shot in the Knock Twice Studio, Toronto.
+Shot in the Knock Twice studio, Toronto.
