@@ -14,4 +14,7 @@ descblurb: Photography by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Lay-flat product photography, and editing for the Knock Twice Essentials collection. Shot at the Knock Twice studio.
+Lay-flat product photography, and editing for the Knock Twice Essentials collection.
+
+
+Shot in the Knock Twice studio, Toronto.
