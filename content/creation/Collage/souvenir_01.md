@@ -2,11 +2,11 @@
 layout: blog
 title: Souvenirs from the Dump
 date: 2024-06-17T14:54:00.000Z
-featuredimage: /image/scans_early_june_2024-forweb_png_test.png
+featuredimage: /image/scans_early_june_2024-forweb.webp
 images:
-  - src: /image/scans_early_june_2024-forweb_png_test.png
-  - src: /image/souvenir_02_test.png
-  - src: /image/souvenir_03_test.png
+  - src: /image/scans_early_june_2024-forweb.webp
+  - src: /image/souvenir_02_test.webp
+  - src: /image/souvenir_03_test.webp
 type: content
 descblurb: "-"
 postyear: "2024"
