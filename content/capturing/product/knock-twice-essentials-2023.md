@@ -14,4 +14,4 @@ descblurb: Photography by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Lay-flat product photography, and editing for the Knock Twice Essentials collection. Shot at the Knock Twice studio, 2023.
+Lay-flat product photography, and editing for the Knock Twice Essentials collection. Shot at the Knock Twice studio.
