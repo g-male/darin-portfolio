@@ -15,6 +15,8 @@ descblurb: Photography, and post-production by Darin Morrison-Beer, modeled by
 postyear: "2023"
 contentdesc: editorial
 ---
-Yota, Issey, and Shugo, shot and edited by me for the 2023 Knock Twice essentials line.
+Shot and edited for the Knock Twice Essentials Collection.
 
-Shot in our Toronto studio. The studio’s walls, filled with curated posters, vintage signs, and unique collectibles, created a vibrant backdrop that reflected our curating skills and hybrid-moodboard social media presence. This setting also offers insight into the inspiration behind our designs and design ethos, giving customers a deeper connection to our creative process. 
+
+
+Models: Yota Kayama, Issey Kawamura, and Shugo Sugihara.
