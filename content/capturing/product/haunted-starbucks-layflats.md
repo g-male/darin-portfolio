@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Haunted Starbucks Layflats
+title: Haunted Starbucks Lay-flats
 date: 2024-08-06T16:12:00.000Z
 featuredimage: /image/haunted_starbucks_collection_layflats-.gif
 images:
