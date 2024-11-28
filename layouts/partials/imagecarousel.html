@@ -44,8 +44,8 @@
         {{ range $index, $image := $images }}
             {{ $thumbnailResource := resources.Get $image.src }}
             {{ if $thumbnailResource }}
-                {{ $thumbnailSmall := $thumbnailResource.Resize "60x" }}
-                <img src="{{ $thumbnailSmall.Permalink }}"
+              
+                <img src="{{ $thumbnailResource.Permalink }}"
                      alt="{{ $image.alt }}"
                      class="{{ if eq $index 0 }}active{{ end }}"
                      onclick="showSlide({{ $index }})">
