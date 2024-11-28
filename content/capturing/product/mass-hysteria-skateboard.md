@@ -19,4 +19,4 @@ descblurb: Lay-flat Photography by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Product photography, and editing for Mass Hysteria. Shot in the Knock Twice studio, 2023.
+Product photography, and editing for Mass Hysteria. Shot in the Knock Twice studio.
