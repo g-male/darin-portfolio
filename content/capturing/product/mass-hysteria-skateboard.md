@@ -19,4 +19,4 @@ descblurb: Lay-flat Photography by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Trucker hat, tee, Enamel pin, and skateboard shot for Mass Hysteria in 2023.
+Product photography, and editing for Mass Hysteria. Shot in the Knock Twice studio, 2023.

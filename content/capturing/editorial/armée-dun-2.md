@@ -11,8 +11,8 @@ images:
   - src: /image/fujifilm_f440_armee_dun_edited-0205.jpg
   - src: /image/fujifilm_finepix_armee_dun_edited-2566.jpg
 type: content
-descblurb: for Armee D'n, 2024
+descblurb: "-"
 postyear: "2024"
 contentdesc: editorial
 ---
-shot in via stu
+Shot and edited for Armée D'un. Taken in the Viapiana Dundas Dungeon, 2024.

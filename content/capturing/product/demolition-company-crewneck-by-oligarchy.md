@@ -8,4 +8,4 @@ descblurb: Product Photography by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: product
 ---
-Lay flat e-commerce shoot for OLIGARCHY's DEMOLITION COMPANY crewneck, and Balaclava at Knock Twice Studio. The images were carefully shot and edited, focusing on precise lighting and accurate color.
+Lay flat e-commerce shoot, and editing for OLIGARCHY's DEMOLITION COMPANY crewneck, and Balaclava at Knock Twice Studio, 2022.

@@ -9,4 +9,4 @@ descblurb: Layflat Photography and post-production by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Shot and edited for the Knock Twice clear print collection.
+Lay-flat photography and editing for the Knock Twice clear print collection. Shot at the Knock Twice studio, 2023.

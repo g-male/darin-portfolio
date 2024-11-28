@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Knock Twice Essentials 2023
+title: Knock Twice Essentials
 date: 2023-01-13T22:02:00.000Z
 featuredimage: /image/editorial_layflats-56.jpg
 images:
@@ -14,4 +14,4 @@ descblurb: Photography by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Shot and edited for Knock Twice, 2023.
+Lay-flat product photography, and editing for the Knock Twice Essentials collection. Shot at the Knock Twice studio, 2023.

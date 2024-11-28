@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Eclecstacy Work jackets
+title: Eclecstacy Work Jackets
 date: 2023-04-20T11:11:00.000Z
 featuredimage: /image/eclecstacy_jackets_-.gif
 images:
@@ -15,4 +15,4 @@ descblurb: Layflat Photography, and post production by Darin Morrison-Beer
 postyear: "2023"
 contentdesc: product
 ---
-Shot and edited for Eclecstacy, 2023
+Product photography and editing for Eclecstacy, shot at the Knock Twice Studio, 2023.

@@ -18,4 +18,4 @@ descblurb: Lay-flat product photography and post production by Darin Morrison-Be
 postyear: "2023"
 contentdesc: product
 ---
-Crewneck, Hoodie, and Tee, shot and post-production for Active Labour, 2023
+Crewneck, Hoodie, and Tee, shot and edited for Active Labour, 2023

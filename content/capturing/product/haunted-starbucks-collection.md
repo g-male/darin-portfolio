@@ -15,4 +15,4 @@ descblurb: Photography and Post Production by Darin Morrison-Beer Styled by Jame
 postyear: "2024"
 contentdesc: product
 ---
-Model e-commerce shoot for Haunted Starbucks at Knock Twice Studio, with careful post-production. Every detail was refined to look sharp, even up close, with a strong focus on perfecting the lighting and color. 
+Model e-commerce shoot, and editing for Haunted Starbucks at Knock Twice Studio, 2024.
