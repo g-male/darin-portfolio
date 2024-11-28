@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Knock Twice Essentials 2023
+title: Knock Twice Essentials
 date: 2023-01-13T22:02:00.000Z
 featuredimage: /image/editorial_layflats-56.jpg
 images:
