@@ -8,4 +8,4 @@ descblurb: Product Photography by Darin Morrison-Beer
 postyear: "2022"
 contentdesc: product
 ---
-Lay-flat e-commerce shoot, and editing for DEMOLITION COMPANY by OLIGARCHY paper at Knock Twice Studio, 2022.
+Lay-flat e-commerce shoot, and editing for DEMOLITION COMPANY by OLIGARCHY paper at Knock Twice Studio.
