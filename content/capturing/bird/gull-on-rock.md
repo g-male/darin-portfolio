@@ -8,4 +8,4 @@ descblurb: Picture taken by Darin Morrison-Beer, 2024
 postyear: "2024"
 contentdesc: bird
 ---
-A quick glance at this lone gull on a rock, you might think: "hmm, what a poor little guy, he's all alone." But if you take a deeper, longer look... it's almost as if the cliff face is his big buddy keeping him company. Shot in Bluffers Park, Toronto.
+A quick glance at this lone gull on a rock and you might think: "hmm, what a poor little guy, he's all alone." But if you take a deeper, longer look... it's almost as if the cliff face is his big buddy keeping him company. Shot in Bluffers Park, Toronto.
