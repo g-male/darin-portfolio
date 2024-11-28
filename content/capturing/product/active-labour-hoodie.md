@@ -18,4 +18,4 @@ descblurb: Lay-flat product photography and post production by Darin Morrison-Be
 postyear: "2023"
 contentdesc: product
 ---
-Lay-flat e-commerce shoot and editing for Active Labor at the Knock Twice studio.
+Lay-flat e-commerce shoot and editing for Active Labor. Shot at the Knock Twice studio.
