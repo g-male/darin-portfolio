@@ -268,7 +268,7 @@ margin-left: 0.5%;
 }
 
 .grid-item{
-  flex-basis: calc(100% / 5);
+  flex-basis: calc(100% / 4);
 	box-sizing: border-box;
 	object-fit: contain;
 
