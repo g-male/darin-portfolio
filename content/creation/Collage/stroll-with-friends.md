@@ -8,6 +8,6 @@ descblurb: Collage
 postyear: "2024"
 contentdesc: collage
 ---
-It's genuinely difficult to find  uncool looking men wearing sunglasses in physical media prior to the year 2010. One of my favorite things to stumble upon when sifting through my library. 
+It's difficult to find men wearing sunglasses in physical media prior to the year 2010 who don't look cool. One of my favorite things to stumble upon when sifting through my library. 
 
 Made using assorted vintage magazine advertisement clippings, primarily from Golfing Magazines.
