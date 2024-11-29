@@ -4,7 +4,7 @@ thumbImage: /image/iconsforwebsite/about.png
 layout: about
 title: About
 date: 2024-04-30T14:56:08.000Z
-profileimage: /image/screen-shot-2024-05-27-at-6.16.25-pm.png
+profileimage: /image/p_4_c-0154.jpg
 contentdesc: Me
 weight: 0
 type: category
