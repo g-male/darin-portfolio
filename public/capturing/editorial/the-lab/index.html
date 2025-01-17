@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<title>djmb</title>
+	<link rel="stylesheet" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="/image/iconsforwebsite/32x32.png">
+</head>
+<body>
+	<div class="toprow">
+		
+		<a href="/" id="gohome"> djmb </a><a id="mailicon" href="mailto:darinjmb@gmail.com"><i class="fa fa-envelope-o" ></i></a>    </div>  
+	
+<nav id="top-right" class="navright">
+       
+</nav>
+<div class="content"> 
+  <a href="/">Home</a> <br>
+   
+    <A href="//localhost:1313/recent/"> Recent </A>
+
+    <br>
+     
+    <A href="//localhost:1313/capturing/"> Capturing </A>
+
+    <br>
+     
+    <A href="//localhost:1313/creation/"> Creation </A>
+
+    <br>
+     
+    <A href="//localhost:1313/about/"> About </A>
+
+    <br>
+        <a href="https://dmb.world" target="_blank" rel="noopener noreferrer">Shop</a></div>
+
+
+    <div class="regular-content">
+        <div id="metadata"></div>
+
+        <div class="main-content">
+            <div id="description-block">
+                <div class="description">
+                    <p>A look into the lab from which dmb.world products are produced</p>
+
+                </div>
+            </div>
+
+            <div id="image-block">
+                  
+                    <div class="imageandarrows">
+
+<div class="image-container hidden">
+  
+    
+    
+
+    
+
+    <img class="featuredimage" src="//localhost:1313/image/dmbworld_promo_for_web-05992.jpg"
+         alt="The Lab" loading="lazy">
+
+
+
+    <div class="post-meta">
+        <a class="meta-titledate">The Lab, 2024</a><br>
+    </div>
+</div>
+
+
+<div class="carousel">
+
+
+    
+    
+    
+  
+        <img src="//localhost:1313/image/dmbworld_promo_for_web-05992.jpg"
+             sizes="(max-width: 600px) "
+             alt=""
+             class="active" >
+
+     
+
+    
+    
+  
+        <img src="//localhost:1313/image/dmbworld_promo_for_web-05976.jpg"
+             sizes="(max-width: 600px) "
+             alt=""
+             class="" >
+
+     
+
+
+    <div class="post-meta">
+        <a class="meta-titledate">The Lab, 2024</a><br>
+    </div>
+</div>
+
+<div class="thumbnails-container">
+    <div class="arrow left-arrow" onclick="changeSlide(-1)">&#10092;</div>
+    <div class="thumbnails">
+        
+            
+            
+              
+                <img src="//localhost:1313/image/dmbworld_promo_for_web-05992.jpg"
+                     alt=""
+                     class="active"
+                     onclick="showSlide( 0 )">
+            
+        
+            
+            
+              
+                <img src="//localhost:1313/image/dmbworld_promo_for_web-05976.jpg"
+                     alt=""
+                     class=""
+                     onclick="showSlide( 1 )">
+            
+        
+    </div>
+    <div class="arrow right-arrow" onclick="changeSlide(1)">&#10093;</div>
+</div>
+
+</div>
+
+<script defer>
+    let currentSlide = 0;
+    let currentThumbnailSet = 0;
+    const slides = document.querySelectorAll('.carousel img');
+    const thumbnails = document.querySelectorAll('.thumbnails img');
+    const thumbnailsPerPage = 4;  
+    
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    
+    function handleGesture() {
+        if (touchEndX < touchStartX) {
+            changeSlide(1);  
+        }
+        if (touchEndX > touchStartX) {
+            changeSlide(-1);  
+        }
+    }
+    
+    
+    const carouselContainer = document.querySelector('.carousel');
+    
+    carouselContainer.addEventListener('touchstart', function(e) {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+    
+    carouselContainer.addEventListener('touchend', function(e) {
+        touchEndX = e.changedTouches[0].screenX;
+        handleGesture();  
+    });
+    
+    function showSlide(index) {
+        slides[currentSlide].classList.remove('active');
+        thumbnails[currentSlide].classList.remove('active');
+        currentSlide = index;
+        slides[currentSlide].classList.add('active');
+        thumbnails[currentSlide].classList.add('active');
+        
+        
+        if (currentSlide >= (currentThumbnailSet + 1) * thumbnailsPerPage || currentSlide < currentThumbnailSet * thumbnailsPerPage) {
+            currentThumbnailSet = Math.floor(currentSlide / thumbnailsPerPage);
+            updateThumbnails();
+        }
+    }
+    
+    function changeSlide(direction) {
+        let newSlide = currentSlide + direction;
+        if (newSlide >= slides.length) {
+            newSlide = 0;  
+        } else if (newSlide < 0) {
+            newSlide = slides.length - 1;  
+        }
+        showSlide(newSlide);
+    }
+    
+    function updateThumbnails() {
+        thumbnails.forEach((thumbnail, index) => {
+            if (index >= currentThumbnailSet * thumbnailsPerPage && index < (currentThumbnailSet + 1) * thumbnailsPerPage) {
+                thumbnail.style.display = 'inline-block';
+            } else {
+                thumbnail.style.display = 'none';
+            }
+        });
+    }
+    
+    function changeThumbnailSet(direction) {
+        let newThumbnailSet = currentThumbnailSet + direction;
+        const maxSet = Math.ceil(thumbnails.length / thumbnailsPerPage) - 1;
+        if (newThumbnailSet > maxSet) {
+            newThumbnailSet = 0;
+        } else if (newThumbnailSet < 0) {
+            newThumbnailSet = maxSet;
+        }
+        currentThumbnailSet = newThumbnailSet;
+        updateThumbnails();
+    }
+    
+    updateThumbnails();  
+    </script>
+    
+                
+
+                
+            </div>
+
+            <div id="description-block-mobile">
+                <div class="description-mobile">
+                    <p>A look into the lab from which dmb.world products are produced</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="empty"></div>
+    </div>
+
+
+	<script src="/js/custom.js" async defer></script>
+	<script>
+		if (window.netlifyIdentity) {
+		  window.netlifyIdentity.on("init", (user) => {
+			if (!user) {
+			  window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+			  });
+			}
+		  });
+		}
+	  </script>
+</body>
+</html>
