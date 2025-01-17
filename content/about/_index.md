@@ -11,6 +11,6 @@ type: category
 ---
 Born April 7th 2000, I started drawing at age 5.
 
-I now enjoy bird-watching, and any kind of creative medium. If I had to label myself with one title, I would label myself as a Life Enthusiast.
+I now enjoy bird-watching, and any kind of creative medium. If I had to label myself with one title, I'd say I'm a Life Enthusiast.
 
 After departing from Knock Twice this year, I earn my living doing freelance content creation, and social media consulting.
