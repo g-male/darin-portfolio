@@ -15,8 +15,18 @@
     <div class="grid-item about">
         <div class="grid-image about ">
          
+          {{ $featuredImage := .Params.profileimage }}
+          {{ $featuredImageResource := resources.Get $featuredImage }}
+      
+          {{ if $featuredImageResource }}
+      
           <a  href="{{ .Permalink }}">
-            <img class="aboutimg" src="{{ .Params.profileimage }}"></a>
+            <img class="aboutimg" src="{{ $featuredImageResource.Permalink }}"></a>
+
+     
+      {{ end }}
+
+   
         </div>
 </div>
 
