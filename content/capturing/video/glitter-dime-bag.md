@@ -4,7 +4,7 @@ title: Glitter Dime Bag
 date: 2025-05-14T11:11:00.000-04:00
 featuredimage: /image/glitter_dime_bag.gif
 video: >-
-  <blockquote class="instagram-media" data-instgrm-captioned
+  <blockquote class="instagram-media"
   data-instgrm-permalink="https://www.instagram.com/reel/DJou7vhOHSz/?utm_source=ig_embed&amp;utm_campaign=loading"
   data-instgrm-version="14" style=" background:#FFF; border:0;
   border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0
