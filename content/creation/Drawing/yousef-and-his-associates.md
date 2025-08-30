@@ -4,6 +4,7 @@ title: Yousef and his Associates
 date: 2025-07-13T11:11:00.000-04:00
 featuredimage: /image/yousef_tubert_4w.png
 images:
+  - src: /image/yousef_tubert_4w.png
   - src: /image/samuel_sunger_4w.png
   - src: /image/pornelius_huber_4w.png
 type: content
